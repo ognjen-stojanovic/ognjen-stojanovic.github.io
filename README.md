@@ -1,7 +1,7 @@
 # Vue 3 + Vite website for GFP
 Ognjen Stojanovic
 
-##Instructions
+## Instructions
 
 Open a Command line or terminal.
 Navigate to desired folder with:
