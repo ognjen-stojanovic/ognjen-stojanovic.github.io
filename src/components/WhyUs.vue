@@ -2,15 +2,7 @@
 </script>
 
 <template>
-    <sectiom class="container">
-       <!-- <div class="text-item"> -->
-       <!--     <h3> -->
-       <!--          Uvek raspoloženi i nasmejani -->
-       <!--     </h3>  -->
-       <!--     <p> -->
-       <!--         Za razliku od mnogih naše radno okruženje je zdravo i stabilno, što nam omogućava da prema našim klijentima budemo pažljivi, srdačni i predusretljivi. -->
-       <!--     </p> -->
-       <!-- </div> -->
+    <section class="container">
        <div class="text-item">
            <h3>
                 Dostupnost i ekspeditivnost
@@ -43,7 +35,7 @@
                Naša prodajna i servisna mreža seže do skoro svih delova regiona. Aktivno radimo u Srbiji, Crnoj Gori, Bosni i Hercegovini, Makedoniji i Albaniji.
            </p>
        </div>
-    </sectiom>
+    </section>
 </template>
 
 <style scoped>
@@ -57,8 +49,7 @@
         grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     }
     p{
-        font-size: 12px;
-        color: rgba(60, 60, 60, .7);
+        font-size: 0.8rem;
     }
 </style>
 

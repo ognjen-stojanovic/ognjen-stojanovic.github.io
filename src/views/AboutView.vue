@@ -19,7 +19,6 @@
             </p>
         </div>
         <div class="about">
-            <h1>About</h1>
             <p>GFP doo je osnovan 2005 godine kao privatno preduzeće za
             unutrašnju i spoljašnju trgovinu koje je preuzelo poslovanje
             mešovitog preduzeća JELŠINGRAD Beograd. Od tada postaje vodeći

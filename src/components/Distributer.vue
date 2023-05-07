@@ -8,13 +8,13 @@ defineProps({
 </script>
 
 <template>
-    <a :href="`/distributors/${name}`">
+    <router-link v-bind:to="`/products?sponsor=${name}`">
         <div class="distributor">
             <div class="selected">
                 <img :src="`${image}`" alt="Image unavailable">
             </div>
         </div>    
-    </a>
+    </router-link>
 </template>
 
 <style scoped>
@@ -26,16 +26,19 @@ defineProps({
         justify-content: space-around;
         border-radius: 5px;
         width: 276px;
-        height: calc(276px / 2 - 6px);
+        height: calc(276px / 2 + 10px);
         background-color: #fff;    
         padding: 0.5rem;
         transition: background-color 0.2s ease-in-out;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, .2);
     }
     .distributor:hover img{
         filter: none;
+        max-width: 250px;
+        max-height: calc(230px/2);
     }
     .distributor:hover{
-        background: var(--bg-light);
+        background-color: var(--bg);
     }
     img{
         max-width: calc(240px - 30px);

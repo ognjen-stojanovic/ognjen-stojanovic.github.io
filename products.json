@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title" : "GrindLazer",
+        "category": "OBELEZAVANJE PUTEVA",
+        "img": "../../public/GrindLazer/18730.tif.imagep.74.0.1129.800.290.220.jpg",
+        "desc": "Superior grinding solutions"
+    },
+        
+        "id": 2,
+        "title" : "LineDriver",
+        "category": "OBELEZAVANJE PUTEVA",
+        "img": "../../public/LineDriver/0000819_graco-linedriver-hd-1.jpeg",
+        "desc": "Superior grinding solutions"
+
+]

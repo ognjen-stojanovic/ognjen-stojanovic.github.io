@@ -28,6 +28,7 @@
         max-width: 100%;
         gap: 10px 10px;
         column-gap: 4px;
+        place-items: center;
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(276px,1fr));
     }
