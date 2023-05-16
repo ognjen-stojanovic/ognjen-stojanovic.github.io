@@ -92,7 +92,7 @@ export default{
         width: 1.5em;
     }
     #about-btn {
-        font-size: 1rem;
+        font-size: 1.2rem;
         display: flex;
         width: fit-content;
         justify-items: center;
@@ -102,11 +102,17 @@ export default{
         transition: background-color .5s,color .5s;
         font-weight: 600;
         margin: 0 auto;
-        padding: 0.5rem 1em 0.5rem 1em;
+        padding: 0.8rem 1.5em 0.8rem 1.5em;
     }
     .containter{
         background: var(--bg-lighter);
         position: relative;
         overflow: hidden;
+    }
+    @media screen and (max-width: 500px){
+       #about-btn{
+            font-size: 1rem;
+            padding: 0.5rem 1em 0.5rem 1em;
+       } 
     }
 </style>

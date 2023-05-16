@@ -21,15 +21,16 @@ export default{
                 return ((product.category == this.$route.params.category) || (product.sub_category == this.$route.params.category)) && (product.title.toLowerCase().includes(this.input.toLowerCase()));
             }
             else if(this.$route.query.qr != null && this.$route.params.category == null){
-                return product.title.toLowerCase().includes(this.$route.query.qr);
+                return (product.title.toLowerCase().includes(this.$route.query.qr) && (product.title.toLowerCase().includes(this.input.toLowerCase())));
 
             }
-            else if(this.$route.query.qr == null && this.$route.params.category == null && this.$route.query.sponsor == null){
-                    return product;
-
-            }
+            // else if(this.$route.query.qr == '' && this.$route.params.category == '' && this.$route.query.sponsor == null){
+            //         console.log("usao1");
+            //         return (product && (product.title.toLowerCase().includes(this.input.toLowerCase())));
+            //
+            // }
             else if(this.$route.query.sponsor != null){
-                return (product.partnerName == this.$route.query.sponsor)
+                return ((product.partnerName == this.$route.query.sponsor) && (product.title.toLowerCase().includes(this.input.toLowerCase())));
             }
           }
       );
@@ -47,7 +48,7 @@ export default{
 </script>
 
 <template>
-    <div v-on="loaded" class="container main">
+    <div class="container main">
         <header class="head">
             <span class="title">
                 <h2 v-if="category">"{{this.category.toUpperCase()}}"</h2>

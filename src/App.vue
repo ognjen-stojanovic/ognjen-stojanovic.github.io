@@ -1,11 +1,13 @@
 <script>
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+import GFPPomocnik from './components/GFPPomocnik.vue'
 
 export default{
     components: {
             Navbar,
-            Footer
+            Footer,
+            GFPPomocnik
     },
     data() {
         return {
@@ -26,6 +28,7 @@ export default{
 
   </div>
     <div id="main">
+    <GFPPomocnik class="gfppomocnik" />
     <router-view>
     </router-view>
     </div>
@@ -44,9 +47,30 @@ export default{
     *{
         box-sizing: border-box;
     }
+    .gfppomocnik{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .myMsg{
+        text-align: right;
+        margin-left: .5rem;
+        width: 80%;
+        padding: 1rem;
+        background-color: #EBF2FF;
+        border-radius: 20px;
+        overflow-wrap: break-word;
+        margin-bottom: .8rem;
+    }
+    .myMsg p{
+        font-size: 16px;
+        margin: 0;
+    }
     
     :root{
-        font-family: 'Roboto', sans-serif;
+        /*font-family: Overpass,Helvetica,sans-serif;*/
+        font-family: 'Roboto',sans-serif;
         line-height: 1.5;
         font-weight: 400;
         font-synthesis: none;

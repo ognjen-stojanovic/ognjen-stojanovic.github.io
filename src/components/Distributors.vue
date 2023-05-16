@@ -5,14 +5,14 @@
 <template>
     <section id="distributors">
         <div class="container">
-            <Distributer name="graco" image="../../distributors/graco.png"/>
-            <Distributer name="pft" image="../../distributors/pft.png"/>
-            <Distributer name="mixer" image="../../distributors/mixer.png"/>
-            <Distributer name="mirka" image="../../distributors/mirka.png"/>
-            <Distributer name="airblast" image="../../distributors/airblast.png"/>
-            <Distributer name="borum" image="../../distributors/borum.png"/>
-            <Distributer name="basler" image="../../distributors/basler_logo_rgb_pos.png"/>
-            <Distributer name="monti" image="../../distributors/monti.png"/>
+            <Distributer name="graco" image="../../distributors/graco.png" site="https://www.graco.com/gb/en.html"/>
+            <Distributer name="pft" image="../../distributors/pft.png" site="https://www.pft.net/en/"/>
+            <Distributer name="mixer" image="../../distributors/mixer.png" site=""/>
+            <Distributer name="mirka" image="../../distributors/mirka.png" site=""/>
+            <Distributer name="airblast" image="../../distributors/airblast.png" site=""/>
+            <Distributer name="borum" image="../../distributors/borum.png" site=""/>
+            <Distributer name="basler" image="../../distributors/basler_logo_rgb_pos.png" site=""/>
+            <Distributer name="monti" image="../../distributors/monti.png" site=""/>
         </div>
 
     </section>    

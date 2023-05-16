@@ -1,10 +1,10 @@
 <script setup>
-import CardList from '../components/CardList.vue'
+// import CardList from '../components/CardList.vue'
 import Welcome from '../components/Welcome.vue'
 import CardShowcase from '../components/CardShowcase.vue'
 import Distributors from '../components/Distributors.vue'
 import WhyUs from '../components//WhyUs.vue'
-//import KontaktForma from '../components/KontakForma.vue'
+import CategoriesList from '../components/CategoriesList.vue'
 
 </script>
 
@@ -13,36 +13,36 @@ import WhyUs from '../components//WhyUs.vue'
         <div class="welcome">
             <Welcome />
         </div>
+        <div>
+            <CategoriesList /> 
+        </div>
+        <div class="divider"></div>
         <div class="whyus">
             <WhyUs />
         </div>
         <div class="divider"></div>
         <div class="showcase">
-            <h2>NUDIMO VAM</h2>
             <CardShowcase />
         </div>
         <div class="divider"></div>
             <h2>NAŠI PARTNERI</h2>
                 <p>Pogledajte naš izbor mašina.</p>
                 <Distributors class="dist" />
-        <div class="divider"></div>
-        <div class="products">
-            <h2>POPULARNO</h2>
-            <p>Pogledajte izbor naših najpopularnijih mašina.</p>
-            <CardList /> 
-        <!-- <KontaktForma /> -->
-        </div>
+        <!-- <div class="products"> -->
+        <!--     <h2>POPULARNO</h2> -->
+        <!--     <p>Pogledajte izbor naših najpopularnijih mašina.</p> -->
+        <!--     <CardList />  -->
+        <!-- </div> -->
     </div>
 
 </template>
 
 <style scoped>
-    .orange-container{
-        background-color: #2E3192;
-    }
-
     .container{
         padding: 2rem;
+    }
+    .welcome{
+        margin-bottom: 5rem;
     }
     .dist{
         padding-top: 3rem;

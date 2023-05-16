@@ -3,18 +3,19 @@
     
 defineProps({
   image: String,
+  site: String,
   name: String
 })
 </script>
 
 <template>
-    <router-link v-bind:to="`/products?sponsor=${name}`">
+    <a :href="site" target="_blank">
         <div class="distributor">
             <div class="selected">
                 <img :src="`${image}`" alt="Image unavailable">
             </div>
         </div>    
-    </router-link>
+    </a>
 </template>
 
 <style scoped>
