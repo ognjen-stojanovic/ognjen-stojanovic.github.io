@@ -14,7 +14,7 @@ export default {
         <div class="grid">
             <div class="item">
                 <router-link v-bind:to="'/products/zavrsni-radovi'">
-                    <img src="../assets/kategorije/zavrsni radovi3.webp" alt="">
+                    <img src="../assets/kategorije/zavrsniradovi3.webp" alt="">
                 </router-link>
                 <router-link class="h3" v-bind:to="'/products/zavrsni-radovi'">ZAVRŠNI RADOVI</router-link>
                 <div class="dottedLine"></div>
@@ -30,7 +30,7 @@ export default {
             </div>
             <div class="item">
                 <router-link v-bind:to="'/products/horizontalna-signalizacija'">
-                    <img src="../assets/kategorije/horizontalna signalizacija.jpeg" alt="">
+                    <img src="../assets/kategorije/horizontalnasignalizacija.jpeg" alt="">
                 </router-link>
                 <router-link class="h3" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA IZOLACIJA</router-link>
                 <div class="dottedLine"></div>
