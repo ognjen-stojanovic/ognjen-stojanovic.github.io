@@ -48,11 +48,13 @@ export default{
         box-sizing: border-box;
     }
     .gfppomocnik{
+        margin: .5rem;
         position: fixed;
         bottom: 0;
         right: 0;
         z-index: 999;
     }
+
     .myMsg{
         text-align: right;
         margin-left: .5rem;

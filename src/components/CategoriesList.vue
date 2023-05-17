@@ -14,7 +14,7 @@ export default {
         <div class="grid">
             <div class="item">
                 <router-link v-bind:to="'/products/zavrsni-radovi'">
-                    <img src="../assets/kategorije/zavrsniradovi3.webp" alt="">
+                    <img src="../assets/kategorije/zavrsniradovi.jpg" alt="">
                 </router-link>
                 <router-link class="h3" v-bind:to="'/products/zavrsni-radovi'">ZAVRŠNI RADOVI</router-link>
                 <div class="dottedLine"></div>
@@ -29,18 +29,18 @@ export default {
                 <p>Zaštita metala je proces primene odgovarajućih metoda i materijala kako bi se sprečila korozija i oštećenja metala.</p>
             </div>
             <div class="item">
-                <router-link v-bind:to="'/products/horizontalna-signalizacija'">
-                    <img src="../assets/kategorije/horizontalnasignalizacija.jpeg" alt="">
+                <router-link v-bind:to="'/products/hidroizolacija'">
+                    <img src="../assets/kategorije/hidroizolacija.jpg" alt="">
                 </router-link>
-                <router-link class="h3" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA IZOLACIJA</router-link>
+                <router-link class="h3" v-bind:to="'/products/hidroizolacija'">HIDROIZOLACIJA</router-link>
                 <div class="dottedLine"></div>
                 <p>Hidroizolacija je ključni deo završnih radova u građevinarstvu koji se odnosi na zaštitu objekta od prodora vode.</p>
             </div>
             <div class="item">
-                <router-link v-bind:to="'/products/hidroizolacija'">
-                    <img src="../assets/kategorije/hidroizolacija.jpg" alt="">
+                <router-link v-bind:to="'/products/horizontalna-signalizacija'">
+                    <img src="../assets/kategorije/horizontalna_signalizacija.jpeg" alt="">
                 </router-link>
-                <router-link class="h3" v-bind:to="'/products/hidroizolacija'">HORIZONTALNA SIGNALIZACIJA</router-link>
+                <router-link class="h3" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA SIGNALIZACIJA</router-link>
                 <div class="dottedLine"></div>
                 <p>Horizontalna signalizacija predstavlja se odnosi na obeležavanje puteva, parkinga, traka i drugih površina saobraćajne infrastrukture.</p>
             </div>
@@ -50,7 +50,7 @@ export default {
                 </router-link>
                 <router-link class="h3" v-bind:to="'/products/zastita-drveta'">ZAŠTITA I FARBANJE DRVETA</router-link>
                 <div class="dottedLine"></div>
-                <p>Zaštita metala je proces primene odgovarajućih metoda i materijala kako bi se sprečila korozija i oštećenja metala.</p>
+                <p>Zaštita i farbanje drveta su ključni aspekti održavanja i produženja trajnosti drvenih površina.</p>
             </div>
         </div>
     </section>    
