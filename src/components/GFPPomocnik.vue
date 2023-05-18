@@ -341,9 +341,38 @@ a{
     padding: 1.5rem;
 }
 
+@media screen and (max-width: 1440px){
+       .name h3{
+            margin: 0;
+            font-size: 1.5rem;
+       }
+        .overflow{
+            max-height: 13rem;
+        }
+       .messageArea{
+            
+            height: 30rem;
+            width: 25rem;
+       } 
+}
 @media screen and (max-width: 500px){
+    .overflow{
+        max-height: 10rem;
+    }
+   .name h3{
+        margin: 0;
+        font-size: 1.5rem;
+   }
+   .msg p{
+        font-size: .8rem; 
+   }
+   .opis p{
+        font-size: .8rem;
+   }
    .messageArea{
-        width: 50%;
+        
+        height: 25rem;
+        width: 100%;
    } 
    .pomocnik{
         max-width: 4rem;

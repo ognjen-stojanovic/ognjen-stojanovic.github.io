@@ -66,7 +66,7 @@ export default{
         margin-bottom: .8rem;
     }
     .myMsg p{
-        font-size: 16px;
+        font-size: 1rem;
         margin: 0;
     }
     
@@ -99,7 +99,7 @@ export default{
         --card-hover: #fff;
         --divider: rgba(84, 84, 84, .48);
         --hidden: 0;
-        --h1-size: 4.5rem;
+        --h1-size: 3.5rem;
         --h2-size: 3.25rem;
         --h3-size: 1.5rem;
 
@@ -246,6 +246,7 @@ export default{
             --card-hover: rgba(255, 255, 255, .87); 
         }
     }
+
     */
     @media screen and (max-width: 1455px){
         :root{
@@ -270,6 +271,12 @@ export default{
             --h1-size: 2rem; 
             --h3-size: 1rem;
         }
+    }
+    @media screen and (max-width: 500px){
+        
+           .myMsg p{
+                font-size: .8rem; 
+           }
     }
 
 </style>

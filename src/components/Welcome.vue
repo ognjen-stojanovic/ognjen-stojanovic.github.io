@@ -12,8 +12,8 @@ export default{
     <section class="hero">
         <div class="cont">
             <div class="text-wrap">
-                <h1>GIVE, FORGE, PROVIDE!</h1>
-                <h3>Svaki posao je težak, mi smo tu da vam olakšamo.</h3>
+                <h1>G F P</h1>
+                <!-- <h3>Svaki posao je težak, mi smo tu da vam olakšamo.</h3> -->
             </div>
             <router-link id="about-btn" v-bind:to="'/about'">
             Saznaj više
@@ -33,17 +33,24 @@ export default{
             }" 
             navigation="true"
             virtual="true">
-                <swiper-slide><img src="../assets/welcome/welcone.jpg" alt=""></swiper-slide>
-                <swiper-slide><img src="../assets/welcome/servis2.jpg" alt=""></swiper-slide>
-                <swiper-slide><img src="../assets/welcome/spraypaint.jpeg" alt=""></swiper-slide>
-                <swiper-slide><img class="move" src="../assets/welcome/road.jpeg" alt=""></swiper-slide>
+                <swiper-slide><img class="img" src="../assets/welcome/welcone.jpg" alt=""></swiper-slide>
+                <swiper-slide><img class="img" src="../assets/welcome/servis2.jpg" alt=""></swiper-slide>
+                <swiper-slide><img class="img" src="../assets/welcome/spraypaint.jpeg" alt=""></swiper-slide>
+                <swiper-slide><img class="move img" src="../assets/welcome/road.jpeg" alt=""></swiper-slide>
             </swiper-container>
     </section>
 </template>
 
 <style scoped>
+     .mainLogo{
+        padding: 1rem;
+        border-radius: 50%;
+        background: #fff;
+     }
+     .img{
+        filter: brightness(.7);
+     }
      .cont{
-        /*background-color: var(--bg-lighter);*/
         padding-top: 3rem;
         padding-bottom: 1.5rem;
         position: absolute;
@@ -82,6 +89,8 @@ export default{
         margin-block-start: 0;
         margin-block-end: 0;
         font-size: var(--h3-size);
+        margin: 0 auto;
+        max-width: 20rem;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         color: #eee; 
     }

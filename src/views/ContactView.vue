@@ -7,27 +7,27 @@
     <div class="container">
         <div class="kontakt">
             <h3>Kancelarija</h3>
-            <p>Telefon: +381 (0)11/787-22-60</p>
-            <p>Telefon: +381 (0)11/787-22-62</p>
-            <p>Email: office@gfp.rs</p>
+            <p><strong>Telefon:</strong> +381 (0)11/787-22-60</p>
+            <p><strong>Telefon:</strong> +381 (0)11/787-22-62</p>
+            <p><strong>Email:</strong> office@gfp.rs</p>
         </div>
         <div class="kontakt">
             <h3>Prodaja</h3>
-            <p>Beograd tel: +381 (0)60 63-43-002</p>
-            <p>Centralna i Južna Srbija tel: +381 (0)60 70-08-787</p>
-            <p>Vojvodina tel: +381 (0)64 84-92-615</p>
-            <p>CG, HR i SLO tel: +381 (0)63 81-49-997</p>
-            <p>Bosna i Hercegovina tel: +387 (0)62 67-49-45</p>
-            <p>Makedonija tel: +389 (0) 72 85-98-59</p>
+            <p><strong>Beograd tel:</strong> +381 (0)60 63-43-002</p>
+            <p><strong>Centralna i Južna Srbija tel:</strong> +381 (0)60 70-08-787</p>
+            <p><strong>Vojvodina tel:</strong> +381 (0)64 84-92-615</p>
+            <p><strong>CG, HR i SLO tel:</strong> +381 (0)63 81-49-997</p>
+            <p><strong>Bosna i Hercegovina tel:</strong> +387 (0)62 67-49-45</p>
+            <p><strong>Makedonija tel:</strong> +389 (0) 72 85-98-59</p>
         </div>
         <div class="kontakt">
             <h3>Nabavka</h3>
-            <p>Telefon: +381 (0)60/41-59-928</p>
+            <p><strong>Telefon:</strong> +381 (0)60/41-59-928</p>
        </div>
         <div class="kontakt">
             <h3>Servis</h3>
-            <p>Telefon: +381 (0)64/849-26-12</p>
-            <p>Email: servis.gfp@gmail.com</p>
+            <p><strong>Telefon:</strong> +381 (0)64/849-26-12</p>
+            <p><strong>Email:</strong> servis.gfp@gmail.com</p>
        </div>
     </div>
 </section>
@@ -35,7 +35,7 @@
 
 <style scoped>
     h3{
-        font-size: 24px;
+        font-size: 1.8rem;
     }
     p{
         /*color: rgba(60, 60, 60, .7); */
@@ -55,7 +55,7 @@
         max-width: var(--screen-max-width);
         display: grid;
         text-align: left;
-        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(480px,1fr));
         gap: 4rem;
     }
     .kontakt{

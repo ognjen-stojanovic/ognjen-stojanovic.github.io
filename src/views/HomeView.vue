@@ -26,13 +26,8 @@ import CategoriesList from '../components/CategoriesList.vue'
         </div>
         <div class="divider"></div>
             <h2>NAŠI PARTNERI</h2>
-                <p>Pogledajte naš izbor mašina.</p>
-                <Distributors class="dist" />
-        <!-- <div class="products"> -->
-        <!--     <h2>POPULARNO</h2> -->
-        <!--     <p>Pogledajte izbor naših najpopularnijih mašina.</p> -->
-        <!--     <CardList />  -->
-        <!-- </div> -->
+            <p>Pogledajte naš izbor mašina.</p>
+            <Distributors class="dist" />
     </div>
 
 </template>
