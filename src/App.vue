@@ -72,7 +72,7 @@ export default{
     
     :root{
         /*font-family: Overpass,Helvetica,sans-serif;*/
-        font-family: 'Roboto',sans-serif;
+        font-family: 'Roboto', sans-serif;
         line-height: 1.5;
         font-weight: 400;
         font-synthesis: none;

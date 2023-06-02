@@ -12,7 +12,7 @@ export default{
     <section class="hero">
         <div class="cont">
             <div class="text-wrap">
-                <h1>G F P</h1>
+                <h1>Dobrodošli na GFP!</h1>
                 <!-- <h3>Svaki posao je težak, mi smo tu da vam olakšamo.</h3> -->
             </div>
             <router-link id="about-btn" v-bind:to="'/about'">

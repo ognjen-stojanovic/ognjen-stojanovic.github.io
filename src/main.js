@@ -4,7 +4,7 @@ import HomeView from './views/HomeView.vue'
 import AboutView from './views/AboutView.vue'
 import ProductsView from './views/ProductsView.vue'
 import ProductView from './views/ProductView.vue'
-import CategoryView from './views/CategoryView.vue'
+// import CategoryView from './views/CategoryView.vue'
 import ContactView from './views/ContactView.vue'
 import ServisView from './views/ServisView.vue'
 import AkcijeView from './views/AkcijeView.vue'
@@ -24,12 +24,13 @@ const router = createRouter({
             name: 'About',
             component: AboutView
         },
-        {
-            path: '/products',
-            name: 'CategoryView',
-            component: CategoryView
-
-        },
+        // {
+        //     path: '/products',
+        //     name: 'CategoryView',
+        //     // component: CategoryView
+        //     component: () => import('./views/CategoryView.vue')
+        //
+        // },
         {
             path: '/categories',
             name: 'Products',
@@ -43,7 +44,8 @@ const router = createRouter({
         {
             path: '/products/:category',
             name: 'Product',
-            component: CategoryView
+            // component: CategoryView
+            component: () => import('./views/CategoryView.vue')
         },
         {
             path: '/contact',

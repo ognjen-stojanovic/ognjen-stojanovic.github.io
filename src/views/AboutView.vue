@@ -3,19 +3,14 @@
 
 <template>
     <div class="about-wrap">
+        <div class="about2">
+            <img src="../assets/gfpfirma.png" alt="">
+        </div>
         <div class="about">
             <h1>Istorija Kompanije</h1>
+            <p>Kompanija GFP D.O.O. osnovana je 2005. godine sa sedištem u ulici Magnolija 27, Beograd. Krajem 2010. godine seli se na lokacijau veličine 600 m2 na adresi Kružni put 5 I u Leštanima gde se nalazi prodajni prostor, servisni centar, i magacin rezervnih delova.</p>
             <p>
-            Kompanija GFP je u vlasništvu porodice Šovran koja gaji dugu tradiciju rada sa građevinskim i industrijskim mašinama. Sve je počelo je sa Markom Šovranom koji je radio u Privrednoj komori Jugoslavije, kao savetnik u Opštem udruženju metalske industrije, na mestu savetnika i koordinatora proizvođača građevinskih mašina. Njegov sin Miroslav počinje sa radom u kompaniji „Marsonia commerce“ koja je bila deo SOUR-a „Đuro Đaković“ iz Slavonskog Broda. Nakon raspada države, Miroslav osniva mešovito preduzeće „Jelšingrad Beograd“ 1992. godine.
-            </p>
-            <p>
-            Mešovito preduzeće Jelšingrad Beograd prestaje sa svojim radom 2005. godine, a Miroslav Šovran sa svojim sinom Darkom Šovranom osniva privatno preduzeće GFP doo Beograd sa ciljem širenja svog prodajnog programa, kao i dalje investiranje u kvalitet usluga koje pružaju.
-            </p>
-            <p>
-            Sedište firme se seli u Ulicu Magnolija 27 u Beogradu, a kancelarije se nalaze u Ulici Kneza Miloša 82 u zgradi Jugoslovenskog rečnog brodarstva. Krajem 2008. godine kompanija kupuje zemljšte u Leštanima i počinje izgradnju prodajnog-servisnog prostora od 600m2. (Trenutno se ne koristi kompletan prostor) Krajem 2010. godine kompletna firma se seli u Leštane u novi poslovni prostor čime se ostvaruju uslovi za potpun razvoj i rast preduzeća.
-            </p>
-            <p>
-            Kao što je i prvobitno planirano nakon 10 godina od osnivanja, kompanija GFP doo postaje lider na tržistu u prodaji malih mašina za završne radove u građevinarstvu i industriji. Kompanijom upravlja Darko Šovran koji nastavlja porodičnu tradiciju uz već postavljene standarde poslovanja.
+            Kao što je i prvobitno planirano nakon 10 godina od osnivanja, kompanija GFP doo postaje jedan od lidera na tržistu u prodaji malih mašina za završne radove u građevinarstvu i industriji. Kompanijom upravlja Darko Šovran koji nastavlja porodičnu tradiciju uz već postavljene standarde poslovanja.
             </p>
         </div>
         <div class="about">
@@ -41,15 +36,20 @@
 
 <style scoped>
     .about-wrap{
-        display: grid;
+        max-width: var(--screen-max-width);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
-        grid-template-columns: repeat(auto-fill,minmax(900px,1fr));
     }
     .about{
-        max-width: var(--screen-max-width);
-        margin: 0 auto;
+        width: 70%;
+    }
+    .about p{
         text-align: left;
-        width: calc(var(--screen-max-width) / 2 - 30px);
+    }
+    img{
+        width: 70%;
     }
 </style>
 

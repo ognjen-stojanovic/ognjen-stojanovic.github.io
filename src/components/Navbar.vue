@@ -88,7 +88,7 @@ export default{
                             </div>    
                         </div>
                     <div class="divider"></div>
-                        <router-link class="head-link" v-bind:to="'/products/hidroizolacija'">HIDRO IZOLACIJA</router-link>
+                        <router-link class="head-link" v-bind:to="'/products/hidroizolacija'">HIDROIZOLACIJA</router-link>
                         <!-- <div class="text-link"> -->
                         <!--     <div class="menu-link"> -->
                         <!--         <router-link v-bind:to="'/products/graco'">Graco</router-link> -->

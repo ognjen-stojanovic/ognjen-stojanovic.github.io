@@ -69,7 +69,6 @@
         align-self: center;
         margin: 0 auto;
         gap: 10px;
-        text-align: left;
         grid-template-columns: repeat(auto-fill, minmax(310px,1fr));
     }
     .divider{
