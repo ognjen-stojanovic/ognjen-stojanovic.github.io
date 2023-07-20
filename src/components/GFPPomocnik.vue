@@ -57,7 +57,7 @@ export default{
         <div v-if="!isShown" class="cont">
             <div @click="closeCont" class="close">x</div>
             <div class="help">
-                <p>Dobrodošli na GFP!</p>
+                <p>Dobrodošli na GFP stranicu!</p>
             </div>
             <div class="help">
                 <p>Kako vam možemo pomoći.</p>

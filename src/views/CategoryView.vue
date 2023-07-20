@@ -24,11 +24,11 @@ export default{
                 return (product.title.toLowerCase().includes(this.$route.query.qr) && (product.title.toLowerCase().includes(this.input.toLowerCase())));
 
             }
-            // else if(this.$route.query.qr == '' && this.$route.params.category == '' && this.$route.query.sponsor == null){
-            //         console.log("usao1");
-            //         return (product && (product.title.toLowerCase().includes(this.input.toLowerCase())));
-            //
-            // }
+            else if(this.$route.query.qr == '' && this.$route.params.category == '' && this.$route.query.sponsor == null){
+                    console.log("usao1");
+                    return (product && (product.title.toLowerCase().includes(this.input.toLowerCase())));
+
+            }
             else if(this.$route.query.sponsor != null){
                 return ((product.partnerName == this.$route.query.sponsor) && (product.title.toLowerCase().includes(this.input.toLowerCase())));
             }

@@ -5,6 +5,16 @@ export default {
         
     }
   },  
+  methods: {
+    openDialog(){
+        let d = document.getElementById('dialog');
+        d.showModal();
+    },
+    closeDialog(){
+        let d = document.getElementById('dialog');
+        d.close();
+    }
+  },
 }
 </script>
 <template>
@@ -13,9 +23,33 @@ export default {
         <p>Pogledajte naš izbor mašina i opremu koje dolaze sa njima</p>
         <div class="grid">
             <div class="item">
-                <router-link v-bind:to="'/products/zavrsni-radovi'">
-                    <img src="../assets/kategorije/zavrsniradovi3.webp" alt="">
-                </router-link>
+                <!-- <router-link v-bind:to="'/products/zavrsni-radovi'"> -->
+                    <img id="mainImg" @click="openDialog" src="../assets/kategorije/zavrsniradovi3.webp" alt="">
+                    <dialog id="dialog">
+                    <div class="wrep">
+                        <div @click="closeDialog" id="closeDialog" class="x">x</div>
+                    </div>
+                        <router-link class="head-link" v-bind:to="'/products/zavrsni-radovi'">ZAVRŠNI RADOVI U GRADJEVINARSTVU</router-link>
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/farbanje-krecenje'">Mašine za farbanje i krečenje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/gletovanje'">Mašine za gletovanje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/malterisanje'">Mašine za malterisanje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/izrada-kosuljica'">Mašine za izradu betonske košuljice</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/perdasenje'">Mašine za perdašenje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/perdasenje'">Mašine termo izolaciju</router-link>
+                        </div>    
+                    </dialog>
+                <!-- </router-link> -->
                 <router-link class="h3" v-bind:to="'/products/zavrsni-radovi'">ZAVRŠNI RADOVI</router-link>
                 <div class="dottedLine"></div>
                 <p>Završni radovi u građevinarstvu obuhvataju različite aktivnosti kao što su malterisanje, farbanje, krečenje i slično.</p>
@@ -61,6 +95,65 @@ export default {
     max-width: var(--screen-max-width);
     text-align: left;
     margin: 0 auto;
+}
+#mainImg{
+    cursor: pointer;
+}
+.wrep{
+    display: flex;
+    justify-content: flex-end;
+}
+.x{
+    background: rgba(0, 0, 0, .1);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: .3rem .8rem;
+}
+.menu-link a{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    justify-content: left;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+    pointer-events: auto;
+    transition: all .2s ease-in-out;
+}
+.menu-link{
+    border: 0;
+    border-radius: 5px;
+    margin-top: .25rem;
+    padding-left: 1rem;
+    font: 0.9rem;
+    /*background-color: var(--card-bg); */
+    transition: all .2s ease-in-out;
+}
+.menu-link:hover{
+    background-color: var(--nav-bg-a); 
+    color: var(--link-highlight);
+}
+.head-link{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    color: var(--htext);
+    justify-content: left;
+    transition: all .2s ease-in-out;
+}
+.head-link:hover{
+    background-color: var(--nav-bg-a);
+    color: var(--link-highlight);
+}
+dialog{
+    border: none !important;
+    color: inherit;
+    border-radius: 10px;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.1);
 }
 .grid{
     display: grid;

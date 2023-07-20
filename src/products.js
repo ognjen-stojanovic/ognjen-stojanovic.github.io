@@ -141,6 +141,65 @@ import pftSwingL_2 from "./assets/products/Masine za zavrsne radove u gradjevina
 import pftSwingL_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za nanosenje glet mase/PFT SWING L 230V/pft-swing-fc230v-airless-3kw.jpg";
 import pftSwingL_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za nanosenje glet mase/PFT SWING L 230V/pft-swing-l-2.jpg";
 
+//farbanje-krecenje
+
+import gx21 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/GX21.jpg";
+import gx21_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/23991.jpg";
+import gx21_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/GX21_0035.jpg";
+import gx21_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/N59A6593.jpg";
+import gxff from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GXFF/graco-gxff-electric-airless-sprayer-17H222-1.jpg";
+import gxff_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GXFF/67A9382_-400x400.jpg";
+import markXHD3In1 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/MARK X HD 3-IN-1/cq5dam.web.1280.1280 (4).jpeg";
+import markXHD3In1_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/MARK X HD 3-IN-1/cq5dam.web.1280.1280.jpeg";
+import quickshot from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/Ultra QuickShot Airless Sprayer/cq5dam.web.1280.1280.jpeg";
+import quickshot_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/Ultra QuickShot Airless Sprayer/cq5dam.web.1280.1280 (2).jpeg";
+import quickshot_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/Ultra QuickShot Airless Sprayer/cq5dam.web.1280.1280 (1).jpeg";
+import quickshot_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/Ultra QuickShot Airless Sprayer/cq5dam.web.1280.1280 (3).jpeg";
+import ultraMax395 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/UltraMax395/cq5dam.web.1280.1280.jpeg";
+import ultraMax395_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/UltraMax395/cq5dam.web.1280.1280 (1).jpeg";
+import ultraMaxCordless from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/UltraMaxCordless/Ultra_Cordless_18V.jpg";
+
+//airblast
+
+import afterCooler from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast aftercooler/f8427586221df35843c43fe77bbd8d76_2a6c106c4e3442cf6806a61aea430cf9.jpg";
+import mobilnePeskare from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast mobilnepeskare/18_litre_red_pot.jpg";
+import mobilnePeskare_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast mobilnepeskare/3cbf5635c6b1a736372f41834708168b_ed78a50f0fe5ca84c0b658984b24faf5.jpg";
+import mobilnePeskare_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast mobilnepeskare/CP-2-e1502395123454.jpg";
+import mobilnePeskare_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast mobilnepeskare/PP-2.jpg";
+import pipeCoaterIII900 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast pipecoater/Pipecoater-III900.jpg";
+import pipeCoater1 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast pipecoater1/Pipecoater-2.jpg";
+import pipeCoater2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast pipecoater2/download.jpg";
+import pipeCoater2_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast pipecoater2/Pipecoater-1.jpg";
+import pipeCoaterIII125 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast pipecoater III125/download-1.jpg";
+import airblastReceiver from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast receiver/img1.png";
+import airblastReceiver_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast receiver/img2.jpg";
+import airblastUsisivac from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za Peskarenje/Airblast usisivac/33cbed718d5fd3804ec3b10e15fe8d0a_bfe010d58121d440dcae4362da38b1dd.jpg";
+
+//Mirka program
+
+import mirkaLeros from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Leros/leros-s_image_f_960x570.png";
+import mirkaLeros_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Leros/leros_group_horisontal_1200x440.png";
+import mirkaLeros_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Leros/mirka_leros-s_02-2021_960x720.jpg";
+import mirkaLeros_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Leros/mirka_leros-s_02-2021_pwm_3182_960x720.jpg";
+import mirkaLeros_5 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Leros/mirka_leros-s_3362_02-2021_960x720.jpg";
+import mirkaDeos from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos/mid3830201_001.jpg";
+import mirkaDeos_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos/package_mirka_deos_001.jpg";
+import mirkaDeros from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deros/deros-in-use.jpg";
+import mirkaDeros_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deros/mirka-deros-marine-boat-application.jpg";
+
+
+//Univerzalne masine
+
+import dutyMax300_3in1 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Univerzalne masine/DutyMax GH 300 3-IN-1/cq5dam.web.1280.1280 (2).jpeg";
+
+//hidroizolacija
+
+import texSprayRTX from "./assets/products/hidroizolacija/TexSprayRTX/cq5dam.web.1280.1280 (1).jpeg";
+import texSprayRTX_2 from "./assets/products/hidroizolacija/TexSprayRTX/cq5dam.web.1280.1280 (2).jpeg";
+import texSprayRTX_3 from "./assets/products/hidroizolacija/TexSprayRTX/cq5dam.web.1280.1280.jpeg";
+import texSprayRTX_4 from "./assets/products/hidroizolacija/TexSprayRTX/TexSpray-3_600x.webp";
+
+
 
 export const products = [
     {
@@ -271,7 +330,7 @@ export const products = [
         img: dutyMax,
         partner: GRACO,
 		partnerName: "graco",
-        desc: "Mašina pod pritiskom za lako nanošenje boje"
+        desc: "Hidraulična mašina sa benziskim pogonom"
     },
 	{
         id: 14,
@@ -417,7 +476,7 @@ export const products = [
         id: 28,
         title: 'Optimix 20 – 5,5 kW',
         category: "zavrsni-radovi",
-        sub_category: "gletovanje",
+        sub_category: "hidroizolacija",
         img: optimix20,
         partner: MIXER,
         partnerName: "mixer",
@@ -437,7 +496,7 @@ export const products = [
         id: 30,
         title: 'Mixer 35 - Micromixer',
         category: "zavrsni-radovi",
-        sub_category: "gletovanje",
+        sub_category: "hidroizolacija",
         img: mixer35Mesac,
         partner: MIXER,
         partnerName: "mixer",
@@ -487,7 +546,7 @@ export const products = [
         id: 35,
         title: 'Optimix 10',
         category: "zavrsni-radovi",
-        sub_category: "gletovanje",
+        sub_category: "hidroizolacija",
         img: optimix10,
         partner: MIXER,
         partnerName: "mixer",
@@ -497,7 +556,7 @@ export const products = [
         id: 36,
         title: 'Optimix 40',
         category: "zavrsni-radovi",
-        sub_category: "gletovanje",
+        sub_category: "hidroizolacija",
         img: optimix40,
         partner: MIXER,
         partnerName: "mixer",
@@ -537,7 +596,7 @@ export const products = [
         id: 40,
         title: 'PFT RITMO L',
         category: "zavrsni-radovi",
-        sub_category: "gletovanje",
+        sub_category: "hidroizolacija",
         img: pftRitmoL,
         partner: PFT,
         partnerName: "pft",
@@ -563,7 +622,206 @@ export const products = [
         partnerName: "pft",
         desc: ""
     },
-
+    {
+        id: 43,
+        title: 'GX21',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: gx21,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 44,
+        title: 'GXFF',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: gxff,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 45,
+        title: 'MARK X HD 3-IN-1',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: markXHD3In1,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 46,
+        title: 'QuickShot Airless Sprayer',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: quickshot,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 47,
+        title: 'UltraMax395',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: ultraMax395,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 48,
+        title: 'UltraMax Cordless',
+        category: "zavrsni-radovi",
+        sub_category: "farbanje-krecenje",
+        img: ultraMaxCordless,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 49,
+        title: 'AfterCooler',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: afterCooler,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 50,
+        title: 'Mobilne peskare',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: mobilnePeskare,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 51,
+        title: 'PIPECOATER III-900',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: pipeCoaterIII900,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 52,
+        title: 'PIPECOATER I',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: pipeCoater1,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 53,
+        title: 'PIPECOATER II',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: pipeCoater2,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 54,
+        title: 'PIPECOATER III-125',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: pipeCoaterIII125,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 55,
+        title: 'PIPECOATER III-125',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: pipeCoaterIII125,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 56,
+        title: 'Air receivers',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: airblastReceiver,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 57,
+        title: 'Usisivač',
+        category: "zavrsni-radovi",
+        sub_category: "peskarenje",
+        img: airblastUsisivac,
+        partner: AIRBLAST,
+        partnerName: "airblast",
+        desc: ""
+    },
+    {
+        id: 58,
+        title: 'Mirka Leros',
+        category: "zavrsni-radovi",
+        sub_category: "smirglanje",
+        img: mirkaLeros,
+        partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 59,
+        title: 'Mirka Deos',
+        category: "zavrsni-radovi",
+        sub_category: "smirglanje",
+        img: mirkaDeos,
+        partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 60,
+        title: 'Mirka Deros',
+        category: "zavrsni-radovi",
+        sub_category: "smirglanje",
+        img: mirkaDeros,
+        partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 61,
+        title: 'DutyMax GH 300 3-IN-1',
+        category: "zavrsni-radovi",
+        sub_category: "univerzalne-masine",
+        img: mirkaDeros,
+        partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 62,
+        title: 'TexSpray RTX',
+        category: "hidroizolacija",
+        sub_category: "hidroizolacija",
+        img: texSprayRTX,
+        partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
 ]
 
 export const popular = [
@@ -890,6 +1148,69 @@ export const descriptions = [
         video: '',
         spec: ''
     },
+    {
+    	id: 43,
+        desc: '<div class="image">&nbsp;<strong>Delovi i Rukovanje:</strong></div><div class="text"><ol><li>ProXChange sistem zamene pumpe – Uklonite i zamenite ketridž pumpe u četiri jednostavna koraka, alat nije potreban</li> <li>PushPrime – Osigurava svaki put brzo prašenje tako što oslobađa zaglavljeni&nbsp;ulazni&nbsp;kontrolni&nbsp;venti</li> <li>ProX Piston&nbsp;Pumpa- Patentirana pumpa sa klipom za veću pouzdanost i duže trajanje</li> <li>Podesiva kontrola pritiska – Omogućava prskanje ili valjanje širokog spektra podloga</li> <li>Zaštitna hromirana postolja – Lak za nošenje i sprečava oštećenja prilikom transporta</li> <li>InstaClean filter – Dodatna filtarcija kako bi se smanjio rizik od začepljenja dizne</li> <li>Fleksibilna cevčica za čišćenje – Jednostavna upotreba, direktno iz kante&nbsp;vodom ili rastvorom na bazi rastvarača</li> </div>',
+        images: [gx21, gx21_2, gx21_3, gx21_4],
+        video: '',
+        spec: '<div class="text"><p><strong>Direktno potapanje</strong></p> <p>Boja direktno iz&nbsp;kofe sa bojom</p> <p>&nbsp;</p><p><strong>Pogodan poklopac za kapanje</strong></p> <p>Eleminiše mogućnost slivanja boje</p> </div><div class="text"><p><strong>Uključuje:</strong></p> <ul><li>SG3 sprej pištolj</li> <li>RAC X 515 obrtna dizna i nosač dizne</li> <li>1/4 in x 25 ft (6.4 mm x 7.6 m) DuraFlex crevo</li> </ul></div>'
+    },
+    {
+        id: 44,
+        desc: '<section class="section-content" id="features"><div class="container-fluid"><header class="section-content__header"><h2 class="section-content__header-title h3 no-margin--bottom">Karakteristike</h2 </header><div class="section-content__content "><section><div class="rov split-image-content"><div class="col-sm"><div class="force-stand-font">G FF je brzo, prenosivo i pristupačno rešenje za male završne poslove sa kojima se susreće svaki izvođač radova. Graco proverena klipna pumpa i RAC X FF SvitchTip brzo daju glatku završnu obradu. Pumpa ProXChange omogućava brzu zamenu pumpe na poslu – nije potreban alat.</div><ul class="splitColumns"><li><strong>Izuzetno prenosiv</strong><ul><li>Lakši od bilo kog konkurentskog sistema</li><li>Laka ručka za nošenje olakšava transport</li><li>Poklopac sprečava prskanje i prosipanje tokom nošenja </li></ul></li> <li><strong>Spremnik od 5,7 litara</strong><ul><li>Idealno za prskanje malih količina materijala</li><li>Glatka unutrašnja površina se brzo čisti</li><li>Poklopac uključen za prosipanje -otporna prenosivost</li><li>Spremnik se lako pričvršćuje na prskalicu bez alata za lako čišćenje</li></ul></li> <li><strong>ProX Pover-Piston Pumpa sa ProKSChangeom</strong><ul><li>Mali granični pritisak obezbeđuje najbolju moguću završnu obradu</li><li>Izuzetna izdržljivost i dug život klipna pumpa</li>< li>Ekskluzivna podmazana podloga brisača za rad bez održavanja</li><li>Modularne komponente pumpe za lako održavanje</li><li>Brza i laka zamena pumpe na poslu – nije potreban alat</li>< li>Eliminišite troškove rada i zastoja</li></ul></li> <li><strong>FTx-E pištolj za raspršivanje</strong><ul><li>Druška sa ugrađenom formom pruža maksimalnu kontrolu i udobnost</li><li>Uključen je filter za pištolj od 100 mreža za smanjenje začepljenja vrhova i zaštitu završne obrade< /li><li>EasiGlide Svivel pruža maksimalnu fleksibilnost za upravljanje crevima bez napora</li></ul></li> </ul></div></section></div></div></section>',
+        images: [gxff, gxff_2],
+        video: '',
+        spec: '<tbody class="converted-value" stile=""><tr><th scope="rov">Kompatibilni materijal</th><td class="tekt-align--right"><span><strong>Mrlje, lakovi, emajl, boje na bazi rastvarača</strong></span> </td></tr><tr><th scope="rov">Kompatibilna rezervna pumpa</th> <td class="tekt-align--right"><span><strong>24I472</strong></span></td></tr><tr><th scope="rov">Kabriolet</th><td class="tekt-align--right"><span><strong>Ne-kabriolet</strong></span></td></tr><tr><th scope="rov">Veličina mreže filtera</th><td class="tekt-align--right"><span><strong>100</strong></span></td></tr><tr><th scope="rov">Unutarnji prečnik creva za tečnost (in)</th> <td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (in)</th> <td class="tekt-align--right"><span><strong>1/4</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (mm)</th> <td class="tekt-align--right"><span><strong>6,35</strong></span></td></tr><tr><th scope="rov">Tip navoja izlaza tečnosti</th> <td class="tekt-align--right"><span><strong>NPSM</strong></span></td></tr><tr><th scope="rov">Konfiguracija okvira</th><td class="tekt-align--right"><span><strong>Hopper</strong></span></td></tr><tr><th scope="rov">Frekvencija (Hz)</th><td class="tekt-align--right"><span><strong>50</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključen pištolj</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik creva (in)</th><td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (cm)</th> <td class="tekt-align--right"><span><strong>0,47625</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (in)</th> <td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (mm)</th> <td class="tekt-align--right"><span><strong>4,7625</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključuje</th><td class="tekt-align--right"><span><strong>FTk-E pištolj za prskanje sa okidačem sa dva prsta, RAC Ks SvitchTip i FFLP210 štitnikom, filterom za pištolj od 100 mreža, BlueMak II crevom 3/16 in k 7,5 m, manometrom tečnosti</strong></ span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni protok (L/min)</th> <td class="tekt-align--right"><span><strong>1.4</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak tečnosti (psi)</th> <td class="tekt-align--right"><span><strong>3000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna dužina creva (m)</th> <td class="tekt-align--right"><span><strong>7.5</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna radna temperatura (°C)</th> <td class="tekt-align--right"><span><strong>46</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><span><strong>83</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><span><strong>0,019</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha 1 pištolj (in)</th> <td class="tekt-align--right"><span><strong>0,019</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><span><strong>20.7</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><span><strong>207</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kPa)</th> <td class="tekt-align--right"><span><strong>20700</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kg/cm²)</th> <td class="tekt-align--right"><span><strong>210,9</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><span><strong>3000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (V)</th> <td class="tekt-align--right"><span><strong>1500</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna radna temperatura (°C)</th> <td class="tekt-align--right"><span><strong>4</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (kV)</th> <td class="tekt-align--right"><span><strong>0,5</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Model</th><td class="tekt-align--right"><span><strong>GKS</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip motora</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Broj oružja</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Filter boje za izlaz</th><td class="tekt-align--right"><span><strong>Ekran od nerđajućeg čelika od 60 mreža</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (cm)</th><td class="tekt-align--right"><span><strong>49,8</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (mm)</th><td class="tekt-align--right"><span><strong>497,8400</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (cm)</th><td class="tekt-align--right"><span><strong>51.3</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (mm)</th><td class="tekt-align--right"><span><strong>513.08</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (cm)</th><td class="tekt-align--right"><span><strong>34.3</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (mm)</th> <td class="tekt-align--right"><span><strong>342.9000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Faza</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Izvor napajanja</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip proizvoda</th><td class="tekt-align--right"><span><strong>Paket spreja</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip montaže pumpe</th><td class="tekt-align--right"><span><strong>ProKschange</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip šipke pumpe</th><td class="tekt-align--right"><span><strong>Ugljenični čelik</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip pumpe</th><td class="tekt-align--right"><span><strong>ProKs klipna pumpa</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip regionalnog priključka</th> <td class="tekt-align--right"><span><strong>EU region (tip C, E & F utikač)</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Serija</th><td class="tekt-align--right"><span><strong>FF</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip pištolja za prskanje</th> <td class="tekt-align--right"><span><strong>FTKS-E</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip spreja</th><td class="tekt-align--right"><span><strong>Bezdušno</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip</th><td class="tekt-align--right"><span><strong>Beszračna prskalica</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Napon (V)</th><td class="tekt-align--right"><span><strong>230</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Težina (kg)</th><td class="tekt-align--right"><span><strong>14</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Mokri materijal</th><td class="tekt-align--right"><span><strong>Nerđajući čelik, mesing, koža, UHMVPE, karbid, najlon, aluminijum, PVC, polipropilen, fluoroelastomer</strong></span> </td></tr></tbody>'
+    },
+    {
+    	id: 45,
+    	desc: '<div class="section-content__content "><section><div class="rov split-image-content"><div class="col-sm"><div class="force-stand-font">Najmoćniji električni raspršivač bez vazduha. Mark Ks HD 240 volti je prskalica po izboru za ozbiljne profesionalne izvođače sa skoro duplo većom snagom od Mark V HD. Lako prska obradni premaz u završnoj obradi nivoa 5, završnoj obradi sa više tekstura i svim prajmerima i bojama.</div><p>Radite pametnije, završite više poslova. Mark HD ProContractor serija električnih prskalica za teksturu bez vazduha dizajnirane su da isporuče brzinu i amper; performanse tako da možete brže doći do sledećeg radnog mesta i povećati svoj profit.</p> <ul class="splitColumns"><li><strong>Endurance Vortek MakLife klipna pumpa</strong><br> <ul><li>Superiorni vek trajanja pumpe</li><li>Probojna tehnologija vrtložne rotirajuće šipke</li> <li>Traje 6Ks duže između ponovnog pakovanja uz inovativnu MakLife tehnologiju</li> <li>Preveliki prolazi za protok velike brzine za rotaciju klipa za ravnomerno habanje</li> <li>Uključena su pakovanja i klipnjača sa najdužim životnim vekom Keramičke kuglice i kuglice od nerđajućeg čelika sa dugim vekom za maksimalnu raznovrsnost</li> </ul></li><li><strong><strong><strong>MakFlo 2 sa zaštitom od pakovanja</strong> <br></strong></strong> <ul><li>Manje pakovanja, veća produktivnost</li><li>Samočistiva tehnologija Vibra-Seal eliminiše nakupljanje materijala</li> <li>Kontinuirano prskanje sa True Pack-Out zaštitom za veću produktivnost</li> <li>Optimizovani prolazi za tečnost za najteže premaze</li> </ul></li><li><strong><strong><strong>BlueLink Job &amp; Sistem za upravljanje prskalicom</strong><br></strong></strong> <ul><li>Pojednostavite svoje poslovanje</li><li>Pratite svaku prskalicu: tačna lokacija &amp; produktivnost po satu</li> <li>Upoznajte napredak posla: činjenice o produktivnosti na zahtev i izveštavanje sa bilo kog mesta</li> <li>Maksimalno povećajte vreme rada: Podesite raspored održavanja, upozorenja, &amp; beleške o gradilištu</li> </ul></li><li><strong>SmartControl 4.0 sa ProGuard sistemom zaštite</strong><br> <ul><li>Precizna kontrola pritiska</li><li>Najniži mrtvi pojas pri bilo kom pritisku obezbeđuje konzistentan ventilator za prskanje bez fluktuacija pritiska</li> <li>ProGuard sprečava električna oštećenja usled ekstremnih uslova napajanja na gradilištu</li> <li>VatchDog sistem zaštite pumpe automatski sprečava oštećenje pumpe ako je zaliha materijala premala</li> </ul></li><li><strong>KuikReel sistem za upravljanje crevima</strong> <br><ul><li>Jednostavno upravljanje crevima</li><li>Postavite i premotajte crevo do 300 stopa (90 metara) za nekoliko sekundi</ li><li>Bez uvrtanja, savijanja i namotavanja</li><li>Koristite samo crevo koje vam je potrebno — ostalo ostaje na kotur</li></ul></li> <li><strong>ProConnect 2 sistem za zamenu pumpe</strong> <br> <ul><li>Eliminišite skupe zastoje</li><li>Zamena pumpe za nekoliko minuta</li><li>Nema alata, čiode ili delova za gubitak</li> </ul></li><li><strong>Ulazno cjedilo otporno na lomljenje</strong> <br> <ul><li>Izdržljiva filtracija</li><li>Izdrži jake udare kako bi održao ravnomeran protok kroz filter</li> </ul></li><li><strong>Motor MakPover bez brige</strong> <br> <ul><li>Završite više posla</li><li>Dokazane performanse za sve aplikacije za farbanje</li> <li>Dizajn bez četkica visokog obrtnog momenta sa doživotnom garancijom</li> <li>Koristite duže kablove, bez obzira na fluktuacije napona</li> </ul></li><li><strong>Precision Advantage Drive</strong><br> <ul><li>Najdugotrajnija vožnja</li><li>Poboljšani uslovi na gradilištu uz izuzetno tih rad</li> <li>Doživotna garancija</li></ul></li><li><strong>Dodatne funkcije:</strong><br><ul><li>VatchDog sistem zaštite pumpe</li><li>Easi Out Filter Manifold</li><li>Teški glavni ventil</li><li>Rob, izdržljiv dizajn kolica sa postoljem za noge</li> </ul></li></ul></div></section></div>',
+    	images: [markXHD3In1, markXHD3In1_2],
+    	video: '',
+    	spec: '<tbody class="converted-value" stile="displai: table-rov-group;"> <tr><th scope="rov">Amperaža (A)</th><td class="tekt-align--right"><span><strong>16</strong></span></td></tr><tr><th scope="rov">Kompatibilna rezervna pumpa</th> <td class="tekt-align--right"><span><strong>17H835</strong></span></td></tr><tr><th scope="rov">Kabriolet</th><td class="tekt-align--right"><span><strong>Ne-kabriolet</strong></span></td></tr><tr><th scope="rov">Funkcije</th><td class="tekt-align--right"><span><strong>Endurance Vortek MakLife pumpa, MakFlo 2, BlueLink sistem, SmartControl 4.0, KuikReel, ProConnect 2, sito za ulaz otporno na lomljenje, MakPover bez četkica, Advantage Drive, VatchDog, Easi Out Filter, Heavi Duti Prime Valve</strong> </span> </td></tr><tr><th scope="rov">Veličina izlaza tečnosti (in)</th> <td class="tekt-align--right"><span><strong>1/2</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (mm)</th> <td class="tekt-align--right"><span><strong>12.7</strong></span></td></tr><tr><th scope="rov">Tip navoja izlaza tečnosti</th> <td class="tekt-align--right"><span><strong>NPSM</strong></span></td></tr><tr><th scope="rov">Konfiguracija okvira</th><td class="tekt-align--right"><span><strong>Zdravo, dečko</strong></span></td></tr><tr><th scope="rov">Frekvencija (Hz)</th><td class="tekt-align--right"><span><strong>50/60</strong></span></td></tr><tr><th scope="rov">Tip koluta za crevo</th><td class="tekt-align--right"><span><strong>KuikReel</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključuje</th><td class="tekt-align--right"><span><strong>Inline pištolj za teške uslove rada, RAC Ks LTKS 531 vrh za prskanje, RAC Ks LTKS 541 vrh za prskanje, RAC Ks Guard, 1/2 in k 50 ft BlueMak II Airless crevo, 3/8 in k 11 ft 10 u bezzračnom crevu za bič</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni protok (L/min)</th> <td class="tekt-align--right"><span><strong>8.0</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><span><strong>82</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><span><strong>0,045</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha 1 pištolj (in)</th> <td class="tekt-align--right"><span><strong>0,045</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><span><strong>22.8</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><span><strong>228</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kPa)</th> <td class="tekt-align--right"><span><strong>22800</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><span><strong>3300</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (V)</th> <td class="tekt-align--right"><span><strong>5000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Model</th><td class="tekt-align--right"><span><strong>Označite HD</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip motora</th><td class="tekt-align--right"><span><strong>MakPover</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Broj oružja</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (cm)</th><td class="tekt-align--right"><span><strong>99</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (mm)</th><td class="tekt-align--right"><span><strong>990</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (cm)</th><td class="tekt-align--right"><span><strong>75</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (mm)</th><td class="tekt-poravnati--desno"><span><strong>750</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (cm)</th><td class="tekt-align--right"><span><strong>61</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (mm)</th><td class="tekt-align--right"><span><strong>610</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ocena snage (V)</th><td class="tekt-align--right"><span><strong>2983</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Naziv snage (kV)</th><td class="tekt-align--right"><span><strong>2,98</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Izvor napajanja</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip kontrole pritiska</th><td class="tekt-align--right"><span><strong>SmartControl 4.0</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Serija proizvoda</th><td class="tekt-align--right"><span><strong>ProContractor</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip montaže pumpe</th><td class="tekt-align--right"><span><strong>ProConnect 2</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip šipke pumpe</th><td class="tekt-align--right"><span><strong>MakLife</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Materijal rukava pumpe</th><td class="tekt-align--right"><span><strong>MakLife</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Serija</th><td class="tekt-align--right"><span><strong>Ks</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip</th><td class="tekt-align--right"><span><strong>Beszračna prskalica</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Napon (V)</th><td class="tekt-align--right"><span><strong>230</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Zapremina po ciklusu (ciklusi/gal)</th> <td class="tekt-align--right"><span><strong>70</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Težina (kg)</th><td class="tekt-align--right"><span><strong>81</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Mokri materijal</th><td class="tekt-align--right"><span><strong>Pocinkovani ugljenični čelik, niklovani ugljenični čelik, najlon, nerđajući čelik, PTFE, acetal, koža, UHMVPE, aluminijum, volfram karbid, PEEK, mesing</strong></span> </td></tr></tbody>'
+    },
+    {
+    	id: 46,
+    	desc: '<div class="pane" stile="displai: block;"><div><p>Ultra KuickShot je revolucionarna tehnologija, dizajnirana da pruži viši kvalitet i brže rezultate. Napravljen za savršenu završnu obradu bez vazduha, dok praktično eliminiše pljuvanje. Napravljen sa ekstremnom kontrolom prskanja za brzo podešavanje pritiska za svaku primenu.</p> <p>Najprenosiviji raspršivač u industriji daje vam mogućnost da prskate u najužem području sa preciznošću i najvećom kontrolom. Prskajte najširi spektar arhitektonskih premaza, od boja na bazi vode, do rastvarača i zapaljivih materijala. Savršeno za male poslove kao što su ormari, vrata, ukrasi, sofiti, oluci i još mnogo toga.</p> <ul class="splitColumns"><li><strong>Puška na električni pogon sa trenutnim odgovorom praktično eliminiše pljuvačke</strong> <ul><li>Smanjite zamor najlakšim povlačenjem okidača u industriji</li> <li>Najmanji, najlakši pištolj bez vazduha ikada napravljen</li> <li>Odgovara trenutno da bi se postigao najbolji završetak</li> </ul></li><li><strong>Precizni sistem za kontrolu protoka na zahtev</strong> <ul><li>Brzo podesite protok materijala za ekstremnu kontrolu raspršivanja bez vazduha</li> <li>Lako se priključite na željeni pritisak od 100-2000 psi</li> </ul></li><li><strong>Fleksibilno crevo od 6 stopa za pun domet &amp; Jednostavno upravljanje crevom</strong> <ul><li>Lako nanesite prajmer, promenite boje i očistite za nekoliko sekundi</li> <li>Pištolj i crevo drže samo 1 oz premaza</li></ul></li><li><strong>KuickShot ProConnect klipna pumpa bez vazduha</strong> <ul><li>Izdržljiva dugovečna pumpa sa trostrukim klipom</li> </ul></li><li><strong>Pour-N-Go šolja od 32 oz</strong><ul><li>Dizajn jednostavnog punjenja – dopunite na kuku</li> <li>Male količine prskajte BRZO</li></ul></li><li><strong>Moć da preuzmete svaki mali posao</strong> <ul><li>Dolazi sa dve DEVALT 20V litijum-jonske baterije</li> <li>Poprskajte do jednog galona na svaku bateriju</li> </ul></li><li><strong>Ultimativna prenosivost bez upotrebe ruku sa dodatkom za kaiš i futrolu</strong></li> </ul></div><div class="clear"></div></div>',
+    	images: [quickshot, quickshot_2, quickshot_3, quickshot_4],
+    	video: '',
+    	spec: '<div class="pane" stile="displai: block;"><h2 class="h5 no-margin--bottom">Tehničke specifikacije</h2> <table id="table-specifications" class="table table--convertible table-striped imperial is-ekpanded"> <tbodi class="converted-value"> <tr><th scope="rov">Napon baterije (V)</th> <td class="tekt-align--right"><strong>20</strong></td> </tr><tr><th scope="rov">Maksimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>32</strong></td> </tr><tr><th scope="rov">Maksimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>45</strong></td> </tr><tr><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><strong>0,016</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><strong>14</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><strong>138</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><strong>2000</strong></td> </tr><tr><th scope="rov">Minimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>4</strong></td> </tr><tr><th scope="rov">Minimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>0</strong></td> </tr><tr><th scope="rov">Model</th><td class="tekt-align--right"><strong>Ultra</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna visina (cm)</th> <td class="tekt-align--right"><strong>26.7</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna dužina (cm)</th> <td class="tekt-align--right"><strong>30.5</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna širina (cm)</th> <td class="tekt-align--right"><strong>15.2</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Izvor napajanja</th> <td class="tekt-align--right"><strong>Na baterije</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Serija</th><td class="tekt-align--right"><strong>KuickShot</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><strong>83</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Tip</th><td class="tekt-align--right"><strong>Airless sprej paket</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Težina (kg)</th> <td class="tekt-align--right"><strong>2.9</strong></td> </tr></tbodi></table><p>&nbsp;</p><div class="clear"></div></div>'
+    },
+    {
+    	id: 47,
+    	desc: '<section><div class="rov split-image-content"> <div class="col-sm"><div class="force-stand-font">Performanse i svestranost računara Ultra 395 učinili su ga najpopularnijom Graco prskalicom. SmartControl 1.0 kontrola pritiska obezbeđuje konzistentan ventilator za prskanje bez fluktuacija, a dokazana pouzdanost ga čini savršenim za profesionalce koji svakodnevno prskaju širokim spektrom premaza.</div><p>Mala veličina. Veliki kapacitet. Napravljene sa istim kvalitetom kao Graco velike električne prskalice, Graco male električne bezvazdušne prskalice pružaju izuzetnu snagu i performanse.</p> <ul class="splitColumns"><li><strong>Chromek klipna pumpa izdržljive izdržljivosti</strong><br> <ul><li>Traje 2k duže od sledećeg vodećeg brenda</li> <li>Dugotrajna V-Mak plava pakovanja, Chromek šipka i cilindar od kaljenog nerđajućeg čelika</li> <li>Brže čišćenje pomoću usisnog ventila KuikAccess</li> </ul></li><li><strong>SmartControl 1.0</strong> <br> <ul><li>Ravnomerna isporuka pritiska</li> <li>Stalno prati performanse i prilagođava brzinu motora u skladu sa veličinom vrha i potrebama prskanja</li> <li>Idealno za RAC Ks LP vrhove koji se obično koriste u aplikacijama sa finom završnom obradom i malim raspršivanjem</li> </ul></li><li><strong>Izdržljiv TEFC DC motor</strong> <br> <ul><li>Završite više posla</li><li>Visoki obrtni moment proizvodi najveću moguću snagu za sve primene farbanja</li> </ul></li><li><strong>Advantage Drive</strong><br> <ul><li>Najdugotrajnija vožnja</li><li>Zupčanici od kaljenog čelika pružaju izuzetno tih rad i doživotnu garanciju</li> </ul></li><li><strong>ProConnect jednodelni sistem za zamenu pumpe</strong><br> <ul><li>Eliminišite skupe zastoje</li> <li>Zamena pumpi za nekoliko minuta – nema alata, iglica ili delova za gubitak</li> </ul></li><li><strong>Easi Out Pump Filter</strong><br> <ul><li>Lako održavanje &amp; manje začepljenja</li> <li>Ekskluzivni proces filtriranja iznutra napolje obezbeđuje kvalitetnu završnu obradu</li> </ul></li><li><strong>Robni čelični okvir</strong> <br> <ul><li>Debeli hrom preko čelika izdrži gruba okruženja</li> <li>Četvoronožni stalak pruža veću stabilnost</li> </ul></li><li><strong>Okretno ulazno usisno crevo</strong><br> <ul><li>Lako dohvati kante sa farbom</li> </ul></li><li><strong>Izvođač PC pištolj za prskanje</strong><br> <ul><li>Celodnevna udobnost &amp; kontrola</li> <li>Najlakši pištolj u svojoj klasi</li> <li>Do 50% lakša sila povlačenja okidača</li> <li>E-Z Fit podesiva dužina okidača</li> <li>Kompletna rekonstrukcija pištolja za nekoliko sekundi pomoću ProConnect kertridža</li> <li>Više informacija: <a href="https://vvv.graco.com/us/en/products/ad/contractor-pc.html">graco.com/ContractorPC</a></li> </ul></li></ul></div></div><div class="feature-brochure-mobile-button rov pt-4"> <div class="col-sm"><a href="/content/dam/graco/ced/literature/brochures/344381/344381EN-G.pdf" class="section-content__header-btn btn btn--bg-blue"> Brošura o proizvodima<img src="/img/dovnload_blue.svg" class="btn__icon" alt=""> </a></div></div><div class="brochure-languages-mobile-button dropdovn rov pt-1"> <div class="col-sm"><a class="btn chevron dropdovn-menu-link" href="#" role="button" id="dropdovnMenuLink1" data-toggle="dropdovn" aria-haspopup="true" aria-ekpanded="false"> engleski jezik</a><div class="dropdovn-menu bg-grai dropdovn-menu-link-label" aria-labelledbi="dropdovnMenuLink1"> <a class="dropdovn-item btn btn--bg-grai" href="/content/dam/graco/ced/literature/brochures/344381/344459FRCA-F.pdf"> Francais (CA)</a><a class="dropdovn-item btn btn--bg-grai" href="/content/dam/graco/ced/literature/brochures/344381/344458ESLA-E.pdf"> španjolski (MKS)</a></div></div></div></section>',
+    	images: [ultraMax395, ultraMax395_2],
+    	video: '',
+    	spec: '<tbody class="converted-value" stile="displai: table-rov-group;"> <tr><th scope="rov">Amperaža (A)</th><td class="tekt-align--right"><span><strong>15</strong></span></td></tr><tr><th scope="rov">Kompatibilni materijal</th><td class="tekt-align--right"><span><strong>Lak, mrlje, unutrašnji lateks, spoljašnji lateks, emajl, akril</strong></span> </td></tr><tr><th scope="rov">Veličina motora (kV)</th><td class="tekt-align--right"><span><strong>0,65</strong></span></td></tr><tr><th scope="rov">Funkcije</th><td class="tekt-align--right"><span><strong>Endurance Chromek pumpa, SmartControl 1.0, TEFC DC, Advantage Drive, ProConnect, Easi Out Filter, Contractor PC Gun</strong></span> </td></tr><tr><th scope="rov">Veličina mreže filtera</th><td class="tekt-align--right"><span><strong>60</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (in)</th> <td class="tekt-align--right"><span><strong>1/4</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (mm)</th> <td class="tekt-align--right"><span><strong>6,35</strong></span></td></tr><tr><th scope="rov">Tip navoja izlaza tečnosti</th> <td class="tekt-align--right"><span><strong>NPSM</strong></span></td></tr><tr><th scope="rov">Konfiguracija okvira</th><td class="tekt-align--right"><span><strong>Stajte</strong></span></td></tr><tr><th scope="rov">Frekvencija (Hz)</th><td class="tekt-align--right"><span><strong>50/60</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (cm)</th> <td class="tekt-align--right"><span><strong>0,635</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (in)</th> <td class="tekt-align--right"><span><strong>1/4</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (mm)</th> <td class="tekt-align--right"><span><strong>6,35</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključuje</th><td class="tekt-align--right"><span><strong>Izvođač radova PC pištolj, RAC Ks LP 517 vrh za prskanje, RAC Ks zaštita, 1/4 in k 50 ft BlueMak II bezzračno crevo, TSL 4 oz</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni protok (L/min)</th> <td class="tekt-align--right"><span><strong>2.0</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><span><strong>90</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><span><strong>0,023</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha 1 pištolj (in)</th> <td class="tekt-align--right"><span><strong>0,023</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><span><strong>22.8</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><span><strong>228</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kPa)</th> <td class="tekt-align--right"><span><strong>22800</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><span><strong>3300</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (V)</th> <td class="tekt-align--right"><span><strong>3000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Model</th><td class="tekt-align--right"><span><strong>Ultra</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip motora</th><td class="tekt-align--right"><span><strong>TEFC DC</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Broj oružja</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (cm)</th><td class="tekt-align--right"><span><strong>47</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (mm)</th><td class="tekt-align--right"><span><strong>470</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (cm)</th><td class="tekt-align--right"><span><strong>40.6</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (mm)</th><td class="tekt-align--right"><span><strong>406</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (cm)</th><td class="tekt-align--right"><span><strong>35.6</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (mm)</th><td class="tekt-align--right"><span><strong>356</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Faza</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ocena snage (V)</th><td class="tekt-align--right"><span><strong>653</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Naziv snage (kV)</th><td class="tekt-align--right"><span><strong>0,65</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Izvor napajanja</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip kontrole pritiska</th><td class="tekt-align--right"><span><strong>SmartControl 1.0</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip montaže pumpe</th><td class="tekt-align--right"><span><strong>ProConnect</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip pumpe</th><td class="tekt-align--right"><span><strong>Izdržljivost</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Preporučena godišnja upotreba</th> <td class="tekt-align--right"><span><strong>Do 50 galona nedeljno</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Serija</th><td class="tekt-align--right"><span><strong>395 PC</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip</th><td class="tekt-align--right"><span><strong>Beszračna prskalica</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Napon (V)</th><td class="tekt-align--right"><span><strong>120</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Zapremina po ciklusu (ciklusi/gal)</th> <td class="tekt-align--right"><span><strong>700</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Težina (kg)</th><td class="tekt-align--right"><span><strong>20</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Mokri materijal</th><td class="tekt-align--right"><span><strong>Acetal, aluminijum, fluoroelastomer, koža, najlon, PTFE, polietilen, nerđajući čelik, volfram karbid, UHMVPE, uretan, pocinkovani ugljenični čelik, niklovani ugljenični čelik</strong></span> </td></tr></tbody>'
+    },
+    {
+    	id: 48,
+    	desc: '',
+    	images: [ultraMaxCordless],
+    	video: '',
+    	spec: ''
+    },
+    {
+    	id: 49,
+    	desc: '',
+    	images: [],
+    	video: '',
+    	spec: ''
+    },
+    {
+    	id: 50,
+    	desc: '',
+    	images: [],
+    	video: '',
+    	spec: ''
+    },
+    {
+    	id: 51,
+    	desc: '',
+    	images: [],
+    	video: '',
+    	spec: ''
+    }
 
 	
 ]
