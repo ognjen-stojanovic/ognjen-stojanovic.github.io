@@ -45,6 +45,7 @@
         },
         mounted() {
             this.currImage = this.product.img;
+            console.log(this.product.id)
 
         },
     }

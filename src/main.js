@@ -9,6 +9,7 @@ import ContactView from './views/ContactView.vue'
 import ServisView from './views/ServisView.vue'
 import AkcijeView from './views/AkcijeView.vue'
 import PromocijeView from './views/PromocijeView.vue'
+import DodatnaOpremaView from './views/DodatnaOpremaView.vue'
 import App from './App.vue'
 
 const router = createRouter({
@@ -40,6 +41,11 @@ const router = createRouter({
             path: '/products/:category/:name',
             name: 'ProductView',
             component: ProductView
+        },
+        {
+            path: '/products/dodatna-oprema/:name',
+            name: 'DodatnaOprema',
+            component: DodatnaOpremaView
         },
         {
             path: '/products/:category',

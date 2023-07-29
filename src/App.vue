@@ -55,6 +55,7 @@ export default{
         z-index: 999;
     }
 
+
     .myMsg{
         text-align: right;
         margin-left: .5rem;
@@ -68,6 +69,27 @@ export default{
     .myMsg p{
         font-size: 1rem;
         margin: 0;
+    }
+    .technical-table{
+        overflow-wrap: break-word;
+    }
+    .u-flex{
+        display: flex;
+    }
+    .technical-table .technical-table-row__value{
+        padding: 0.6875rem 1rem;
+        background: rgba(255, 255, 255, .5);
+        border-bottom: 2px solid rgba(33,53,71, .5);
+        flex-basis: 50%;
+        min-width: 50%;
+    }
+    .technical-table .technical-table-row__key{
+        padding: 0.6875rem 1rem;
+        font-weight: 600;
+        background: #fff;
+        border-bottom: 2px solid rgba(33,53,71, .5);
+        flex-basis: 50%;
+        min-width: 50%;
     }
     
     :root{
@@ -122,13 +144,16 @@ export default{
         color: var(--text);
     }
     .techspecs_title{
+        color: #fff;
         background-color: var(--orange);
         font-size: 1.2rem;
         text-align: center;
     }
+    /*
     strong{
         color: var(--text)
     }
+    */
     th{
         color: var(--text)
     }

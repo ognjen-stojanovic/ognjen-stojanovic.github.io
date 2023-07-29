@@ -1,16 +1,19 @@
 <script>
 import Product from '../components/Product.vue'
-import { products } from '../products.js'
+import DodatnaOprema from '../components/DodatnaOprema.vue'
+import { products, dodatna_oprema } from '../products.js'
 
 export default{
     name: "CategoryView",
     components: {
-        Product
+        Product,
+        DodatnaOprema
     },
     data() {
         return {
             input: "",
             products: products,
+            dodatna_oprema: dodatna_oprema,
             category: ''
         }
     },  
@@ -25,7 +28,6 @@ export default{
 
             }
             else if(this.$route.query.qr == '' && this.$route.params.category == '' && this.$route.query.sponsor == null){
-                    console.log("usao1");
                     return (product && (product.title.toLowerCase().includes(this.input.toLowerCase())));
 
             }
@@ -34,6 +36,13 @@ export default{
             }
           }
       );
+    },
+    filteredOprema(){
+        return this.dodatna_oprema.filter(oprema => {
+            if(this.$route.params.category != null || this.$route.params.category != ''){
+                return (oprema.category == this.$route.params.category)
+            }
+        })
     },
     loaded(){
         if(this.$route.params.category != null){
@@ -49,7 +58,7 @@ export default{
 
 <template>
     <div class="container main">
-        <header class="head">
+        <div class="head">
             <span class="title">
                 <h2 v-if="category">"{{this.category.toUpperCase()}}"</h2>
                 <h2 v-else>SVE MAŠINE</h2>
@@ -57,14 +66,20 @@ export default{
             <span class="search">
                 <input type="text" v-model="input" placeholder="Pretraga">
             </span>
-        </header>
+        </div>
         <div class="content-wrapper">
             <div class="content" v-for="product in filteredProducts" :key="product.id">
                 <router-link v-bind:to="`/products/${product.sub_category}/${product.title}`">
                     <Product :product="product"/>            
                 </router-link>
             </div>
-
+        </div>
+        <div class="content-wrapper">
+            <div class="content" v-for="dodatnaOprema in filteredOprema" :key="dodatnaOprema.id">
+                <router-link v-bind:to="`/products/dodatna-oprema/${dodatnaOprema.name}`">
+                    <DodatnaOprema :dodatnaOprema="dodatnaOprema"/>            
+                </router-link>
+            </div>
         </div>
     </div>
 </template>

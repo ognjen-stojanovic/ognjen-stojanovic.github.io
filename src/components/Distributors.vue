@@ -7,12 +7,12 @@
         <div class="container">
             <Distributer name="graco" image="../../distributors/graco.png" site="https://www.graco.com/gb/en.html"/>
             <Distributer name="pft" image="../../distributors/pft.png" site="https://www.pft.net/en/"/>
-            <Distributer name="mixer" image="../../distributors/mixer.png" site=""/>
-            <Distributer name="mirka" image="../../distributors/mirka.png" site=""/>
-            <Distributer name="airblast" image="../../distributors/airblast.png" site=""/>
-            <Distributer name="borum" image="../../distributors/borum.png" site=""/>
-            <Distributer name="basler" image="../../distributors/basler_logo_rgb_pos.png" site=""/>
-            <Distributer name="monti" image="../../distributors/monti.png" site=""/>
+            <Distributer name="mixer" image="../../distributors/mixer.png" site="https://www.mixersrl.com/en/"/>
+            <Distributer name="mirka" image="../../distributors/mirka.png" site="https://www.mirka.com/en"/>
+            <Distributer name="airblast" image="../../distributors/airblast.png" site="https://www.airblast.com/home/"/>
+            <Distributer name="borum" image="../../distributors/borum.png" site="https://www.borum.as/"/>
+            <Distributer name="stim" image="../../distributors/stim.png" site="https://www.stim.by/"/>
+            <Distributer name="monti" image="../../distributors/monti.png" site="https://www.montipowerme.com/"/>
         </div>
 
     </section>    

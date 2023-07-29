@@ -1,10 +1,16 @@
 <script>
+import SearchBar from './Searchbar.vue'
+
 export default{
+    components: {
+        SearchBar
+    },
     data() {
         return {
             input: '',
             isShown: false,
         }
+
     },
     methods: {
        showNavigation() {
@@ -49,9 +55,9 @@ export default{
             <router-link v-bind:to="'/'">
                 <img class="logo" src="../assets/logo-GFP-verysmall.png" alt="GFP logo">
             </router-link>
-            <label for="search">
-            <input type="text" v-on:keyup.enter="onEnter" name="search" v-model="input" placeholder="Pretraga">
-            </label>
+            <SearchBar />
+            <!-- <input type="text" v-on:keyup.enter="onEnter" name="search" v-model="input" placeholder="Pretraga"> -->
+
         </span>
         <span id="menu-icon" @click="showNavigation">
             <svg fill="#000000" viewBox="-5.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>menu</title> <path d="M1.375 9.156h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 14.625h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 20.094h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344zM1.375 25.563h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344z"></path> </g></svg>

@@ -5,7 +5,7 @@ import MIXER from "../src/assets/distributors/mixer.png";
 import MIRKA from "../src/assets/distributors/mirka.png";
 import AIRBLAST from "../src/assets/distributors/airblast.png";
 import BORUM from "../src/assets/distributors/borum.png";
-import BASLER from "../src/assets/distributors/basler_logo_rgb_pos.png";
+import STIM from "../src/assets/distributors/stim.png";
 import MONTI from "../src/assets/distributors/monti.png";
 //grindLazer
 import grindLazer from "./assets/products/obelezavanje puteva/GrindLazer/18730.tif.imagep.74.0.1129.800.290.220.jpg";
@@ -32,9 +32,11 @@ import lineLazerV250SPS_2 from "./assets/products/obelezavanje puteva/LineLazer 
 import lineLazerV250SPS_3 from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/24041.jpg";
 import lineLazerV250SPS_4 from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/24053.jpg";
 
+import kontur100 from "./assets/products/obelezavanje puteva/Kontur100/KONTUR-100-STiM-Belarus.jpg";
+import kontur600 from "./assets/products/obelezavanje puteva/Kontur600/kon-600.jpg";
 
-import lineLazerV251SPS from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/24053.jpg";
-import lineLazerV251SPS_2 from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/LineLazer-250.jpg";
+// import lineLazerV251SPS from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/24053.jpg";
+// import lineLazerV251SPS_2 from "./assets/products/obelezavanje puteva/LineLazer V 250SPS, 250DC/LineLazer-250.jpg";
 
 //lineLazerV5900
 import lineLazerV5900 from "./assets/products/obelezavanje puteva/LineLazer V 5900, 3900, 3400/1486409144907.jpg";
@@ -186,7 +188,14 @@ import mirkaDeos from "./assets/products/Masine za zavrsne radove u gradjevinars
 import mirkaDeos_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos/package_mirka_deos_001.jpg";
 import mirkaDeros from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deros/deros-in-use.jpg";
 import mirkaDeros_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deros/mirka-deros-marine-boat-application.jpg";
-
+import mirkaDustExtractor from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka DustExtractor/8999200111.webp";
+import mirkaDustExtractor_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka DustExtractor/8999200111-003.webp";
+import mirkaDustExtractor_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka DustExtractor/8999200111-004.webp";
+import mirkaDustExtractor_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka DustExtractor/8999200111-007.webp";
+import mirkaDeosDelta from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos Delta/MID6630201.webp";
+import mirkaDeosDelta_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos Delta/MID6630201-005.webp";
+import mirkaDeosDelta_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos Delta/MID6630201-006.webp";
+import mirkaDeosDelta_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Mirka Deos Delta/MID6630201-007.webp";
 
 //Univerzalne masine
 
@@ -199,7 +208,957 @@ import texSprayRTX_2 from "./assets/products/hidroizolacija/TexSprayRTX/cq5dam.w
 import texSprayRTX_3 from "./assets/products/hidroizolacija/TexSprayRTX/cq5dam.web.1280.1280.jpeg";
 import texSprayRTX_4 from "./assets/products/hidroizolacija/TexSprayRTX/TexSpray-3_600x.webp";
 
+//DODATNA OPREMA: smirglanje
+import abranet150mm from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/5424105032.webp"
+import abranet150mm_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/5424105032-004.webp"
+import abranet150mm_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/5424105032-005.webp"
+import abranet225mm from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/Abranet225/5422301025.webp"
+import abranet225mm_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/Abranet225/5422301025-003.webp"
+import abranet225mm_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/Abranet225/5422301025-005.webp"
+import backingPad from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/BackingPad/MIW9514312.webp"
+import backingPad_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/BackingPad/MIW9514312 (1).webp"
+import backingPad_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/BackingPad/MIW9514312-b.webp"
+import antiStaticHose from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/AntiStaticHoes/8391114011-001.webp"
+import antiStaticHose_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/AntiStaticHoes/8391114011-pack.webp"
+import antiStaticHose_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/AntiStaticHoes/8391114011-Hand-block-hose-antistatic.webp"
+import adapterHoes from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/AdapterDustExtractor/8393001511-010.webp"
+import backingPadForSuction from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/BackingPadforSuction/9190153001.webp"
+import backingPadForSuction_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Mirka program/Dodatna oprema/BackingPadforSuction/9190153001-b.webp"
 
+//DODATNA OPREMA: malterisanje
+import antiGripSprej from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/AntiGripSprej/3M07701000.jpg"
+import stator1Booster from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator1Booster/3F00503200.jpg"
+import stator1SaPinom from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator1SaPinom/STATOR-1-SA-PINOM-1.jpg"
+import stator1 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator1.jpg"
+import rotor1 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/rotor1.jpg"
+import statorIRotor2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 2/STATOR-I-ROTOR-222-1.jpg"
+import statorIRotor2_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 2/3F00502300.jpg"
+import statorIRotor2_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 2/7009049400.jpg"
+import statorIRotor3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 3/STATOR-I-ROTOR-3-1.jpg"
+import statorIRotor3_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 3/3F00501701.jpg"
+import statorIRotor3_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/Stator i rotor 3/7009029000.jpg"
+import stator4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator4.jpg"
+import stator5 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator5.jpg"
+import stator6 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator6.jpg"
+import stator6Booster from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator6Booster.jpg"
+import stator26 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/stator26.jpg"
+import rotor6 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/rotor6.jpg"
+import cistacPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/cistacPistolja.jpg"
+import ravnjacH from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/ravnjacH.jpg"
+import ravnjacTrapez from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/ravnjacTrapez.jpg"
+import perdas from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/perdas.jpg"
+import grebacPirana from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/grebacPirana.jpg"
+import drveniGleter from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/drveniGleter.jpg"
+import giter from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/giter.jpg"
+import gleterica50137 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/gleterica50137.jpg"
+import gletericaDrvo from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/gletericaDrvo.jpg"
+import gletericaPlastika from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/gletericaPlastika.jpg"
+import plasticniGrebac from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/plasticniGrebac.jpg"
+import univerzalniKljuc from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/univerzalniKljuc.jpg"
+import plaviGrajfer from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/plaviGrajfer.jpg"
+import plasticniGrajfer from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/plasticniGrajfer.jpg"
+import tKljuc from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/tKljuc.jpg"
+import kompresorGroupBora from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/kompresorGroupBora.jpg"
+import braonSundjer from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/braonSundjer.jpg"
+import hopperGridXRol14 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/hopperGridXRol14.jpg"
+import cuffiaMonPlusSmal from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/cuffiaMonPlusSmal.jpg"
+import prstenDozatoraPvc160 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/prstenDozatoraPvc160.jpg"
+import olovoDozatora160 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/olovoDozatora160.jpg"
+import osovinaOsiguracaPoluzneSpojke from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/osovinaOsiguracaPoluzneSpojke.jpg"
+import osiguracPoluzneSpojke from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/osiguracPoluzneSpojke.jpg"
+import manometar from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/manometar.jpg"
+import elektroventil from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/elektroventil.jpg"
+import regulatorPritiskaVoda from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/regulatorPritiskaVoda.jpg"
+import aluminijumsaCevPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/aluminijumsaCevPistolja.jpg"
+import podnozjeStatora from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/podnozjeStatora.jpg"
+import plasticnaCevPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/plasticnaCevPistolja.jpg"
+import cevZaVazduhPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/cevZaVazduhPistolja.jpg"
+import leptirPistolj from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/leptirPistolj.jpg"
+import filterZaVodu from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/filterZaVodu.jpg"
+import teloPistoljaKoso from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/teloPistoljaKoso.jpg"
+import teloPistoljaPravo from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/teloPistoljaPravo.jpg"
+import ventilZaVazduhPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/ventilZaVazduhPistolja.jpg"
+import kapaPistoljaRavna from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/kapaPistoljaRavna.jpg"
+import brezoni from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/brezoni.jpg"
+import cistacLHRaketa from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/cistacLHRaketa.jpg"
+import lopticeZaCiscenje from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/lopticeZaCiscenje.jpg"
+import gornjiDrzacStatora from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/gornjiDrzacStatora.jpeg"
+import kapaPistoljaKonusna from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/kapaPistoljaKonusna.jpg"
+import mesacZaLakeMaltere from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/mesacZaLakeMaltere.jpg"
+import mesacZaF18 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/mesacZaF18.jpg"
+import mesac from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/mesac.jpg"
+import podnozjeStatoraSaMeracomPritiska from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/podnozjeStatoraSaMeracomPritiska.jpg"
+import grupaZaVazduhPistolja from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/grupaZaVazduhPistolja.jpg"
+import osovinaCistaca from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/osovinaCistaca.jpg"
+import poluznaSpojkaSaJelkicom from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/poluznaSpojkaSaJelkicom.jpg"
+import poluznaSpojkaSaJelkicomZenska from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/poluznaSpojkaSaJelkicomZenska.jpg"
+import poluznaSpojkaMuska from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/poluznaSpojkaMuska.jpg"
+import poluznaSpojkaZenska from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/poluznaSpojkaZenska.jpg"
+import pistoljStandard from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/pistoljStandard.jpg"
+import velikiPistolj from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/velikiPistolj.jpg"
+import zaptivkaPoluzneSpojke from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/zaptivkaPoluzneSpojke.jpg"
+import spojkaMotora25 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/spojkaMotora25.jpg"
+import zaptivkaGeka from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za malterisanje/Dodatna oprema/zaptivkaGeka.jpg"
+
+
+//REAKTORI
+import reaktorE_8P from "./assets/products/hidroizolacija/reaktori/Reaktor E-8P/cq5dam.web_.1280.1280.jpeg"
+import reaktor2h30h40h from "./assets/products/hidroizolacija/reaktori/Reaktor2h30h40h50/jcr_content-13.jpg"
+import reaktorE20 from "./assets/products/hidroizolacija/reaktori/Reaktor E-20/jcr_content-12.jpg"
+import reaktorE8P_for_flooring from "./assets/products/hidroizolacija/reaktori/Reaktor E8P_for_flooring/jcr_content-10.jpg"
+import reaktorE8P_for_flooring_2 from "./assets/products/hidroizolacija/reaktori/Reaktor E8P_for_flooring/download.jpg"
+import reaktor2E30i from "./assets/products/hidroizolacija/reaktori/Reaktor2E30i/jcr_content-9.jpg"
+import reaktor2E30 from "./assets/products/hidroizolacija/reaktori/Reaktor2E30/jcr_content-8.jpg"
+import reaktor2E30_2 from "./assets/products/hidroizolacija/reaktori/Reaktor2E30/AB1_3390-copy.tif.imagep.jpg"
+import reaktor2E30_3 from "./assets/products/hidroizolacija/reaktori/Reaktor2E30/Reactor2_Electronics.jpg"
+import reaktor2E30_4 from "./assets/products/hidroizolacija/reaktori/Reaktor2E30/Reactor2_Control_DrumLevel-copy.tif.imagep.jpg"
+import reaktor2EXP2i from "./assets/products/hidroizolacija/reaktori/Reaktor2EXP2i/reactor-2.jpg"
+import reaktor2EXP2i_2 from "./assets/products/hidroizolacija/reaktori/Reaktor2EXP2i/jcr_content-2.jpg"
+import reaktor2EXP2i_3 from "./assets/products/hidroizolacija/reaktori/Reaktor2EXP2i/Reactor2_E30i_Elite_004.tif.imagep.jpg"
+import reaktorE10HP from "./assets/products/hidroizolacija/reaktori/ReaktoriE10HP/jcr_content-1.jpg"
+import reaktorE10HP_2 from "./assets/products/hidroizolacija/reaktori/ReaktoriE10HP/jcr_content1.jpg"
+import reaktorE10HP_3 from "./assets/products/hidroizolacija/reaktori/ReaktoriE10HP/20130515_174156_sm.tif.imagep.jpg"
+
+
+
+
+export const dodatna_oprema = [
+    {
+        id: 1,
+        name: "Abranet 150mm",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Abranet® Ø 150 mm Grip</h1><div class="m-b-6 m-b-7-lg"> Multifunkcionalni i klasični Abranet je posebno razvijen za brušenje kitova, prajmera, lakova, kompozitnih materijala i širokog spektra drugih materijala za industrijsku upotrebu. Abranet kombinuje visoke performanse i dug životni vek, što ga čini isplativim rešenjem. Dizajniran za suvo brušenje, ručno ili mašinski, istinske karakteristike brušenja bez prašine rezultiraju čistijim radnim okruženjem, kao i boljom završnom obradom površine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 u-print-label">Odgovarajući materijali</p><div class="m-b-6 m-b-7-lg">Čelik, meki čelik / ugljenični čelik, legure bakra / mesing / bronza, breza, obojeni metali, gips / kit, bukva, nerđajući čelik, melamin, furnir, bor, plastika, prajmer, brušenje boje, punilo za telo, lakovi, tikovina, mahagoni, L.G. Himacs, Samsung Staron, skidanje/uklanjanje boje, iverica, čvrsta površina, liveno gvožđe, hrast, jasen, tvrdo drvo, meko / smolasto drvo, Karonia Mistral, MDF / HDF, Dupont Corian</div><p class="f- bold m-b-3 m-t-6 u-print-label">Opcije granulacije</p><button type="button" aria-label="Opcije granulacije: P80" class="filter filter--big selected">P80</button><button tipe="button" aria-label="Opcije granulacije: P100" class="filter filter--big">P100</button><button tipe="button" aria-label="Opcije granulacije: P120" class="filter filter--big">P120</button><button tipe="button" aria-label="Opcije granulacije: P150" class="filter filter--big">P150</button><button tipe="button" aria-label="Opcije granulacije: P180" class="filter filter--big">P180</button><button tipe="button" aria-label="Opcije granulacije: P240" class= "filter filter--big">P240</button><button tipe="button" aria-label="Grit Options: P320" class="filter filter--big">P320</button><button tipe=" button" aria-label="Opcije granulacije: P360" class="filter filter--big">P360</button><button tipe="button" aria-label="Opcije granulacije: P400" class="filter filter- -big">P400</button><button tipe="button" aria-label="Opcije granulacije: P500" class="filter filter--big">P500</button><button tipe="button" aria- label="Grit Options: P600" class="filter filter--big">P600</button><button tipe="button" aria-label="Grit Options: P800" class="filter filter--big"> P800</button><button tipe="button" aria-label="Opcije granulacije: P1000" class="filter filter--big">P1000</button><p class="f-bold m-b-3 m-t- 6 u-print-label">Komada po pakovanju</p><button>10 komada</button><button tipe="button" aria-label="komada po pakovanju: 10 komada" class="filter filter--big selected">25 komada</button></div>',
+        specifications: '<section class="col-xs-12 col-sm-12 p-v-adaptive"><h2 class="title text-center">Tehnički detalji</h2><div class="technical-table"><div class="technical-table-row u-flex"><div class="technical-table-row__key">Vrsta priloga</div><div class="technical-table-row__value">Drška</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Materijal za podlogu</div><div class="technical-table-row__value">PA net</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Vezivanje</div><div class="technical-table-row__value">Smola preko smole</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Premazivanje</div><div class="technical-table-row__value">Zatvoreno</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Boja</div><div class="technical-table-row__value">Braonkasta</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Prečnik</div><div class="technical-table-row__value">150 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Forma</div><div class="technical-table-row__value">Diskovi</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Zrno</div><div class="technical-table-row__value">Aluminium oksid</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Konfiguracija rupa</div><div class="technical-table-row__value">NET</div></div></div></section>',
+        images: [abranet150mm, abranet150mm_2, abranet150mm_3]
+        
+    },
+    {
+        id: 2,
+        name: "Abranet 225mm",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Abranet® Ø 225 mm Grip</h1><div class="m-b-6 m-b-7-lg"> Multifunkcionalni i klasični Abranet je posebno razvijen za brušenje kitova, prajmera, lakova, kompozitnih materijala i širokog spektra drugih materijala za industrijsku upotrebu. Abranet kombinuje visoke performanse i dug životni vek, što ga čini isplativim rešenjem. Dizajniran za suvo brušenje, ručno ili mašinski, istinske karakteristike brušenja bez prašine rezultiraju čistijim radnim okruženjem, kao i boljom završnom obradom površine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 u-print-label">Odgovarajući materijali</p><div class="m-b-6 m-b-7-lg">Čelik, meki čelik / ugljenični čelik, legure bakra / mesing / bronza, breza, obojeni metali, gips / kit, bukva, nerđajući čelik, melamin, furnir, bor, plastika, prajmer, brušenje boje, punilo za telo, lakovi, tikovina, mahagoni, L.G. Himacs, Samsung Staron, skidanje/uklanjanje boje, iverica, čvrsta površina, liveno gvožđe, hrast, jasen, tvrdo drvo, meko / smolasto drvo, Karonia Mistral, MDF / HDF, Dupont Corian</div><p class="f- bold m-b-3 m-t-6 u-print-label">Opcije granulacije</p><button tipe="button" aria-label="Opcije granulacije: P80" class="filter filter--big selected">P80</button><button tipe="button" aria-label="Opcije granulacije: P100" class="filter filter--big">P100</button><button tipe="button" aria-label="Opcije granulacije: P120" class="filter filter--big">P120</button><button tipe="button" aria-label="Opcije granulacije: P150" class="filter filter--big">P150</button><button tipe="button" aria-label="Opcije granulacije: P180" class="filter filter--big">P180</button><button tipe="button" aria-label="Opcije granulacije: P240" class= "filter filter--big">P240</button><button tipe="button" aria-label="Opcije granulacije: P320" class="filter filter--big">P320</button><p class=" f-bold m-b-3 m-t-6 u-print-label">Komada po pakovanju</p><button tipe="button" aria-label="Komčadi po pakovanju: 10 komada" class="filter filter--big odabrano">10 komada</button><button tipe="button" aria-label="Komada po pakovanju: 25 komada" class="filter filter--big">25 komada</button><!---- ><p class="f-bold m-b-3 m-t-6 u-print-label">Mirka kod</p><p class="f-normal m-b-0">AE223F1080</p></div>',
+        specifications: '<section class="col-xs-12 col-sm-12 p-v-adaptive"><h2 class="title text-center">Tehnički detalji</h2><div class="technical-table"><div class="technical-table-row u-flex"><div class="technical-table-row__key">Vrsta priloga</div><div class="technical-table-row__value">Drška</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Materijal za podlogu</div><div class="technical-table-row__value">PA net</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Vezivanje</div><div class="technical-table-row__value">Smola preko smole</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Premazivanje</div><div class="technical-table-row__value">Zatvoreno</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Boja</div><div class="technical-table-row__value">Braonkasta</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Prečnik</div><div class="technical-table-row__value">225 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Forma</div><div class="technical-table-row__value">Diskovi</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Zrno</div><div class="technical-table-row__value">Aluminium oksid</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Konfiguracija rupa</div><div class="technical-table-row__value">NET</div></div></div></section>',
+        images: [abranet225mm, abranet225mm_2, abranet225mm_3]
+        
+    },
+    {
+        id: 3,
+        name: "BackingPad 225mm",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Podloga Ø 225 mm </h1><div class="m-b-6 m-b-7-lg"><p>Podloga Ø 225 mm za Mirka® LEROS i LEROS-S.</p></div><p class="f". -bold m-b-3 u-print-label">Koristi za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 m-t -6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: x1 komad" class="filter filter--big selected">x1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Konfiguracija rupe</p><button tipe="button" aria-label="Konfiguracija rupe: 25 rupa" class=" filter filter--big selected">25 rupa</button><p class="f-bold m-b-3 m-t-6 u-print-label">Tip priloga</p><button tipe="button" aria- label="Tip pričvršćivanja: Grip + 8 zavrtnja" class="filter filter--big selected">Grip + 8 šrafova</button><p class="f-bold m-b-3 m-t-6 u-print-label" >Čvrstoća</p><button tipe="button" aria-label="Čvrstoća: Tvrda" class="filter filter--big selected">Tvrda</button></div>',
+        specifications: '',
+        images: [backingPad, backingPad_2, backingPad_3]
+        
+    },
+    {
+        id: 4,
+        name: "Antistatičko crevo Ø 20-32mm za ručno brušenje",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Antistatičko crevo Ø 20- 32 mm x 4 m za blokove za ručno brušenje</h1><div class="m-b-6 m-b-7-lg"> Antistatičko crevo za usisavanje prašine za blokove za ručno brušenje. Konusni dizajn za poboljšani protok vazduha kada se koristi sa usisivačima prašine Mirka® M-klase (srednje), 1230 M i 1242 M. Kompatibilan sa antistatičkim sistemima za usisavanje prašine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">Uklanjanje prašine</div><p class="f-bold m-b-3 m-t-6 u-print-label">Dužina</p><button tipe="button" aria-label="Dužina: 4 m" class="filter filter--big izabrano">4 m</button><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: k1 komad" class="filter filter--big selected">k1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Kabl</p><button tipe="button" aria-label="Kabl: Nema kabla" class="filter filter--big selected">Bez kabla</button></div>',
+        specifications: '',
+        images: [antiStaticHose, antiStaticHose_2, antiStaticHose_3]
+        
+    },
+    {
+        id: 5,
+        name: "Adapter za usisivač prašine 30-48mm",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Adapter za usisivač prašine 30-48mm</h1><div class="m-b-6 m-b-7-lg"> Adapter za povezivanje creva za usisavanje prašine na usisivač. Može se iseći tako da odgovara usisivačima prašine drugih brendova. Električna provodljivost (≤ 10⁶ Ō/kvadrat). </div><p class="f-bold m-b-3 m-t-6 u-print-label">Kvalitet</p><button tipe="button" aria-label="Kvalitet: Mirka" class="filter filter--big selected">Mirka</button><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label ="Količina po pakovanju: x1 komad" class="filter filter--big selected">x1 komad</button></div>',
+        specifications: '',
+        images: [adapterHoes]
+        
+    },
+    {
+        id: 6,
+        name: "Podloga za usisnu haubu Ø 125mm M14",
+        category: 'smirglanje',
+        partnerName: "mirka",
+        partner: MIRKA,
+        description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Podloga za usisnu haubu Ø 125 mm M14</h1><div class="m-b-6 m-b-7-lg"> Ova podloga od 125 mm (5”) opremljena je robusnim kukama i 17 rupa koje omogućavaju odlično usisavanje prašine. Ova podloga treba da se koristi samo zajedno sa poklopcem za usisavanje prašine (Mirka kod 9190152001). </div><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: x1 komad " class="filter filter--big selected">x1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Konfiguracija rupe</p><button tipe=" button" aria-label="Konfiguracija rupe: 17 rupa" class="filter filter--big selected">17 rupa</button><p class="f-bold m-b-3 m-t-6 u-print-label" >Tip priloga</p><button tipe="button" aria-label="Tip priloga: Grip" class="filter filter--big selected">Uhvat</button><p class="f-bold m-b- 3 m-t-6 u-print-label">Čvrstoća</p><button tipe="button" aria-label="Čvrstoća: Tvrda" class="filter filter--big selected">Tvrda</button></div>',
+        specifications: '',
+        images: [backingPadForSuction, backingPadForSuction_2]
+        
+    },
+    {
+        id: 7,
+        name: "Antigrip spray",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<div><p>Koristi se radi lakše montaže rotora i pogodan je za sve tipove.</p></div>',
+        specifications: '',
+        images: [antiGripSprej]
+        
+    },
+    {
+        id: 8,
+        name: "Stator 1 booster",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D6-3 long life<br><strong>RPM:&nbsp;</strong>400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>22<br><strong>Maksimalni pritisak&nbsp;(bar):&nbsp;</strong>30<br><strong>Veličina zrna&nbsp;(mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator1Booster]
+        
+    },
+    {
+        id: 9,
+        name: "Stator 1 sa pinom",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip</strong>: D6-3 long life<br><strong>RPM</strong>&nbsp;: 400<br><strong>Protok&nbsp;(L/min)</strong>: 22<br><strong>Maksimalni pritisak (bar)</strong>: 30<br><strong>Veličina zrna (mm)</strong>: 3<br><strong>SH = Shore</strong>: 70<br><strong>Stator Ø</strong>: 90<br><strong>Dužina (mm)</strong>: 270<br><strong>Korisit se sa</strong>: Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator1SaPinom]
+        
+    },
+    {
+        id: 10,
+        name: "Stator 1",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D6-3 long life<br><strong>RPM:</strong>&nbsp;400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>22<br><strong>Maksimalni pritisak&nbsp;(bar):&nbsp;</strong>30<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:</strong>&nbsp;70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator1]
+        
+    },
+    {
+        id: 11,
+        name: "Rotor 1",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<div class="col-md-6 listeit"><strong>Materijal koji se koristi:&nbsp;</strong>HR<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</div>',
+        specifications: '',
+        images: [rotor1]
+        
+    },
+    {
+        id: 12,
+        name: "Stator i Rotor 2",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<div><p><span class="ens labelit"><strong>Tehničke karakteristike za&nbsp;STATOR 2</strong></span></p><div class="col-md-6 listeit"><p><strong>Tip:&nbsp;</strong>D7-2,5<br><strong>RPM:&nbsp;</strong>400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>27<br><strong>Maksimalni pritisak&nbsp;(bar):&nbsp;</strong>30<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Korisit se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p></div><p><strong><span class="ens labelit">Tehničke karakteristike&nbsp;za ROTOR 2</span></strong></p><div class="col-md-6 listeit"><strong>Materijal koji se koristi:&nbsp;</strong>HR<br><strong>Korisit se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</div></div>',
+        specifications: '',
+        images: [statorIRotor2, statorIRotor2_2, statorIRotor2_3]
+        
+    },
+    {
+        id: 13,
+        name: "Stator i Rotor 3",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D8-2<br><strong>RPM:&nbsp;</strong>400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>32<br><strong>Maksimalni pritisak (bar):&nbsp;</strong>25<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [statorIRotor3, statorIRotor3_2, statorIRotor3_3]
+        
+    },
+    {
+        id: 14,
+        name: "Stator 4",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>PUTZMEISTER D5 short<br><strong>RPM:</strong>&nbsp;400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>40<br><strong>Maksimalni pritisak (bar):&nbsp;</strong>25<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Korisit se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator4]
+        
+    },
+    {
+        id: 15,
+        name: "Stator 5",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>RPM:&nbsp;</strong>400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>50<br><strong>Maksimalni pritisak (bar):</strong>&nbsp;25<br><strong>Veličina zrna&nbsp;(mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator5]
+        
+    },
+    {
+        id: 16,
+        name: "Stator 6",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D6-3<br><strong>RPM:&nbsp;</strong>400<br><strong>Protok (L/min):&nbsp;</strong>22<br><strong>Maksimalni pritisak (bar):&nbsp;</strong>30<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:</strong>&nbsp;70<br><strong>Stator Ø:</strong>&nbsp;90<br><strong>Dužina (mm):</strong>&nbsp;270<br><strong>Korisit se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator6]
+        
+    },
+    {
+        id: 17,
+        name: "Stator 6 Booster",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D6-3<br><strong>RPM:&nbsp;</strong>400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>22<br><strong>Maksimalni pritisak&nbsp;(bar):&nbsp;</strong>30<br><strong>Veličina zrna&nbsp;(mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</p>',
+        specifications: '',
+        images: [stator6Booster]
+        
+    },
+    {
+        id: 18,
+        name: "Stator 26",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p><strong>Tip:&nbsp;</strong>D4-2<br><strong>RPM:&nbsp;</strong>320(*) / 400<br><strong>Protok&nbsp;(L/min):&nbsp;</strong>16(*) / 20<br><strong>Maksimalni pritisak&nbsp;(bar):&nbsp;</strong>25<br><strong>Veličina zrna (mm):&nbsp;</strong>3<br><strong>SH = Shore:&nbsp;</strong>70<br><strong>Stator Ø:&nbsp;</strong>90<br><strong>Dužina (mm):&nbsp;</strong>270<br><strong>Koristi se sa:&nbsp;</strong>Mixer Light/Sprinter, Mixpro 28, PFT G4 FU 230V, Ritmo XL FU 230V, M-Tec Mono-Mix, Plus Mono, Compact-Pro 25 (sa bayonet rotorom)</p>',
+        specifications: '',
+        images: [stator26]
+        
+    },
+    {
+        id: 19,
+        name: "Rotor 6 HR i C",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<div><p><strong><span class="ens labelit">Tehničke karakteristike</span></strong></p><div class="col-md-6 listeit"><strong>Materijal koji se koristi:&nbsp;</strong><span style="text-decoration: underline;">HR</span><br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR 6, I 41</div><div class="col-md-6 listeit"></div><div class="col-md-6 listeit"></div><div class="col-md-6 listeit"><div class="col-md-6 listeit"><strong>Materijal koji se koristi:&nbsp;</strong><span style="text-decoration: underline;">C</span><br><strong>Koristi se sa:&nbsp;</strong>Plus Top/Standard, Mixpro 50, PFT G4, Maltec M5, Putzmeister MP 25, Kaleta 5, VEP VR</div></div><p>&nbsp;</p></div>',
+        specifications: '',
+        images: [rotor6]
+        
+    },
+    {
+        id: 20,
+        name: "Čistač pištolja",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [cistacPistolja]
+        
+    },
+    {
+        id: 21,
+        name: "Ravnjača H",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [ravnjacH]
+        
+    },
+    {
+        id: 22,
+        name: "Ravnjača trapez",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [ravnjacTrapez]
+        
+    },
+    {
+        id: 23,
+        name: "Perdaš",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [perdas]
+        
+    },
+    {
+        id: 24,
+        name: "Grebač sa ručkom-Pirana",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [grebacPirana]
+        
+    },
+    {
+        id: 25,
+        name: "Drveni gleter",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [drveniGleter]
+        
+    },
+    {
+        id: 26,
+        name: "",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: []
+        
+    },
+    {
+        id: 27,
+        name: "Giter",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [giter]
+        
+    },
+    {
+        id: 28,
+        name: "Gleterica 50x13x07",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [gleterica50137]
+        
+    },
+    {
+        id: 29,
+        name: "Gleterica sa drvenom drškom",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [gletericaDrvo]
+    },
+    {
+        id: 30,
+        name: "Gleterica sa plastičnom drškom",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [gletericaPlastika]
+        
+    },
+    {
+        id: 31,
+        name: "Plastični grebač",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [plasticniGrebac]
+        
+    },
+    {
+        id: 32,
+        name: "Univerzalni ključ",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [univerzalniKljuc]
+        
+    },
+    {
+        id: 33,
+        name: "Plavi grajfer",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [plaviGrajfer]
+        
+    },
+    {
+        id: 34,
+        name: "Blanja za karton – Plastični grajfer",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [plasticniGrajfer]
+        
+    },
+    {
+        id: 35,
+        name: "T ključ",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [tKljuc]
+        
+    },
+    {
+        id: 36,
+        name: "Compressor group Bora",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p>Kompresor grupe Bora sa magnetno-termalnim za Plus Standard, Top, Remik, Mustang, Optimik 20 – 400 V.</p>',
+        specifications: '',
+        images: [kompresorGroupBora]
+        
+    },
+    {
+        id: 37,
+        name: "Smeđi sunđer 400 x 50 srednje tvrd",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [braonSundjer]
+        
+    },
+    {
+        id: 38,
+        name: "Hopper + grid x ROL14",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '<p>Mogućnost upotrebe rezervoara ispod i iznad amfore. Operator ručno puni kesu u rezervoar, koja zatim puni amforu.</p>',
+        specifications: '',
+        images: [hopperGridXRol14]
+        
+    },
+    {
+        id: 39,
+        name: "Cuffia mon.plus smal compl.s/sonda",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [cuffiaMonPlusSmal]
+        
+    },
+    {
+        id: 40,
+        name: "Prsten dozatora PVC 160-1600",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [prstenDozatoraPvc160]
+        
+    },
+    {
+        id: 41,
+        name: "Olovo dozatora 160-1600",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [olovoDozatora160]
+        
+    },
+    {
+        id: 42,
+        name: "Osovina osigurača polužne spojke",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [osovinaOsiguracaPoluzneSpojke]
+        
+    },
+    {
+        id: 43,
+        name: "Osigurač polužne spojke",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [osiguracPoluzneSpojke]
+        
+    },
+    {
+        id: 44,
+        name: "Manometar",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [manometar]
+        
+    },
+    {
+        id: 45,
+        name: "Elektroventil",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [elektroventil]
+        
+    },
+    {
+        id: 46,
+        name: "Regulator pritiska za vodu",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [regulatorPritiskaVoda]
+        
+    },
+    {
+        id: 47,
+        name: "Cev pištolja-aluminijumska",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [aluminijumsaCevPistolja]
+        
+    },
+    {
+        id: 48,
+        name: "Podnožje statora",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [podnozjeStatora]
+        
+    },
+    {
+        id: 49,
+        name: "Cev pištolja - plastična",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [plasticnaCevPistolja]
+        
+    },
+    {
+        id: 50,
+        name: "Cev za vazduh pištolja",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [cevZaVazduhPistolja]
+        
+    },
+    {
+        id: 51,
+        name: "Leptir za pištolj",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [leptirPistolj]
+        
+    },
+    {
+        id: 52,
+        name: "Filter za vodu",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [filterZaVodu]
+        
+    },
+    {
+        id: 53,
+        name: "Telo pištolja - koso",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [teloPistoljaKoso]
+        
+    },
+    {
+        id: 54,
+        name: "Telo pištolja pravo",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [teloPistoljaPravo]
+        
+    },
+    {
+        id: 55,
+        name: "Ventil za vazduh pištolja",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [ventilZaVazduhPistolja]
+        
+    },
+    {
+        id: 56,
+        name: "Kapa pištolja ravna",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [kapaPistoljaRavna]
+        
+    },
+    {
+        id: 57,
+        name: "Brezoni",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [brezoni]
+        
+    },
+    {
+        id: 58,
+        name: "Čistač Lh-Raketa",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [cistacLHRaketa]
+        
+    },
+    {
+        id: 59,
+        name: "Loptice za čišćenje",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [lopticeZaCiscenje]
+        
+    },
+    {
+        id: 60,
+        name: "Gornji držač statora",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [gornjiDrzacStatora]
+        
+    },
+    {
+        id: 61,
+        name: "Kapa pištolja konusna",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [kapaPistoljaKonusna]
+        
+    },
+    {
+        id: 62,
+        name: "Mešač za lake maltere",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [mesacZaLakeMaltere]
+        
+    },
+    {
+        id: 63,
+        name: "Mešač za F 18",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [mesacZaF18]
+        
+    },
+    {
+        id: 64,
+        name: "Mešač",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [mesac]
+        
+    },
+    {
+        id: 65,
+        name: "Podnožje statora sa meračom pritiska",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [podnozjeStatoraSaMeracomPritiska]
+        
+    },
+    {
+        id: 66,
+        name: "Grupa za vazduh pištolja",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [grupaZaVazduhPistolja]
+        
+    },
+    {
+        id: 67,
+        name: "Osovina čistača",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [osovinaCistaca]
+        
+    },
+    {
+        id: 68,
+        name: "Polužna spojka sa jelkicom muška",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [poluznaSpojkaSaJelkicom]
+        
+    },
+    {
+        id: 69,
+        name: "Polužna spojka sa jelkicom ženska",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [poluznaSpojkaSaJelkicomZenska]
+        
+    },
+    {
+        id: 70,
+        name: "Polužna spojka muška",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [poluznaSpojkaMuska]
+        
+    },
+    {
+        id: 71,
+        name: "Polužna spojka ženska",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [poluznaSpojkaZenska]
+        
+    },
+    {
+        id: 72,
+        name: "Pištolj standard",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [pistoljStandard]
+        
+    },
+    {
+        id: 73,
+        name: "Veliki pištolj",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [velikiPistolj]
+        
+    },
+    {
+        id: 74,
+        name: "Zaptivka polužne spojke",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [zaptivkaPoluzneSpojke]
+        
+    },
+    {
+        id: 75,
+        name: "Spojka motora A25",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [spojkaMotora25]
+        
+    },
+    {
+        id: 76,
+        name: "Zaptivka Geka",
+        category: 'malterisanje',
+        partnerName: "mixer",
+        partner: MIXER,
+        description: '',
+        specifications: '',
+        images: [zaptivkaGeka]
+        
+    },
+]
 
 export const products = [
     {
@@ -316,7 +1275,7 @@ export const products = [
         id: 12,
         title: 'GrindLazer HP RC1625 G',
         category: "horizontalna-signalizacija",
-        sub_category: "",
+        sub_category: "horizontalna-signalizacija",
         img: grindLazerRC1625G,
         partner: GRACO,
 		partnerName: "graco",
@@ -743,7 +1702,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 56,
+        id: 55,
         title: 'Air receivers',
         category: "zavrsni-radovi",
         sub_category: "peskarenje",
@@ -753,7 +1712,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 57,
+        id: 56,
         title: 'Usisivač',
         category: "zavrsni-radovi",
         sub_category: "peskarenje",
@@ -763,7 +1722,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 58,
+        id: 57,
         title: 'Mirka Leros',
         category: "zavrsni-radovi",
         sub_category: "smirglanje",
@@ -773,7 +1732,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 59,
+        id: 58,
         title: 'Mirka Deos',
         category: "zavrsni-radovi",
         sub_category: "smirglanje",
@@ -783,7 +1742,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 60,
+        id: 59,
         title: 'Mirka Deros',
         category: "zavrsni-radovi",
         sub_category: "smirglanje",
@@ -793,7 +1752,7 @@ export const products = [
         desc: ""
     },
     {
-        id: 61,
+        id: 60,
         title: 'DutyMax GH 300 3-IN-1',
         category: "zavrsni-radovi",
         sub_category: "univerzalne-masine",
@@ -803,12 +1762,132 @@ export const products = [
         desc: ""
     },
     {
-        id: 62,
+        id: 61,
         title: 'TexSpray RTX',
         category: "hidroizolacija",
         sub_category: "hidroizolacija",
         img: texSprayRTX,
         partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 62,
+        title: 'Mirka usisivač za prašinu 1230 L',
+        category: "zavrsni-radovi",
+        sub_category: "smirglanje",
+        img: mirkaDustExtractor,
+       	partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 63,
+        title: 'Mirka DEOS Delta 663CV',
+        category: "zavrsni-radovi",
+        sub_category: "smirglanje",
+        img: mirkaDeosDelta,
+       	partner: MIRKA,
+        partnerName: "mirka",
+        desc: ""
+    },
+    {
+        id: 64,
+        title: 'Kontur 100',
+        category: "horizontalna-signalizacija",
+        sub_category: "horizontalna-signalizacija",
+        img: kontur100,
+       	partner: STIM,
+        partnerName: "stim",
+        desc: ""
+    },
+    {
+        id: 65,
+        title: 'Kontur 600',
+        category: "horizontalna-signalizacija",
+        sub_category: "horizontalna-signalizacija",
+        img: kontur600,
+       	partner: STIM,
+        partnerName: "stim",
+        desc: ""
+    },
+    {
+        id: 66,
+        title: 'Reaktor E-8P, fuzioni AP pištolj, 240 V',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktorE_8P,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 67,
+        title: 'Reaktor 2 H-30, H-40 and H-50',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktor2h30h40h,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 68,
+        title: 'Reaktor E-20',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktorE20,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 69,
+        title: 'Reaktor E-8P za podove',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktorE8P_for_flooring,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 70,
+        title: 'Reaktor 2 E-30i',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktor2E30i,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 71,
+        title: 'Reaktor 2 E-30',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktor2E30,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 72,
+        title: 'Reaktor 2 E-XP2i',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktor2EXP2i,
+       	partner: GRACO,
+        partnerName: "graco",
+        desc: ""
+    },
+    {
+        id: 73,
+        title: 'Reaktor E-10HP',
+        category: "hidroizolacija",
+        sub_category: "reaktori",
+        img: reaktorE10HP,
+       	partner: GRACO,
         partnerName: "graco",
         desc: ""
     },
@@ -1147,7 +2226,7 @@ export const descriptions = [
     },
     {
         id: 44,
-        desc: '<section class="section-content" id="features"><div class="container-fluid"><header class="section-content__header"><h2 class="section-content__header-title h3 no-margin--bottom">Karakteristike</h2 </header><div class="section-content__content "><section><div class="rov split-image-content"><div class="col-sm"><div class="force-stand-font">G FF je brzo, prenosivo i pristupačno rešenje za male završne poslove sa kojima se susreće svaki izvođač radova. Graco proverena klipna pumpa i RAC X FF SvitchTip brzo daju glatku završnu obradu. Pumpa ProXChange omogućava brzu zamenu pumpe na poslu – nije potreban alat.</div><ul class="splitColumns"><li><strong>Izuzetno prenosiv</strong><ul><li>Lakši od bilo kog konkurentskog sistema</li><li>Laka ručka za nošenje olakšava transport</li><li>Poklopac sprečava prskanje i prosipanje tokom nošenja </li></ul></li> <li><strong>Spremnik od 5,7 litara</strong><ul><li>Idealno za prskanje malih količina materijala</li><li>Glatka unutrašnja površina se brzo čisti</li><li>Poklopac uključen za prosipanje -otporna prenosivost</li><li>Spremnik se lako pričvršćuje na prskalicu bez alata za lako čišćenje</li></ul></li> <li><strong>ProX Pover-Piston Pumpa sa ProKSChangeom</strong><ul><li>Mali granični pritisak obezbeđuje najbolju moguću završnu obradu</li><li>Izuzetna izdržljivost i dug život klipna pumpa</li>< li>Ekskluzivna podmazana podloga brisača za rad bez održavanja</li><li>Modularne komponente pumpe za lako održavanje</li><li>Brza i laka zamena pumpe na poslu – nije potreban alat</li>< li>Eliminišite troškove rada i zastoja</li></ul></li> <li><strong>FTx-E pištolj za raspršivanje</strong><ul><li>Druška sa ugrađenom formom pruža maksimalnu kontrolu i udobnost</li><li>Uključen je filter za pištolj od 100 mreža za smanjenje začepljenja vrhova i zaštitu završne obrade< /li><li>EasiGlide Svivel pruža maksimalnu fleksibilnost za upravljanje crevima bez napora</li></ul></li> </ul></div></section></div></div></section>',
+        desc: '<section class="section-content" id="features"><div class="container-fluid"><header class="section-content__header"><h2 class="section-content__header-title h3 no-margin--bottom">Karakteristike</h2 </header><div class="section-content__content "><section><div class="rov split-image-content"><div class="col-sm"><div class="force-stand-font">G FF je brzo, prenosivo i pristupačno rešenje za male završne poslove sa kojima se susreće svaki izvođač radova. Graco proverena klipna pumpa i RAC X FF SvitchTip brzo daju glatku završnu obradu. Pumpa ProXChange omogućava brzu zamenu pumpe na poslu – nije potreban alat.</div><ul class="splitColumns"><li><strong>Izuzetno prenosiv</strong><ul><li>Lakši od bilo kog konkurentskog sistema</li><li>Laka ručka za nošenje olakšava transport</li><li>Poklopac sprečava prskanje i prosipanje tokom nošenja </li></ul></li> <li><strong>Spremnik od 5,7 litara</strong><ul><li>Idealno za prskanje malih količina materijala</li><li>Glatka unutrašnja površina se brzo čisti</li><li>Poklopac uključen za prosipanje -otporna prenosivost</li><li>Spremnik se lako pričvršćuje na prskalicu bez alata za lako čišćenje</li></ul></li> <li><strong>ProX Pover-Piston Pumpa sa ProKSChangeom</strong><ul><li>Mali granični pritisak obezbeđuje najbolju moguću završnu obradu</li><li>Izuzetna izdržljivost i dug život klipna pumpa</li><li>Ekskluzivna podmazana podloga brisača za rad bez održavanja</li><li>Modularne komponente pumpe za lako održavanje</li><li>Brza i laka zamena pumpe na poslu – nije potreban alat</li><li>Eliminišite troškove rada i zastoja</li></ul></li> <li><strong>FTx-E pištolj za raspršivanje</strong><ul><li>Druška sa ugrađenom formom pruža maksimalnu kontrolu i udobnost</li><li>Uključen je filter za pištolj od 100 mreža za smanjenje začepljenja vrhova i zaštitu završne obrade</li><li>EasiGlide Svivel pruža maksimalnu fleksibilnost za upravljanje crevima bez napora</li></ul></li> </ul></div></section></div></div></section>',
         images: [gxff, gxff_2],
         video: '',
         spec: '<tbody class="converted-value" stile=""><tr><th scope="rov">Kompatibilni materijal</th><td class="tekt-align--right"><span><strong>Mrlje, lakovi, emajl, boje na bazi rastvarača</strong></span> </td></tr><tr><th scope="rov">Kompatibilna rezervna pumpa</th> <td class="tekt-align--right"><span><strong>24I472</strong></span></td></tr><tr><th scope="rov">Kabriolet</th><td class="tekt-align--right"><span><strong>Ne-kabriolet</strong></span></td></tr><tr><th scope="rov">Veličina mreže filtera</th><td class="tekt-align--right"><span><strong>100</strong></span></td></tr><tr><th scope="rov">Unutarnji prečnik creva za tečnost (in)</th> <td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (in)</th> <td class="tekt-align--right"><span><strong>1/4</strong></span></td></tr><tr><th scope="rov">Veličina izlaza tečnosti (mm)</th> <td class="tekt-align--right"><span><strong>6,35</strong></span></td></tr><tr><th scope="rov">Tip navoja izlaza tečnosti</th> <td class="tekt-align--right"><span><strong>NPSM</strong></span></td></tr><tr><th scope="rov">Konfiguracija okvira</th><td class="tekt-align--right"><span><strong>Hopper</strong></span></td></tr><tr><th scope="rov">Frekvencija (Hz)</th><td class="tekt-align--right"><span><strong>50</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključen pištolj</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik creva (in)</th><td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (cm)</th> <td class="tekt-align--right"><span><strong>0,47625</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (in)</th> <td class="tekt-align--right"><span><strong>3/16</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Prečnik ulaznog creva (mm)</th> <td class="tekt-align--right"><span><strong>4,7625</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Uključuje</th><td class="tekt-align--right"><span><strong>FTk-E pištolj za prskanje sa okidačem sa dva prsta, RAC Ks SvitchTip i FFLP210 štitnikom, filterom za pištolj od 100 mreža, BlueMak II crevom 3/16 in k 7,5 m, manometrom tečnosti</strong></ span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni protok (L/min)</th> <td class="tekt-align--right"><span><strong>1.4</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak tečnosti (psi)</th> <td class="tekt-align--right"><span><strong>3000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna dužina creva (m)</th> <td class="tekt-align--right"><span><strong>7.5</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna radna temperatura (°C)</th> <td class="tekt-align--right"><span><strong>46</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><span><strong>83</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><span><strong>0,019</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalna veličina vrha 1 pištolj (in)</th> <td class="tekt-align--right"><span><strong>0,019</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><span><strong>20.7</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><span><strong>207</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kPa)</th> <td class="tekt-align--right"><span><strong>20700</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (kg/cm²)</th> <td class="tekt-align--right"><span><strong>210,9</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><span><strong>3000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (V)</th> <td class="tekt-align--right"><span><strong>1500</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna radna temperatura (°C)</th> <td class="tekt-align--right"><span><strong>4</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Minimalna snaga generatora (kV)</th> <td class="tekt-align--right"><span><strong>0,5</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Model</th><td class="tekt-align--right"><span><strong>GKS</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip motora</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Broj oružja</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Filter boje za izlaz</th><td class="tekt-align--right"><span><strong>Ekran od nerđajućeg čelika od 60 mreža</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (cm)</th><td class="tekt-align--right"><span><strong>49,8</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (mm)</th><td class="tekt-align--right"><span><strong>497,8400</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (cm)</th><td class="tekt-align--right"><span><strong>51.3</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna dužina (mm)</th><td class="tekt-align--right"><span><strong>513.08</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (cm)</th><td class="tekt-align--right"><span><strong>34.3</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (mm)</th> <td class="tekt-align--right"><span><strong>342.9000</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Faza</th><td class="tekt-align--right"><span><strong>1</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Izvor napajanja</th><td class="tekt-align--right"><span><strong>Električna</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip proizvoda</th><td class="tekt-align--right"><span><strong>Paket spreja</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip montaže pumpe</th><td class="tekt-align--right"><span><strong>ProKschange</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip šipke pumpe</th><td class="tekt-align--right"><span><strong>Ugljenični čelik</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip pumpe</th><td class="tekt-align--right"><span><strong>ProKs klipna pumpa</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip regionalnog priključka</th> <td class="tekt-align--right"><span><strong>EU region (tip C, E & F utikač)</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Serija</th><td class="tekt-align--right"><span><strong>FF</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip pištolja za prskanje</th> <td class="tekt-align--right"><span><strong>FTKS-E</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip spreja</th><td class="tekt-align--right"><span><strong>Bezdušno</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Tip</th><td class="tekt-align--right"><span><strong>Beszračna prskalica</strong></span> </td></tr><tr class="ekpandable-table-rov"><th scope="rov">Napon (V)</th><td class="tekt-align--right"><span><strong>230</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Težina (kg)</th><td class="tekt-align--right"><span><strong>14</strong></span></td></tr><tr class="ekpandable-table-rov"><th scope="rov">Mokri materijal</th><td class="tekt-align--right"><span><strong>Nerđajući čelik, mesing, koža, UHMVPE, karbid, najlon, aluminijum, PVC, polipropilen, fluoroelastomer</strong></span> </td></tr></tbody>'
@@ -1164,7 +2243,7 @@ export const descriptions = [
     	desc: '<div class="pane" stile="displai: block;"><div><p>Ultra KuickShot je revolucionarna tehnologija, dizajnirana da pruži viši kvalitet i brže rezultate. Napravljen za savršenu završnu obradu bez vazduha, dok praktično eliminiše pljuvanje. Napravljen sa ekstremnom kontrolom prskanja za brzo podešavanje pritiska za svaku primenu.</p> <p>Najprenosiviji raspršivač u industriji daje vam mogućnost da prskate u najužem području sa preciznošću i najvećom kontrolom. Prskajte najširi spektar arhitektonskih premaza, od boja na bazi vode, do rastvarača i zapaljivih materijala. Savršeno za male poslove kao što su ormari, vrata, ukrasi, sofiti, oluci i još mnogo toga.</p> <ul class="splitColumns"><li><strong>Puška na električni pogon sa trenutnim odgovorom praktično eliminiše pljuvačke</strong> <ul><li>Smanjite zamor najlakšim povlačenjem okidača u industriji</li> <li>Najmanji, najlakši pištolj bez vazduha ikada napravljen</li> <li>Odgovara trenutno da bi se postigao najbolji završetak</li> </ul></li><li><strong>Precizni sistem za kontrolu protoka na zahtev</strong> <ul><li>Brzo podesite protok materijala za ekstremnu kontrolu raspršivanja bez vazduha</li> <li>Lako se priključite na željeni pritisak od 100-2000 psi</li> </ul></li><li><strong>Fleksibilno crevo od 6 stopa za pun domet &amp; Jednostavno upravljanje crevom</strong> <ul><li>Lako nanesite prajmer, promenite boje i očistite za nekoliko sekundi</li> <li>Pištolj i crevo drže samo 1 oz premaza</li></ul></li><li><strong>KuickShot ProConnect klipna pumpa bez vazduha</strong> <ul><li>Izdržljiva dugovečna pumpa sa trostrukim klipom</li> </ul></li><li><strong>Pour-N-Go šolja od 32 oz</strong><ul><li>Dizajn jednostavnog punjenja – dopunite na kuku</li> <li>Male količine prskajte BRZO</li></ul></li><li><strong>Moć da preuzmete svaki mali posao</strong> <ul><li>Dolazi sa dve DEVALT 20V litijum-jonske baterije</li> <li>Poprskajte do jednog galona na svaku bateriju</li> </ul></li><li><strong>Ultimativna prenosivost bez upotrebe ruku sa dodatkom za kaiš i futrolu</strong></li> </ul></div><div class="clear"></div></div>',
     	images: [quickshot, quickshot_2, quickshot_3, quickshot_4],
     	video: '',
-    	spec: '<div class="pane" stile="displai: block;"><h2 class="h5 no-margin--bottom">Tehničke specifikacije</h2> <table id="table-specifications" class="table table--convertible table-striped imperial is-ekpanded"> <tbodi class="converted-value"> <tr><th scope="rov">Napon baterije (V)</th> <td class="tekt-align--right"><strong>20</strong></td> </tr><tr><th scope="rov">Maksimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>32</strong></td> </tr><tr><th scope="rov">Maksimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>45</strong></td> </tr><tr><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><strong>0,016</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><strong>14</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><strong>138</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><strong>2000</strong></td> </tr><tr><th scope="rov">Minimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>4</strong></td> </tr><tr><th scope="rov">Minimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>0</strong></td> </tr><tr><th scope="rov">Model</th><td class="tekt-align--right"><strong>Ultra</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna visina (cm)</th> <td class="tekt-align--right"><strong>26.7</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna dužina (cm)</th> <td class="tekt-align--right"><strong>30.5</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna širina (cm)</th> <td class="tekt-align--right"><strong>15.2</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Izvor napajanja</th> <td class="tekt-align--right"><strong>Na baterije</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Serija</th><td class="tekt-align--right"><strong>KuickShot</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><strong>83</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Tip</th><td class="tekt-align--right"><strong>Airless sprej paket</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Težina (kg)</th> <td class="tekt-align--right"><strong>2.9</strong></td> </tr></tbodi></table><p>&nbsp;</p><div class="clear"></div></div>'
+    	spec: '<div class="pane" stile="displai: block;"><h2 class="h5 no-margin--bottom">Tehničke specifikacije</h2> <table id="table-specifications" class="table table--convertible table-striped imperial is-ekpanded"> <tbody class="converted-value"> <tr><th scope="rov">Napon baterije (V)</th> <td class="tekt-align--right"><strong>20</strong></td> </tr><tr><th scope="rov">Maksimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>32</strong></td> </tr><tr><th scope="rov">Maksimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>45</strong></td> </tr><tr><th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"><strong>0,016</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (MPa)</th> <td class="tekt-align--right"><strong>14</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"><strong>138</strong></td> </tr><tr><th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"><strong>2000</strong></td> </tr><tr><th scope="rov">Minimalna radna temperatura (°C)</th> <td class="tekt-align--right"><strong>4</strong></td> </tr><tr><th scope="rov">Minimalna temperatura skladištenja (°C)</th> <td class="tekt-align--right"><strong>0</strong></td> </tr><tr><th scope="rov">Model</th><td class="tekt-align--right"><strong>Ultra</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna visina (cm)</th> <td class="tekt-align--right"><strong>26.7</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna dužina (cm)</th> <td class="tekt-align--right"><strong>30.5</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Ukupna širina (cm)</th> <td class="tekt-align--right"><strong>15.2</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Izvor napajanja</th> <td class="tekt-align--right"><strong>Na baterije</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Serija</th><td class="tekt-align--right"><strong>KuickShot</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"><strong>83</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Tip</th><td class="tekt-align--right"><strong>Airless sprej paket</strong></td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Težina (kg)</th> <td class="tekt-align--right"><strong>2.9</strong></td> </tr></tbody></table><p>&nbsp;</p><div class="clear"></div></div>'
     },
     {
     	id: 47,//TODO brosura ima slika treba da se ukloni
@@ -1223,54 +2302,139 @@ export const descriptions = [
     	spec: ''
     },
     {// nema u bazi 55 jer je slucajno dupliran
-    	id: 56,
+    	id: 55,
     	desc: '<div><h2>Opis</h2></div> <div> <p>Airblast&nbsp;vazdušni kolektor je pogodan za različite primene,&nbsp; uključujući visoke performanse&nbsp;do 30 bar sa različitim sertifikatim kvaliteta, kao što su Lloyds, registrovan do&nbsp;Shipping, Buro Veritas, German Lloyds itd.</p> <p>Airblast vazdušni kolektor ima oznaku CE i isporučuje se sa manometrom, sigurnosnim ventilom&nbsp;sa sertifikatom, odvodom vode i kuglastim ventilom, PU boje, RAL boji ili pocinkovan.</p> </div>',
-    	images: [airblastReceiver],
+    	images: [airblastReceiver, airblastReceiver_2],
     	video: '',
     	spec: ''
     },
     {
-    	id: 57,
+    	id: 56,
     	desc: '<div><h2>Opis</h2></div> <div> <p>Airblast peskara sa usisivačem pruža ekološki prihvatljivo rešenje za peskarenje, koje je lako za upotrebu, višenamensko i snažno.</p> <p>Upotreba abrazivnog čelika omogućava ekonomično, efikasno i snažno peskarenje, kao i kontrolu pripreme površine. Lako pričvršćivanje delova glave za peskarenje omogućava peskarenje različitih površina: ravnih, spoljašnjih i unutrašnjih uglova, cevi malih i velikih dimenzija itd.&nbsp; Različiti dodaci su dostupni za specifične primene, kao što su peskarenje velikih horizontalnih površina ili ivica čeličnih ploča.</p> <p>Pošto je proces siguran i bez prašine moguće je obavljanje i drugih operacija u blizini peskarenja.</p> </div>',
     	images: [airblastUsisivac],
     	video: '',
     	spec: ''
     },
     {
-    	id: 58,
+    	id: 57,
     	desc: '<div><h2>Opis</h2></div> <div> <h2>Mirka® LEROS-S</h2> <p>Za one situacije kada vam je potrreban Mirka LEROS u kompaktnijem paketu, Mirka vam predstavilja novi LEROS-S. To je mašina za šmirglanje zida kompaktne dužine, konstruisana za izvođenje u zatvorenim prostorima i na velikim površinama.</p> <h2>Kraća dužina, velike performanse</h2> <p>U građevinskim i dekorativnim radovima, LEROS-S blista u šmirglanju zidova kupatila, uskim hodnicima, ugradnim ormarima i još više, sa dve namenske tačke držanja za potpunu kontrolu. LEROS-S ima dva usisna mesta za uklanjanje prašine, čineći šmirglanje gotovo bez prašine, što je značajna prednost pri radu u skučenim prostorima. I baš kao i veći LEROS, LEROS-S koristi tehnologiju motora bez četkica za konstantnu brzinu pod opterećenjem bez gubitka efikasnosti pod velikim pritiskom.</p> <h2>Lako za rukovanje</h2> <p>Zahvaljujući maloj težini, ravnoteži i lakom upravljanju, LEROS-S omogućava brže i lakše šmirglanje velikih površina. Velika brusna glava sa orbitom od 5 mm odlična je pri izravnavanju velikih površina, i u situacijama kada je teže rukovati dužom mašinom za šmirglanje. Međutim, i dalje se može opremiti produžetkom u onim slučajevima kada je potreban veći domet.</p> <h2>Velika fleksibilnost</h2> <p>Kao i kod Mirka LEROS, LEROS-S ima izuzetno fleksibilnu glavu za šmirglanje kako bi šmirglanje učinio lakšim i ergonomskijim. Bolji radni položaj znači da je potrebno manje pauza, što čini šmirglanje lakšim i poboljšava krajnji rezultat kao i produktivnost.</p> <p>&nbsp;</p> </div>',
     	images: [mirkaLeros, mirkaLeros_2, mirkaLeros_3, mirkaLeros_4, mirkaLeros_5],
     	video: '',
     	spec: ''
     },
 	{
-    	id: 59,
+    	id: 58,
     	desc: '<div class="pane" style="display: block;"> <div> <p>Mirka DEOS, električna kružna brusilica sa integrisanim inovativnim karakteristikama. Njegov motor bez četkica visoke efikasnosti omogućava punu snagu za brzo završavanje poslova. Sa samo 10 cm visine, kompaktan i vrlo nizak profil alata daje visoku upravljivost i pomaže u postizanju preciznih i efikasnih performansi brušenja.</p> <div class="tlid-source-target main-header small-font"> <div class="source-target-row"> <div class="tlid-results-container results-container"> <div class="tlid-result result-dict-wrapper"> <div class="result tlid-copy-target"> <div class="tlid-result-transliteration-container result-transliteration-container transliteration-container"> <div class="tlid-transliteration-content transliteration-content full">Naši alati su nagrađeni za svoj inovativan dizajn, a Mirka DEOS nije izuzetak, stavljajući glavni prioritet svom izvrsnom ergonomskom dizajnu kako bi se osiguralo da se brusilica može udobno koristiti duži period bez zamora.</div> </div> </div> </div> </div> <div class="jfk-button-img"></div> <div class="tlid-results-container results-container"> <div class="tlid-result result-dict-wrapper"> <div class="result tlid-copy-target"> <div class="result-footer source-or-target-footer tlid-copy-target"> <div class="tlid-suggest-edit-button suggest-edit-button jfk-button-flat source-or-target-footer-button right-positioned jfk-button" tabindex="0" role="button" aria-label="Suggest an edit" data-tooltip="Suggest an edit" data-tooltip-align="t,c"> <div class="jfk-button-img"></div> </div> </div> </div> </div> </div> </div> </div> </div> </div>',
     	images: [mirkaDeos, mirkaDeos_2],
     	video: '',
     	spec: '<div class="pane" style="display: block;"><p>Električna kružna brusilica Mirka DEOS je kompaktna i vrlo lagana. Mašina je dostupna u dve dimenzije: <strong>Mirka DEOS 383CV</strong>, 70 x 198mm, je dizajniran uglavnom za ART sektor i <strong>Mirka DEOS 353CV</strong>, 81 x 133mm, je uglavnom usmerean na drvni i CD sektor.</p> <p>&nbsp;</p> </div>'
     },
     {
-    	id: 60,
+    	id: 59,
     	desc: '<div> <p>Mirka DEROS je najkompaktnija, ergonomska i najlakša brusilica u svojoj klasi. Sa ovom nasumičnom orbitalnom brusicom dobijate:</p> <ul> <li>Moćne performanse, zahvaljujući motoru bez četkica</li> <li>Pametne funkcije, integrisani senzor vibracija i Bluetooth® tehnologija niske energije</li> <li>Inovativni dizajn</li> <li>„Ova električna brusilica impresionira svojom kompaktnom veličinom i izraženim ergonomskim kvalitetima, koji zajedno omogućavaju izuzetno bezbedan rad uređaja.“<br> (Izjava žirija Red Dot)</li> </ul> <h2>Nova Mirka DEROS 77mm – Mala veličina. Veliki učinak.</h2> <p>Da li radite sa teško dostupnim područjima?</p> <p>Nagrađivana Mirka® DEROS nije samo jedna brusilica, to je porodica. Najnoviji član, Mirka® DEROS 325/350CV, pravi rešenje za probleme i ima sve sjajne karakteristike DEROS-a uključujući:</p> <ul> <li>Lagana</li> <li>Nizak profil</li> <li>Niske vibracije</li> <li>Motor bez četkica i orbita od 2,5 mm ili 5 mm za brzo uklanjanje zaliha</li> <li>Ergonomska i simetrična alatka</li> <li>Pametna brusilica sa Bluetooth vezom</li> </ul> <h2>Motor bez četkica Mirka® DEROS vam daje više snage</h2> <p>Zahvaljujući svom visokoefikasnom patentiranom motoru bez četkica, Mirka DEROS ima dovoljno snage da brzo obavi posao. Inovativni dizajn motora bez četkica vam daje mnoge prednosti kao što su:</p> <ul> <li>Nisko održavanje</li> <li>Dug životni vek</li> <li>Brzina</li> </ul> <p>Mirka DEROS je najlakša i najkompaktnija profesionalna nasumična orbitalna brusilica na tržištu.</p> <h2>Mirka DEROS – savršena brusilica za sve profesionalce</h2> <p>Lagana (1 kg) čini Mirku DEROS savršenim partnerom za vaše izazove brušenja. Evo nekih od prednosti:</p> <ul> <li>Lako se kreće, nije potrebno spoljno napajanje.</li> <li>Možete lako da ga koristite sa dve ruke, zahvaljujući dizajnu tela alata. Ovo je odlično za teške primene brušenja, npr. gusto skidanje boje.</li> <li>Nizak dizajn vam daje dobru kontrolu nad procesom brušenja jer vam je ruka blizu površine</li> <li>Podloga u kombinaciji sa Mirkinim rešenjima bez prašine olakšava brušenje bez opasne prašine i&nbsp;izbegava dodatno čišćenje zbog&nbsp;prašine tokom procesa farbanja.</li> <li>Mala težina i&nbsp;ergonomske karakteristike olakšavaju&nbsp;posao, posebno kada brusite veće površine</li> <li>Veoma efikasan rezultat brušenja, ali i dalje&nbsp;glatka završna obrada.</li> </ul> <h2>Brusenje bez prašine – uštedite svoje zdravlje, vreme i novac</h2> <p>Da li ste prekriveni prašinom prilikom brušenja? Sačuvajte svoja pluća i novčanik prelaskom na brušenje bez prašine.<br> Kako je Mirkino uklanjanje prašine tako efikasno? Zahvaljujući savršenoj kombinaciji jastučića sa više otvora na Mirka DEROS brusilici i Mirkinih originalnih abraziva bez prašine, Abranet.</p> <p>Prilikom brušenja bez prašine dobijate:<br> Zdravstvene koristi: sprečite da opasna prašina uđe u vaša pluća<br> Ušteda: koristite manje abraziva, pošto Abranet traje duže<br> Ušteda novca: trošite manje vremena na čišćenje i umesto toga pređite na sledeći posao<br> Brže brušenje: čisti abrazivi bolje seku</p> <p>Ovde pročitajte više o svim prednostima brušenja bez prašine:&nbsp;<a title="Dus-free" href="https://vvv.mirka.com/dust-free/" target="_blank" rel="noopener noreferrer">Bez prašine&nbsp;</a></p> <h2>Pametnije peskajte uz miMirka</h2> <p>Mirka DEROS ima integrisan senzor vibracije i Bluetooth®&nbsp;tehnologiju. Zahvaljujući&nbsp;<a title="miMirka" href="https://vvv.mirka.com/mimirka/" target="_blank" rel="noopener noreferrer">miMirka&nbsp;</a>aplikaciji možete:</p> <ul> <li>Pratite podatke o vibracijama i brzini.</li> <li>Popunite registraciju garancije u nekoliko klikova</li> <li>Pronađite priručnike</li> <li>Dobijte najnovije vesti</li> </ul> </div>',
     	images: [mirkaDeros, mirkaDeros_2],
     	video: '',
     	spec: ''
     },
     {
-    	id: 61,
+    	id: 60,
     	desc: '<div><h2>Karakteristike</h2></div> <div class="rov split-image-content"> <div class="col-sm"> <div class="force-stand-font"> Kada vaš posao zahteva maksimalnu produktivnost i svestranost, obratite se DutiMak GH 300 HD prskalici da biste obavili posao—<em>brzo! </em>Opremljen sa većom snagom i dugim hodom pumpe za direktno uranjanje, ovaj hidraulični radni konj je napravljen za najveće, najzahtevnije poslove i materijale. </div> <p>Graco-ova standardna serija DutiMak HD gasnih hidrauličnih raspršivača sa direktnim uranjanjem pruža svakodnevnu pouzdanost i performanse dok lako rukuje najširim rasponom veličina vrhova, dužim crevima i teškim materijalima kao što su malteri, elastomeri, sredstva za usporavanje požara i tečna rešenja za krovove.</p> <ul class="splitColumns"> <li><strong>Pumpa za izdržljivost</strong><br> <ul> <li>Najpouzdanija pumpa</li> <li>Traje 2k duže od sledećeg brenda</li> <li>Bolje performanse prskanja i brzo čišćenje</li> <li>Uključene su duge kuglice od keramike i nerđajućeg čelika za maksimalnu raznovrsnost</li> </ul></li> <li><strong>MakFlo 2 sa zaštitom od paketa</strong><br> <ul> <li>Manje pakovanja, veća produktivnost</li> <li>Samočistiva tehnologija Vibra-Seal eliminiše nakupljanje materijala</li> <li>Kontinuirano prskanje sa True Pack-Out zaštitom za veću produktivnost</li> <li>Optimizovani prolazi za tečnost za najteže premaze</li> </ul></li> <li><strong>Hidraulični motor visoke efikasnosti</strong><br> <ul> <li>Brže završite poslove</li> <li>Brza promena koja reaguje</li> <li>Manje održavanja i duži vek sa manje pokretnih delova</li> <li>100% O-prstenovi zaptiveni fitinzi sprečavaju curenje</li> </ul></li> <li><strong>Sistem za hlađenje velikog kapaciteta</strong><br> <ul> <li>Smanjeno vreme zastoja</li> <li>Inovativni dizajn omogućava pumpi da radi hladnije i efikasnije uz izuzetno tih rad</li> <li>Lakše i temeljnije promene tečnosti</li> <li>Rebra za hlađenje rezervoara odbijaju više toplote</li> </ul></li> <li><strong>Honda® GKS motor</strong><br> <ul> <li>Pouzdan, moćan &amp; Jednostavan za pokretanje</li> <li>Oil Alert gasi motor da bi sprečio oštećenje ako nivo ulja padne prenizak</li> </ul></li> <li><strong>Easi Out Pump Filter</strong><br> <ul> <li>Jednostavno održavanje &amp; Manje začepljenja</li> <li>Veliko područje filtriranja za lakše čišćenje &amp; manje začepljenja vrhova obezbeđuje kvalitetnu završnu obradu</li> <li>Neće se srušiti ili zaglaviti u procesu filtriranja iznutra</li> </ul></li> <li><strong>Pripremni ventil za teške uslove rada</strong><br> <ul> <li>Mogućnost izbacivanja pod visokim pritiskom</li> <li>Dizajn bez održavanja</li> </ul></li> <li><strong>Izdržljiv dizajn kolica</strong><br> <ul> <li>Robljiv i lak za manevrisanje</li> <li>Izdrži teške uslove na gradilištu dok apsorbuje udarce i vibracije</li> <li>Uvlačiva ručka služi i kao skladište za namotano crevo</li> </ul></li> </ul> </div> </div>',
     	images: [dutyMax300_3in1],
     	video: '',
     	spec: '<tbody class="converted-value" stile="displai: table-rov-group;"> <tr> <th scope="rov">Kompatibilni materijal</th> <td class="tekt-align--right"> <span><strong>Predmaz, boja na bazi vode, akril, lateks, boje na bazi rastvarača, punilo blokova, blato za gipsane zidove, elastomerni premaz</strong></span> </td> </tr> <tr> <th scope="rov">Kabriolet</th> <td class="tekt-align--right"> <span><strong>Da</strong></span> </td> </tr> <tr> <th scope="rov">Brend motora</th> <td class="tekt-align--right"> <span><strong>Honda</strong></span> </td> </tr> <tr> <th scope="rov">Veličina motora (kV)</th> <td class="tekt-align--right"> <span><strong>6.7</strong></span> </td> </tr> <tr> <th scope="rov">Funkcije</th> <td class="tekt-align--right"> <span><strong>Pumpa za izdržljivost, MakFlo 2, sistem za hlađenje velikog kapaciteta, Honda motor, filter koji se lako uklanja, glavni ventil za teške uslove rada, izdržljiv dizajn kolica</strong></span> </td> </tr> <tr> <th scope="rov">Veličina ulaza tečnosti (in)</th> <td class="tekt-align--right"> <span><strong>1-5/16</strong></span> </td> </tr> <tr> <th scope="rov">Tip navoja za ulaz tečnosti</th> <td class="tekt-align--right"> <span><strong>UN-2A</strong></span> </td> </tr> <tr> <th scope="rov">Veličina izlaza tečnosti (in)</th> <td class="tekt-align--right"> <span><strong>3/8</strong></span> </td> </tr> <tr> <th scope="rov">Tip navoja izlaza tečnosti</th> <td class="tekt-align--right"> <span><strong>NPT</strong></span> </td> </tr> <tr> <th scope="rov">Konfiguracija okvira</th> <td class="tekt-align--right"> <span><strong>Kolica</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Prečnik ulaznog creva (cm)</th> <td class="tekt-align--right"> <span><strong>0,95</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Prečnik ulaznog creva (in)</th> <td class="tekt-align--right"> <span><strong>3/8</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Uključuje</th> <td class="tekt-align--right"> <span><strong>Ugrađeni pištolj za teksturu za teške uslove rada, RAC Ks LTKS 643 vrh za prskanje, RAC Ks VideRAC 1239 vrh za prskanje, RAC Ks zaštita, 1/2 in k 50 ft BlueMak II Airless crevo, 3/8 in k 11 ft 10 in BlueMak II Airless, Štitnik za BlueMak II, T><span> </td> </tr><tr class="ekpandable-table-rov"> <th scope="rov">Primena materijala</th> <td class="tekt-align--right"> <span><strong>Boje, prajmeri</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalni protok (L/min)</th> <td class="tekt-align--right"> <span><strong>11.3</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalna dužina creva (m)</th> <td class="tekt-align--right"> <span><strong>15</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalni nivo zvučnog pritiska (dB(A))</th> <td class="tekt-align--right"> <span><strong>96</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalna veličina vrha (in)</th> <td class="tekt-align--right"> <span><strong>0,057</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalni radni pritisak (bar)</th> <td class="tekt-align--right"> <span><strong>227</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalni radni pritisak (kPa)</th> <td class="tekt-align--right"> <span><strong>2270</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Maksimalni radni pritisak (psi)</th> <td class="tekt-align--right"> <span><strong>3300</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Model</th> <td class="tekt-align--right"> <span><strong>DutiMak HD</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Broj oružja</th> <td class="tekt-align--right"> <span><strong>1</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Filter boje za izlaz</th> <td class="tekt-align--right"> <span><strong>Ekran od nerđajućeg čelika od 60 mreža</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ukupna visina (cm)</th> <td class="tekt-align--right"> <span><strong>90</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ukupna visina (mm)</th> <td class="tekt-align--right"> <span><strong>901.7000</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Overall Dužina (cm)</th> <td class="tekt-align--right"> <span><strong>121</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ukupna dužina (mm)</th> <td class="tekt-align--right"> <span><strong>1211,58</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ukupna širina (cm)</th> <td class="tekt-align--right"> <span><strong>67</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ukupna širina (mm)</th> <td class="tekt-align--right"> <span><strong>673.1000</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Ocena snage (cc)</th> <td class="tekt-align--right"> <span><strong>270</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Naziv snage (kV)</th> <td class="tekt-align--right"> <span><strong>6.7</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Izvor napajanja</th> <td class="tekt-align--right"> <span><strong>Hidraulični gas</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Serija proizvoda</th> <td class="tekt-align--right"> <span><strong>Standardni</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Tip montaže pumpe</th> <td class="tekt-align--right"> <span><strong>KuikChange</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Tip šipke pumpe</th> <td class="tekt-align--right"> <span><strong>Hard Chrome</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Materijal rukava pumpe</th> <td class="tekt-align--right"> <span><strong>Kaljeni nerđajući čelik</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Tip pumpe</th> <td class="tekt-align--right"> <span><strong>Izdržljivost</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Preporučena godišnja upotreba</th> <td class="tekt-align--right"> <span><strong>100-200 galona nedeljno</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Serija</th> <td class="tekt-align--right"> <span><strong>GH 300</strong></span></td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Tip</th> <td class="tekt-align--right"> <span><strong>Beszračna prskalica</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Težina (kg)</th> <td class="tekt-align--right"> <span><strong>99</strong></span> </td> </tr> <tr class="ekpandable-table-rov"> <th scope="rov">Mokri materijal</th> <td class="tekt-align--right"> <span><strong>Pocinkovani ugljenični čelik, niklovani ugljenični čelik, nerđajući čelik, PTFE, acetal, hromirana, koža, UHMVPE, nerđajući čelik, volfram karbid, keramika, najlon, aluminijum</strong></span> </td> </tr> </tbody>'
     },
     {
-    	id: 62,//Ne znam koji je texspray u pitanju?????!?!?!
+    	id: 61,//Ne znam koji je texspray u pitanju?????!?!?!
     	desc: '',
     	images: [texSprayRTX, texSprayRTX_2, texSprayRTX_3, texSprayRTX_4],
     	video: '',
     	spec: ''
     },
+    {
+    	id: 62,
+    	desc: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Mirka usisivač prašine 1230 L</h1><div class="m-b-6 m-b-7-lg"><p>Ovaj profesionalni usisivač ima motor i turbinu visokih performansi, koji stvaraju vakuum od 250 mbar i protok vazduha od 4 500 l/min. Funkcija AutoStart produžava životni vek motora i smanjuje buku. Ravni vrh sa prostorom za odlaganje i velikim točkovima za bolju upravljivost. Čišćenje filtera (automatsko ili Push&amp;Clean, u zavisnosti od modela) za praktičnost i dosledan učinak. Čuvanje creva i kablova za udobniji transport. Uključena je i vreća za prašinu od flisa. Preporučuje se Mirka antistatičko crevo (nije uključeno).</p></div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b -7-lg">Uklanjanje prašine</div><p class="f-bold m-b-3 m-t-6 u-print-label">Vrsta čišćenja filtera</p><button tipe="button" aria-label ="Tip čišćenja filtera: Automatsko čišćenje filtera" class="filter filter--big selected">Automatsko čišćenje filtera</button><button tipe="button" aria-label="Tip čišćenja filtera: Push & Clean" klasa ="filter filter--big">Push &amp; Čisti</button><p class="f-bold m-b-3 m-t-6 u-print-label">Napon</p><button tipe="button" aria-label="Napon: 220-240" klasa ="filter filter--big selected">220-240</button></div>',
+    	images: [mirkaDustExtractor, mirkaDustExtractor_2, mirkaDustExtractor_3, mirkaDustExtractor_4],
+    	video: '',
+    	spec: '<section class="col-xs-12 col-sm-12 p-v-adaptive"><h2 class="title text-center">Tehnički detalji</h2><div class="technical-table"><div class="technical-table-row u-flex"><div class="technical-table-row__key">Klasa prašine</div><div class="technical-table-row__value">L</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Zapremina posude za prašinu (l)</div><div class="technical-table-row__value">30.0 L</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Visina</div><div class="technical-table-row__value">565 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Dužina</div><div class="technical-table-row__value">565 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Mrežna frekvencija (Hz)</div><div class="technical-table-row__value">50/60 Hz</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Nivo buke, LpA (dB)</div><div class="technical-table-row__value">59.0 dB</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Ulazna snaga (W)</div><div class="technical-table-row__value">1200 W</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Vacuum (mbar)</div><div class="technical-table-row__value">250.0 mbar</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Zapremina protoka vazduha (l/min)</div><div class="technical-table-row__value">4500.0 l/min</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Težina</div><div class="technical-table-row__value">14.5 kg</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Širina</div><div class="technical-table-row__value">385 mm</div></div></div></section>'
+    },
+    {
+    	id: 63,
+    	desc: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Mirka® DEOS Delta 663CV EU 100 x 152 x 152 mm 3,0 mm orbita</h1><div class="m-b-6 m-b-7-lg"> Mirka® DEOS Delta 663CV ugaona brusilica je deo Mirkinog asortimana proizvoda DEOS (Direktna električna orbitalna brusilica) . Sa samo 10 cm visine, njegove kompaktne dimenzije osiguravaju visoku upravljivost i odličnu ravnotežu. Mirka® DEOS Delta je idealna za precizno i efikasno brušenje uglova, profila, vertikalnih i teško dostupnih mesta pod bilo kojim uglom. Ovaj model ima jastučić sa više otvora 100k152k152 mm za efikasno usisavanje prašine i orbitu od 3 mm za efikasno i brzo uklanjanje materijala. Mirka® DEOS Delta je mala i lagana zahvaljujući svom motoru bez četkica i naprednom inženjeringu. Sa udobnim i ergonomskim rukohvatom, može se koristiti dugo vremena bez umora. Poluga laka za rukovanje omogućava trenutno podešavanje brzine, a poseban prekidač za uključivanje/isključivanje obezbeđuje lako i bezbedno rukovanje. Mirka® DEOS Delta dolazi sa integrisanim senzorom vibracije i Bluetooth niskoenergetskom tehnologijom tako da možete da pratite podatke o vibracijama, brzini i korišćenju putem aplikacije miMirka. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 m-t-6 u-print-label">Opcije pakovanja</p><button tipe="button" aria-label="Opcije pakovanja: kartonska kutija" class="filter filter-- big selected">Kartonska kutija</button></div>',
+    	images: [mirkaDeosDelta, mirkaDeosDelta_2, mirkaDeosDelta_3, mirkaDeosDelta_4],
+    	video: '',
+    	spec: '<section class="col-xs-12 col-sm-12 p-v-adaptive"><h2 class="title text-center">Tehnički detalji</h2><div class="technical-table"><div class="technical-table-row u-flex"><div class="technical-table-row__key">Konektivnost</div><div class="technical-table-row__value">Bluetooth</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Sistem prašine</div><div class="technical-table-row__value">Centralni usisivač spreman</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Maksimalna brzina (rpm)</div><div class="technical-table-row__value">10000 rpm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Minimalna brzina (rpm)</div><div class="technical-table-row__value">5000 rpm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Nivo buke, LpA (dB)</div><div class="technical-table-row__value">68.0 dB</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Orbita</div><div class="technical-table-row__value">3 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Tip orbite</div><div class="technical-table-row__value">Orbitalni</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Visina jastučića</div><div class="technical-table-row__value">152 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Dužina jastučića</div><div class="technical-table-row__value">152 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Širina jastučića</div><div class="technical-table-row__value">100 mm</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Tip utikača</div><div class="technical-table-row__value">EU</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Ulazna snaga (W)</div><div class="technical-table-row__value">250 W</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Nivo vibracije (m/s²)</div><div class="technical-table-row__value">2.6 m/s²</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Napon napajanja (VAC)</div><div class="technical-table-row__value">220-240 VAC</div></div><div class="technical-table-row u-flex"><div class="technical-table-row__key">Težina</div><div class="technical-table-row__value">0.97 kg</div></div></div></section>'
+    },
+    {
+		id: 64,
+    	desc: '<div> <p>Ova mašina je dizajnirana za horizontalno bevazdušno obeležavanje puteva bojom uz istovremeno nanošenje na reflektujuće staklene perle na ulicama, parkiralištima i industrijskim lokacijama. Jedno punjenje boje je dovoljno za nanošenje 200 m2 oznaka.</p><p>Širina od 1,3 m omogućava korišćenje mašine bez ometanja gradskog saobraćaja.</p><p>&nbsp;</p> <p>OPIS<br> Kontur 100 je dizajniran za nanošenje horizontalnih oznaka na putu korišćenjem brzosušećih boja i staklenih perli.</p><p>PRIJAVA<br> Kompaktna veličina mašine omogućava nanošenje oznaka na gradskim ulicama, parkiralištima i parking prostorima. Tehnologija bezvazdušnog obeležavanja, gde pritisak boje može da dostigne 140 bara, omogućava korišćenje materijala za obeležavanje puta visokog viskoziteta (70 do 140 sekundi mereno sa Ford # 4 šoljom) sa visokim sadržajem čvrstih materija. Takve boje se brzo suše i ne razmazuju se kada se nanose u debelim slojevima (do 650 mm).<br>Visokokvalitetne komponente obezbeđuju pouzdanost i dug radni vek opreme. U mašini koristimo komponente vodećih kompanija kao što su Briggs &amp; Straton, Graco, Danfoss, Festo, Fini i Kamber.</p><p>STANDARDNA KONFIGURACIJA:<br> – Centralna jedinica za obeležavanje sa tri para pištolja za farbanje i staklene perle (Kamber);<br>– Desna jedinica za obeležavanje, bez oružja;<br> – Kontrolna tabla za označavanje M12;<br> – Dugme START na nožnoj pedali na kontrolnoj tabli za označavanje;<br>– Merač protoka boje;<br> – Ručni pištolj sa crevom od 10 m;<br> – Trepćuća svetla na krovu;<br> – Reflektor za jedinicu za obeležavanje;<br> – Osvetljenje radnog mesta operatera.</p> <p>OPCIJE:<br> – Dugme daljinskog upravljača duplira dugme START na kontrolnoj tabli za označavanje;<br>– Džojstik za brz izbor programa na kontrolnoj tabli M12;<br>– Dodatni četvrti par pištolja za farbanje i staklene perle (Kamber) na desnoj jedinici za označavanje;<br>– Leva jedinica za obeležavanje, bez pušaka;<br> – Foto senzor početka linije (može se ugraditi na bilo koji pištolj);<br>– produžetak ručnog pištolja za farbanje od 50 cm;<br> – Ručni mlazni vazdušni pištolj za čišćenje radne opreme;<br>– Zadnja platforma ili<br> – Zadnja platforma sa sedištem.</p>',
+    	images: [kontur100],
+    	video: '',
+    	spec: '<div class="pane" stile="displai: block;"><h3 class="uk-panel-title">Osnovne specifikacije</h3><div class="uk-margin-top"><div class="uk-margin-top"><table class="uk-table uk-table-striped uk-table-condensed uk-table-hover" border="0"><tbody> <tr> <td colspan="2">Vrsta prskanja</td><td>Bezdušno</td> </tr> <tr> <td colspan="2">„Briggs &amp; Straton” snaga motora, mak</td><td>23 h.p.</td> </tr> <tr> <td colspan="2">Vrsta goriva motora</td><td>benzin (e92)</td></tr> <tr> <td colspan="2">Nominalni kapacitet pumpe za farbanje</td><td>9,5 l/min</td></tr> <tr> <td colspan="2">Kapacitet rezervoara za boju</td><td>100 kg</td> </tr> <tr> <td colspan="2">Kapacitet rezervoara za perle</td><td>30 kg</td> </tr> <tr> <td colspan="2">Radna brzina</td><td>6 km\h</td> </tr> <tr> <td colspan="2">Brzina transporta</td><td>do 9 km/h</td></tr> <tr> <td colspan="2">Maksimalni radni nagib puta</td><td>20%</td> </tr> <tr> <td colspan="2">Ukupne dimenzije (dužina k širina k visina):</td><td></td> </tr> <tr> <td colspan="2">radna pozicija</td><td>4,4 k 1,3 k 2,1 m</td></tr> <tr> <td colspan="2">transportna pozicija</td><td>2,8 k 1,3 k 2,1 m</td></tr> <tr> <td colspan="2">Sopstvena težina</td><td>980 kg</td> </tr> <tr> <td colspan="2">Osoblje</td><td>1 osoba</td> </tr> </tbody> </table> </div> </div> <div class="clear"></div></div>'
+    },
+    {
+    	id: 65,
+    	desc: '<div> <p>Ova mašina je dizajnirana za horizontalno bevazdušno obeležavanje puteva. Rezervoar za farbu dovoljno veliki za 1.200 m2 oznaka i visoka manevarska sposobnost omogućava obeležavanje ulica i opštinskih/saveznih autoputeva. Širina od 1,3 m omogućava korišćenje mašine bez ometanja gradskog saobraćaja.</p><p>OPIS</p> <p>Kontur 600 je dizajniran za horizontalno obeležavanje puteva korišćenjem brzosušećih boja i retroreflektujućih staklenih perli.</p><p>PRIJAVA</p> <p>Veličina mašine omogućava postavljanje oznaka na putevima u gradu i van grada bez ometanja saobraćaja. Hidraulički pogon na točkovima obezbeđuje nesmetan rad. Uređaj za nišanjenje može da se podigne ili spusti sa radnog mesta rukovaoca da bi se mašina brzo dovela iz transportnog položaja u radni položaj i nazad.</p><p>Tehnologija bezvazdušnog obeležavanja, gde pritisak boje može da dostigne 130 bara, omogućava korišćenje materijala za obeležavanje puteva visokog viskoziteta (70 do 140 sekundi mereno sa Ford #4 čašom) sa visokim sadržajem čvrstih materija. Takve boje se brzo suše i ne razmazuju se kada se nanose u debelim slojevima (do 650 mm).</p><p>Komponente visokog kvaliteta obezbeđuju pouzdanost i dug radni vek opreme. U mašini koristimo komponente vodećih kompanija kao što su Perkins, Graco, Danfoss, Festo, Fini i Kamber.</p><p>STANDARDNA KONFIGURACIJA:</p> <ul> <li>Centralna jedinica za obeležavanje sa tri para pištolja za farbanje i staklene perle (Kamber);</li><li>Desna jedinica za obeležavanje, bez oružja;</li> <li>Kontrolna tabla za označavanje M12;</li> <li>Dugme START sa duplom nožnom pedalom na kontrolnoj tabli za označavanje;</li><li>Merači protoka boje;</li> <li>Ručni pištolj sa crevom od 10 m;</li> <li>Svetla na krovu;</li> <li>Reflektor za jedinicu za obeležavanje;</li> <li>Osvetljenje radnog mesta operatera;</li> <li>Hidraulični pogon za podizanje/spuštanje centralne jedinice za obeležavanje;</li><li>Hidraulički pogon za podizanje/spuštanje nišanskog uređaja;</li></ul> </div>',
+    	images: [kontur600],
+    	video: '',
+    	spec: '<div class="pane" stile="displai: block;"><h3 class="uk-panel-title">Osnovne specifikacije</h3><table vidth="623"> <tbody> <tr> <td vidth="386"><strong>Parametar</strong></td><td vidth="237"><strong>Kontur 600</strong></td></tr> <tr> <td vidth="386">Tip motora</td><td vidth="237">Dizel</td></tr> <tr> <td vidth="386">Snaga motora, kV</td><td vidth="237">44,7</td></tr> <tr> <td vidth="386">Snaga motora, ks</td><td vidth="237">61</td></tr> <tr> <td vidth="386">Proizvođač motora</td><td vidth="237">Perkins</td></tr> <tr> <td vidth="386">Cilindri</td><td vidth="237">4</td></tr> <tr> <td vidth="386">Kapacitet motora, cm3</td><td vidth="237">2.212</td></tr> <tr> <td vidth="386">Maksimalna brzina motora, o/min</td><td vidth="237">3.000</td></tr> <tr> <td vidth="386">Odobrenje</td><td vidth="237">EU Stage INA<p></p><p>(TlER 2)</p></td> </tr> <tr> <td vidth="386">Generator, A</td><td vidth="237">90</td></tr> <tr> <td vidth="386">Kompresor</td><td vidth="237">Klip</td></tr> <tr> <td vidth="386">Kapacitet kompresora (ulaz), L/min</td><td vidth="237">556</td></tr> <tr> <td vidth="386">Maksimalni radni nagib puta, %</td><td vidth="237">20</td></tr> <tr> <td vidth="386">Maksimalna mogućnost nagiba, %</td><td vidth="237">30</td></tr> <tr> <td vidth="386">Brzina vožnje, km/h</td><td vidth="237">12</td></tr> <tr> <td vidth="386">Rezervoar sa staklenim perlama, L</td><td vidth="237">2×55</td></tr> <tr> <td vidth="386">Rezervoar sa staklenim perlama, kg</td><td vidth="237">170</td></tr> <tr> <td vidth="386">Kontrolna tabla</td><td vidth="237">M12</td></tr> <tr> <td vidth="386">Tip prikaza</td><td vidth="237">Boja, TFT 480×640</td></tr> <tr> <td vidth="386">Veličina slike na ekranu, inči</td><td vidth="237">5.7</td></tr> <tr> <td vidth="386">Unapred podešeni programi</td><td vidth="237">Do 24</td></tr> <tr> <td vidth="386">Dugmad za brzi izbor programa</td><td vidth="237">8</td></tr> <tr> <td vidth="386">Režimi kontrolne table (automatski/poluautomatski/ručni)</td><td vidth="237">Dostupno</td></tr> <tr> <td vidth="386">Materijal za obeležavanje (glavni/opcioni)</td><td vidth="237">Boja/<p></p><p>Plastika u spreju 100:2</p></td></tr> <tr> <td vidth="386">Maksimalna brzina obeležavanja, km/h<p></p><p>(sa glavnim/opcionim materijalom)</p></td><td vidth="237">7</td></tr> <tr> <td vidth="386">Maksimalna količina materijala za obeležavanje, kg</td><td vidth="237">600</td></tr> <tr> <td vidth="386">Maksimalna zapremina učvršćivača, L</td><td vidth="237">30</td></tr> <tr> <td vidth="386">Kapacitet rezervoara za gorivo, L</td><td vidth="237">40</td></tr> <tr> <td vidth="386">Kapacitet rezervoara za ulje, L</td><td vidth="237">75</td></tr> <tr> <td vidth="386">Kapacitet rezervoara za glavni materijal, L</td><td vidth="237">375</td></tr> <tr> <td vidth="386">Oružje (aplikatori)</td><td vidth="237">3</td></tr> <tr> <td vidth="386">Širina dvostruke linije, mm</td><td vidth="237">Do 150</td></tr> <tr> <td vidth="386">Širina jedne linije, mm</td><td vidth="237">Do 300</td></tr> <tr> <td vidth="386">Ukupne dimenzije (DkŠkV), mm:</td><td vidth="237"></td> </tr> <tr> <td vidth="386">– Radna pozicija</td><td vidth="237">5.200×2.000×2.100</td></tr> <tr> <td vidth="386">– Transportna pozicija</td><td vidth="237">3.400×1.300×2.100</td></tr> <tr> <td vidth="386">Masa bez tereta, kg</td><td vidth="237">1.700</td></tr> <tr> <td vidth="386">Ukupna težina, kg</td><td vidth="237">2.600</td></tr> </tbody> </table> <div class="clear"></div></div>'
+    },
+    {
+    	id: 66,
+    	desc: '<div> <div class="force-stand-font"> <p>Prenosivi višekomponentni raspršivač Reactor E-8p nudi mobilnost i efikasnost koji su vam potrebni za obavljanje poslova punjenja spojeva malih i srednjih veličina sa lakoćom. Sa lakom kontrolom i mogućnošću pumpanja direktno iz kanta za materijal od pet galona, Reactor E-8p može vam pomoći da smanjite radno vreme i troškove rada.</p></div> <p>Reactor E-8p je idealan za male i srednje aplikacije punjenja spojeva bez toplote</p><ul class="splitColumns"> <li><strong>Lagan i prenosiv</strong><ul> <li>Ugrađene ručke za lako nošenje</li><li>Teži samo 43 kg (95 funti)</li><li>Lako za manevrisanje</li> <li>Jednostavno hranjenje iz sifona iz kanti od 19 L (5 Gal)</li></ul> </li> <li><strong>Efikasno i brzo</strong><ul> <li>Jednostavne korisničke kontrole</li><li>Električni motor nudi visoke performanse uz smanjenje operativnih troškova</li><li>Preporučeni maksimalni izlaz od 0,95 lpm (0,25 gpm)</li></ul> </li> <li><strong>Napravljeno za maksimalnu upotrebljivost</strong><ul> <li>Jednostavno rukovanje jednim kontrolnim dugmetom</li><li>Ugrađeni omotač creva čini skladištenje opreme jednostavnim i brzim</li><li>Uključuje se u standardnu zidnu utičnicu</li><li>Ugrađeni usisni vodovi omogućavaju upotrebu sa kantama od 19 L (5 gal)</li></ul> </li> <li><strong>futrola za usisne vodove</strong><ul> <li>Drži cevi na mestu tokom transporta; sprečava kapljanje.</li></ul> </li> <li><strong>Lagan i prenosiv</strong><ul> <li>Lako manevrisanje uz i niz stepenice, gde god da ide – samo 43 kg (95 lb)</li></ul> </li> <li><strong>Alarm/Indikator statusa</strong><ul> <li>Isključuje jedinicu ako postoje uslovi van odnosa – obezbeđuje penu dobrog kvaliteta na gradilištu</li></ul> </li> <li><strong>Isušivač vazduha</strong><ul> <li>Omogućava uvlačenje vazduha u kantu; štiti materijal od kontaminacije.</li></ul> </li> <li><strong>Ventili za balansiranje pritiska</strong><ul> <li>Brzo i lako balansiranje pritisaka sistema omogućava pravilno pokretanje</li></ul> </li> <li><strong>Priključak izliva kašike sa navojem</strong><ul> <li>Čuva vašu vezu bezbednom i sprečava izlivanje</li></ul> </li> <li><strong>Električni motor</strong><ul> <li>Dokazane performanse motora i smanjeni operativni troškovi; uključuje u standardnu stambenu utičnicu</li></ul> </li> </ul> </div>',
+    	images: [reaktorE_8P],
+    	video: '',
+    	spec: '<div id="tech-specs" class="col-sm-6"><div class="d-flek justifi-content-betveen flek-vrap"><h2 class="h5 no-margin--bottom">Tehničke specifikacije</h2></div> <table id="table-specifications" class="table table--convertible table-striped metric is-ekpanded"><tbody class="converted-value"> <tr> <th scope="rov">Veličina ulaza za vazduh (cm)</th><td class="tekt-align--right"><strong>0,635</strong></td></tr> <tr> <th scope="rov">Veličina ulaza za vazduh (in)</th><td class="tekt-align--right"><strong>1/4</strong></td></tr> <tr> <th scope="rov">Veličina ulaza za vazduh (mm)</th><td class="tekt-align--right"><strong>6.35</strong></td></tr> <tr> <th scope="rov">Tip navoja za ulaz vazduha</th><td class="tekt-align--right"><strong>Pin za brzo isključivanje</strong></td></tr> <tr> <th scope="rov">Veličina otvora za vazduh (cm)</th><td class="tekt-align--right"><strong>0,635</strong></td></tr> <tr> <th scope="rov">Veličina otvora za vazduh (in)</th><td class="tekt-align--right"><strong>1/4</strong></td></tr> <tr> <th scope="rov">Veličina otvora za vazduh (mm)</th><td class="tekt-align--right"><strong>6.35</strong></td></tr> <tr> <th scope="rov">Pol navoja za izlaz vazduha</th><td class="tekt-align--right"><strong>Muški</strong></td></tr> <tr> <th scope="rov">Tip navoja za izlaz vazduha</th><td class="tekt-align--right"><strong>NPSM</strong></td></tr> <tr> <th scope="rov">Aplikacija</th> <td class="tekt-align--right"><strong>Pena u spreju</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip aplikatora</th><td class="tekt-align--right"><strong>Priručnik</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Kompatibilni materijal</th><td class="tekt-align--right"><strong>Množinske komponente</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip komponente</th><td class="tekt-align--right"><strong>Dve komponente</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip ispiranja</th><td class="tekt-align--right"><strong>Rastvarač</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Frekvencija (Hz)</th><td class="tekt-align--right"><strong>50/60</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip pištolja</th><td class="tekt-align--right"><strong>Fusion AP</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Dužina creva (m)</th><td class="tekt-align--right"><strong>15</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Uključuje</th> <td class="tekt-align--right"><strong>Proporcioner, Fusion AP pištolj, izolovani snop creva</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Primena materijala</th><td class="tekt-align--right"><strong>Poliuretanska pena</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Maksimalni protok (kg/min)</th><td class="tekt-align--right"><strong>5.44</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Maksimalni odnos mešanja</th><td class="tekt-align--right"><strong>1:1</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Model</th> <td class="tekt-align--right"><strong>Reaktor</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna dubina (cm)</th><td class="tekt-align--right"><strong>38.3</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna dubina (mm)</th><td class="tekt-align--right"><strong>383</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (cm)</th><td class="tekt-align--right"><strong>61.3</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna visina (mm)</th><td class="tekt-align--right"><strong>613</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (cm)</th><td class="tekt-align--right"><strong>87.8</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Ukupna širina (mm)</th><td class="tekt-align--right"><strong>878</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Izvor napajanja</th><td class="tekt-align--right"><strong>Električni</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip pritiska</th><td class="tekt-align--right"><strong>Nizak pritisak</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip proizvoda</th><td class="tekt-align--right"><strong>Komponenta množine</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Serija</th> <td class="tekt-align--right"><strong>E-8P</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Nivo zvučnog pritiska (dB(A))</th><td class="tekt-align--right"><strong>94.4</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Tip</th> <td class="tekt-align--right"><strong>Paket za određivanje proporcija</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Težina (kg)</th> <td class="tekt-align--right"><strong>43.1</strong></td></tr> <tr class="ekpandable-table-rov"><th scope="rov">Mokri materijal</th><td class="tekt-align--right"><strong>Aluminijum, mesing, karbid, ugljenični čelik, hrom, PTFE, nerđajući čelik, UHMVPE</strong></td></tr> </tbody> </table> <div class="pt-4 pb-4 table-specifications-shov-more"></div></div>'
+    },
+    {
+    	id: 67,
+    	desc: '<div> <p><b>Tehnologija nove generacije za instalaciju raspršivača za penu</b></p><p>Šta hidraulični sistem može učiniti za vas:</p><ul> <li>Pouzdanost– robustan, izdržljiv,&nbsp;sistem za raspršivanje sa dugim vekom trajanja</li><li>Smanjeno vreme zadržavanja–&nbsp;omogućava duže vreme rada između potrebnog održavanja</li><li>Povećanu dnevnu produktivnost– sposoban za izuzetno visok radni ciklus</li></ul> <p>Graco linija hidrauličnih reaktora omogućava veću produktivnost i izlazno raspršivanje. Idealn za OEM’s ili za primenu prilikom raspršivanja velikih količina.</p><p>Reactor 2 stand-alone modeli su dostupni kao&nbsp;H-30, H-40 i H-50.</p><p><b>Lako dostupan,&nbsp;elektronika prikladno smeštena</b></p><p><b>Prednost tehnologije upravljanja</b></p><ul> <li>Prati, nadgleda i čuva podatke o projektu</li><li>Podaci mogu biti sačuvani i skinuti na USB uređaj</li><li>Skladišti do 24 hemijska recepta</li></ul> <p><b>Brzo i lako rešavanje problema zahvaljujući prečici QR koda</b></p><ul> <li>Kraće vreme zadržavanja</li> </ul> <p><b>Prenaponska zaštita</b></p> <ul> <li>Štiti elektroniku od prevelikih napona</li></ul> <p><b>Tri godine garancije</b></p> <ul> <li>Pokriva korisnički&nbsp;display i upravljačke module</li><li>Jedan od najboljih u industriji</li> </ul> </div>',
+    	images: [reaktor2h30h40h],
+    	video: 'https://www.youtube.com/embed/IVqpyaZgSEA',
+    	spec: '<div class="pane" style="display: block;"><table class="techspecs_table"><tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor 2 Hydraulic Proportioning System</strong></td></tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalni radni pritisak tečnosti za&nbsp;Bare Proportioners</td></tr> <tr> <td class="techspecs_desc">ModeliH-30, H-40, i H-50</td><td class="techspecs_value"><div class="usvalue">2000 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Minimalni radni pritisak tečnosti za Bare Proportioners</td></tr> <tr> <td class="techspecs_desc">H-30</td><td class="techspecs_value"><div class="usvalue">700 psi</div></td> </tr> <tr> <td class="techspecs_desc">H-40, H-50</td><td class="techspecs_value"><div class="usvalue">600 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Tečnost:&nbsp;Odnos pritiska ulja</td></tr> <tr> <td class="techspecs_desc">Model H-40</td><td class="techspecs_value"><div class="usvalue">1.91 : 1</div></td> </tr> <tr> <td class="techspecs_desc">Modeli H-30 i H-50</td><td class="techspecs_value"><div class="usvalue">1.64 : 1</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Ulazna tečnost</td></tr> <tr> <td class="techspecs_desc">Komponenta A (ISO)</td><td class="techspecs_value"><div class="usvalue">3/4 npt(f), 300 psi maximum</div></td> </tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">3/4 npt(f), 300 psi maximum</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlazna tečnost</td></tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;A (ISO)</td><td class="techspecs_value"><div class="usvalue">#8 1/2 in. JIC, with #5 5/16 in. JIC adapter</div></td> </tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">#10 5/8 in. JIC, with #6 3/8 in. JIC adapter</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Portovi za protok tečnosti</td></tr> <tr> <td class="techspecs_desc">1/4 npsm(m)</td><td class="techspecs_value"><div class="usvalue">250 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalna temperatura tečnosti</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">190° F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Makismalni izlaz&nbsp;(10&nbsp;težinskih ulja na sobnoj temperaturi)</td></tr> <tr> <td class="techspecs_desc">Model H-30</td><td class="techspecs_value"><div class="usvalue">28 lb/min (60 Hz)</div></td> </tr> <tr> <td class="techspecs_desc">Model H-50</td><td class="techspecs_value"><div class="usvalue">52 lb/min (60 Hz)</div></td> </tr> <tr> <td class="techspecs_desc">Model H-40</td><td class="techspecs_value"><div class="usvalue">45 lb/min (60 Hz)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz po ciklusu&nbsp;(A i B)</td></tr> <tr> <td class="techspecs_desc">Model H-40</td><td class="techspecs_value"><div class="usvalue">0.063 gal.</div></td> </tr> <tr> <td class="techspecs_desc">Models H-30 and H-50</td><td class="techspecs_value"><div class="usvalue">0.074 gal.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Tolerancija napajanja</td></tr> <tr> <td class="techspecs_desc">200–240V nominal, 1 phase</td><td class="techspecs_value"><div class="usvalue">195–264 VAC, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_desc">200–240V nominal, 3 phase</td><td class="techspecs_value"><div class="usvalue">195–264 VAC, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_desc">650–415V nominal, 3 phase</td><td class="techspecs_value"><div class="usvalue">338–457 VAC, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Zahtev za amperažu (phase)</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Pogledaj spisak modela u uputstvu</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga grejača&nbsp;(A i B grejači, ukupno)</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Pogledaj&nbsp;spisak modela u uputstvu</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Kapacitet rezervoara za hidrauliku</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">3.5 gal.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Preporučena tečnost za hidrauliku</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">Citgo, A/W hidraulično ulje, ISO Grade 46</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga zvuka, per ISO 9614–2</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">90.2 dB(A)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Pritisak zvuka na&nbsp;1 m od opreme</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">82.6 dB(A)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Težina</td></tr> <tr> <td class="techspecs_desc">H-40, H-50</td><td class="techspecs_value"><div class="usvalue">600 lb</div></td> </tr> <tr> <td class="techspecs_desc">H-30, 10 kW</td><td class="techspecs_value"><div class="usvalue">544 lb</div></td> </tr> <tr> <td class="techspecs_desc">H-30, 15 kW</td><td class="techspecs_value"><div class="usvalue">556 lb</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Delovi obloženi sa</td></tr> <tr> <td class="techspecs_desc"></td><td class="techspecs_value"><div class="usvalue">Aluminijum, nerđajući čelik, cinkovan čelik, mesing, karbid, hrom, fluoroelastomer, PTFE, polietilen ultra visoke molekulske težine, hemijski otporni o-prstenovi</div></td> </tr> </tbody> </table> <div class="clear"></div></div>'
+    },
+    {
+    	id: 68,
+    	desc: '<div class="parbase section text"> <p>Opremljen podacima o materijalima i sa sistemskom dijagnostikom, Reactor E-20 pruža potpunu kontrolu prilikom instalacije raspršivaća za penu.&nbsp;Napredne funkcije omogućavaju dužu vek trajanja, više vremena za raspršivanje i pouzdanost, koja se očekuje od Graco.</p><div class="parbase section text"> <p><b>Obavljajte posao brze i pouzdanije nego ikada&nbsp;pre</b></p></div> <div class="parbase section textimage"> <div class="text"> <ul> <li>Snažni hibridni grejači za bolju kontrolu temperature</li><li>Kružni ventili sa dužim trajanjem zaptivača</li><li>Dugotrajne modularne upravljačke ploče grejača koje umanjuju zastoj</li><li>Crevo toplotnog transformatora koje ne zahteva podešavanja slavine</li><li>Lako za upravljanje</li> <li>Donje pumpe za lako održavanje</li> <li>Digitalna kontrola toplote i pritiska</li></ul> </div> </div> </div>',
+    	images: [reaktorE20],
+    	video: 'https://www.youtube.com/embed/QP2D3QgIh1M',
+    	spec: '<table class="techspecs_table"> <tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor E-20, E-30, E-XP1, E-XP2 Series</strong></td></tr> <tr> <td class="techspecs_desc">Maksimalni radni pritisak tečnosti</td><td class="techspecs_value"> <div class="usvalue">Models E-20 and E-30: 2000 psi, Model E-XP1: 2500 psi, Model E-XP2: 3500 psi</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalna temperatura tečnosit</td><td class="techspecs_value"> <div class="usvalue">190°F</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalni izlaz</td><td class="techspecs_value"> <div class="usvalue">Model E-20: 20 lb/min, Model E-30: 30 lb/min, Model E-XP1: 1 gpm, Model E-XP2: 2 gpm</div></td> </tr> <tr> <td class="techspecs_desc">Izlaz po ciklusu&nbsp;(A i B)</td><td class="techspecs_value"> <div class="usvalue">Model E-20 and E-XP1: 0.0104 gal., Model E-30: 0.0272 gal., Model E-XP2: 0.0203 gal.</div></td> </tr> <tr> <td class="techspecs_desc">Zahtev za amperažu</td><td class="techspecs_value"> <div class="usvalue">Pogledaju tabelu 1, strana 20 u uputstvu 312065</div></td> </tr> <tr> <td class="techspecs_desc">Snaga grejača</td><td class="techspecs_value"> <div class="usvalue">Model E-20: 6000 Watts, Model E-30 i E-XP1: 10200 Watts, Models E-XP2 i E-30 sa 15.3kW of heat: 15300 Watts</div></td> </tr> <tr> <td class="techspecs_desc">Snaga zvuks, prema ISO 9614–2</td><td class="techspecs_value"> <div class="usvalue">Model E-20: 80 dB(A) at 2000 psi, 0.5 gpm, Model E-30: 93.5 dB(A) at 1000 psi, 3.0 gpm, Model E-XP1: 80 dB(A) at 2000 psi, 0.5 gpm, Model E-XP2: 83.5 dB(A) at 3000 psi, 1.0 gpm</div></td> </tr> <tr> <td class="techspecs_desc">Pritisak zvuka na&nbsp;1 m&nbsp;od opreme</td><td class="techspecs_value"> <div class="usvalue">Model E-20: 70.2 dB(A) at 2000 psi, 0.5 gpm, Model E-30: 83.6 dB(A) at 1000 psi, 3.0 gpm, Model E-XP1: 70.2 dB(A) at 2000 psi, 0.5 gpm, Model E-XP2: 73.6 dB(A) at 3000 psi, 1.0 gpm</div></td> </tr> <tr> <td class="techspecs_desc">Ulazna telnost</td><td class="techspecs_value"> <div class="usvalue">3/4 npt(f), with 3/4 npsm(f) union</div></td> </tr> <tr> <td class="techspecs_desc">Izlazna tečnost</td><td class="techspecs_value"> <div class="usvalue">Komponenta A (ISO): #8 (1/2 in.) JIC, with #5 (5/16 in.) JIC adapter, Komponenta&nbsp;B (RES): #10 (5/8 in.) JIC, with #6 (3/8 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_desc">Portovi za cirkulaciju tečnosti</td><td class="techspecs_value"> <div class="usvalue">1/4 npsm(m), with plastic tubing; 250 psi (1.75 MPa, 17.5 bar) maximum</div></td> </tr> <tr> <td class="techspecs_desc">Težina</td><td class="techspecs_value"> <div class="usvalue">Model E-20 and E-XP1: 342 lb, Model E-30: 400 lb, Models E-XP2 and E-30 with 15.3kW of heat: 438 lb</div></td> </tr> <tr> <td class="techspecs_desc">Delovi obloženi sa</td><td class="techspecs_value"> <div class="usvalue">Aluminijum, nerđajući čelik, cinkovan, ugljeni čelik, mesing, karbid, hrom, hemijski otporni o-prstenovi, PTFE,&nbsp;polietilen ulta visoke molekulske težine</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Opseg tolerancije napona (50/60 Hz)</td></tr> <tr> <td class="techspecs_desc">200–240 V ac Nominal, 1 Phase</td><td class="techspecs_value"> <div class="usvalue">195–264 V ac, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_desc">200–240 V ac Nominal, 3 Phase Delta</td><td class="techspecs_value"> <div class="usvalue">195–264 V ac, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_desc">350–415 V ac Nominal, 3 Phase Wye (200–240 V ac Line-to-Neutral)</td><td class="techspecs_value"> <div class="usvalue">338–457 V ac, 50/60 Hz</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2"></td></tr> </tbody> </table>'
+    },
+    {
+    	id: 69,
+    	desc: '<div> <p>Reactor E-8p za podove je prenosiv, kompaktan i jednostavan za upotrebu.&nbsp;Sa jednostavnim upravljanjem i mogućnošću da pumpate materijal direktno iz kante kapaciteta do 19 L,&nbsp;Reactor E-8p omogućava smanjenje radnog vremena i troškove rada.</p><ul> <li>Težina samo&nbsp;96 lb (43 kg)</li> <li>Rezervoar od&nbsp;5 gal (19 L)</li> <li>Maksimlani izlaz od&nbsp;0.25 gpm (0.95 lpm)</li><li>Jednostvano upravljanje sa samo jednim dugmetom</li><li>Uključuje se u standardnu električnu zidnu jedinicu</li><li>Opcioni grejač kante omogućava vam zagrevanje materijala veće viskoznosti</li></ul> </div>',
+    	images: [reaktorE8P_for_flooring, reaktorE8P_for_flooring_2],
+    	video: 'https://www.youtube.com/embed/B5SRV40ojgc',
+    	spec: ''
+    },
+    {
+    	id: 70,
+    	desc: '<div> <p>Integrisana serija&nbsp;Reactor 2&nbsp;sistema kombinuje električni razmernik&nbsp;i dizel motor u jednom paketu – inovativni, štedljivi dizajn.&nbsp;Pored toga dizajn Reactor 2 nudi mnoge druge prednosti.</p><p><b>Napredne funkcije Reactor 2 mogu poboljšati način vašeg poslovanja</b></p><p>Svaka karakteristika Reactor 2 strateški je osmišljena kako bi pomogla vašem poslu, sa inovacijama koje pomažu da vaše poslovanje neometano teče. Poboljšani software&nbsp;i hardware pružaju bolje performanse raspršivanja.</p><ul> <li>Bolja kontrola&nbsp;–&nbsp;sa Graco InSite daljinskim obaveštavanjem, možete da&nbsp;obavljate&nbsp;raspršivanje&nbsp;penom ili poliureom gde god da se nalazite</li><li>Bolje sakupljanje podataka&nbsp;– automatsko prikupljanje podataka iz evidencije poslova i&nbsp;potvrda raspršivanje urađeno prema specifikacijama</li><li>Kompaktan otisak – više prostora u vašoj opremi za&nbsp;raspršivanje</li><li>Napredna kontrola sa više vidljivih informacija i mogućnosti praćenja</li><li>Ergonomski dizajn – lakše održavanje i servisiranje</li><li>Bolje performanse&nbsp;raspršivanja u odnosu na tradicionalne električne reaktore</li><li>Napredne pločice – minimiziraju fluktuacije pritiska</li><li>Rešavanje&nbsp;problema je brzo i jednostavno uz pomoć QR&nbsp;koda</li><li>3 godine&nbsp;garancija na glavne&nbsp;električne komponente</li></ul> <p><strong>Reactor 2 E-30i&nbsp;</strong></p> <ul> <li>Integrisani dizajn koji štedi energiju</li> <li>Graco InSite&nbsp;tehnologija daljinskog&nbsp;obaveštavanja</li><li>Senzor za ulazni pritisak i temperaturu</li> <li>Napredna kontrola upravljanja</li> <li>Čuva do 24 hemijska recepta</li> <li>Lako vidljivi indikatori nivoa bubnja</li> <li>Kompaktniji dizajn</li> <li>Novi višezonski upravljač grejača</li> <li>DC motor bez četkica</li> <li>QR&nbsp;kod za brže informacije o rešavanju problema</li><li>Kompresor za vazduh bez rezervoara (opciono)</li> <li>Rashladni vazdušni sušač (opciono)</li> </ul> </div>',
+    	images: [reaktor2E30i],
+    	video: '',
+    	spec: '<table class="techspecs_table"><tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor 2 Elite Integrated Proportioning Systems</strong></td></tr> <tr> <td class="techspecs_desc">U.S.</td><td class="techspecs_value"><div class="usvalue">Metric</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalni radni pritisak tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">2000 psi</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">3500 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalna temperatura tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">150°F</div></td> </tr> <tr> <td class="techspecs_desc">E-30i with booster heater</td><td class="techspecs_value"><div class="usvalue">180°F</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">180°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalni izlaz</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">30 lb/min</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">2 gpm</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlana dužina&nbsp;grejnog creva</td></tr> <tr> <td class="techspecs_desc">Length</td><td class="techspecs_value"><div class="usvalue">310 ft</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz po ciklusu, A i B</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">0.0272 gal.</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">0.0203 gal.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Oseg radne temperature okoline</td></tr> <tr> <td class="techspecs_desc">Temperatura</td><td class="techspecs_value"><div class="usvalue">20° to 120°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Dostupna pomoćna snaga</td></tr> <tr> <td class="techspecs_desc">Napon</td><td class="techspecs_value"><div class="usvalue">120 Vac or 240 Vac, 60 Hz</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Motor</td></tr> <tr> <td class="techspecs_desc">Model</td><td class="techspecs_value"><div class="usvalue">Perkins 404–22G, 2.2 L, 29 HP</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Alternator</td></tr> <tr> <td class="techspecs_desc">Model</td><td class="techspecs_value"><div class="usvalue">Mecc Alte 22 kW, 240 V, 1 PH, 60 Hz, pancake style</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Zahtevi za bateriju</td></tr> <tr> <td class="techspecs_desc">Napon</td><td class="techspecs_value"><div class="usvalue">12 Vdc</div></td> </tr> <tr> <td class="techspecs_desc">Minimum Cold Cranking Amps</td><td class="techspecs_value"><div class="usvalue">800 CCA</div></td> </tr> <tr> <td class="techspecs_desc">Tip povezivanja</td><td class="techspecs_value"><div class="usvalue">Post Style</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Preporučena veličina baterija</td></tr> <tr> <td class="techspecs_desc">Broj BC&nbsp;gupe</td><td class="techspecs_value"><div class="usvalue">34</div></td> </tr> <tr> <td class="techspecs_desc">Dužina</td><td class="techspecs_value"><div class="usvalue">10.25 in.</div></td> </tr> <tr> <td class="techspecs_desc">Širina</td><td class="techspecs_value"><div class="usvalue">6.81 in.</div></td> </tr> <tr> <td class="techspecs_desc">Visina</td><td class="techspecs_value"><div class="usvalue">7.88 in.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Pojačivač snage zagrevanja</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">None</div></td> </tr> <tr> <td class="techspecs_desc">E-30i with booster heat</td><td class="techspecs_value"><div class="usvalue">4000 Watts</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">4000 Watts</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Rotary Vane&nbsp;kompresor za vazduh</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Hydrovane Model V04 (PURS type), continuous run</td></tr> <tr> <td class="techspecs_desc">Part No.</td><td class="techspecs_value"><div class="usvalue">025CK10</div></td> </tr> <tr> <td class="techspecs_desc">Pritisak</td><td class="techspecs_value"><div class="usvalue">140 psi</div></td> </tr> <tr> <td class="techspecs_desc">Specifikacija</td><td class="techspecs_value"><div class="usvalue">16 cfm</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">Prekidač toplotnog preopterećenja, sigurnosni ventil</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Motor: Baldor</td></tr> <tr> <td class="techspecs_desc">Part No.</td><td class="techspecs_value"><div class="usvalue">EL1410–CUS</div></td> </tr> <tr> <td class="techspecs_desc">Specifikacije</td><td class="techspecs_value"><div class="usvalue">5 HP, 1735 RPM, 240 V, 1 Phase, OPSB</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">C face, prstenovi za podizanje</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Rashladni sušač za vazduh</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Hankison Model H1T20</td></tr> <tr> <td class="techspecs_desc">Specifikacije</td><td class="techspecs_value"><div class="usvalue">115VAC, 1 Phase, 60 Hz, 22 scfm at 150 psi (1 MPa, 10.3 bar)</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">Pilot valve unloader</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Buka,&nbsp;pritisak zvuka mereno prema ISO-9614–2.</td></tr> <tr> <td class="techspecs_desc">Pritisak zvuka meren na udaljenosti od 3.1 ft (1 m), at 1500 psi (10 MPa, 103 bar), 2 gpm (7.6 lpm)</td><td class="techspecs_value"><div class="usvalue">91.0 dBA</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Ulaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta A (ISO)&nbsp;i&nbsp;komponenta B (RES)</td><td class="techspecs_value"><div class="usvalue">3/4 NPT(f) with 3/4 NPSM(f) union</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta A (ISO)</td><td class="techspecs_value"><div class="usvalue">#8 (1/2 in.) JIC, with #5 (5/16 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_desc">Komponenta B (RES)</td><td class="techspecs_value"><div class="usvalue">#10 (5/8 in.) JIC, with #6 (3/8 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Portovi za cirkulaciju tečnosti</td></tr> <tr> <td class="techspecs_desc">Veličina</td><td class="techspecs_value"><div class="usvalue">1/4 NPSM(m), with sst braided tubing</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalni pritisak</td><td class="techspecs_value"><div class="usvalue">250 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Težina</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">1750 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–30i with compressor and dryer</td><td class="techspecs_value"><div class="usvalue">2200 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-30i with booster heat</td><td class="techspecs_value"><div class="usvalue">1800 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–30i with booster heat, compressor, and dryer</td><td class="techspecs_value"><div class="usvalue">2250 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">1800 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–XP2i with compressor and dryer</td><td class="techspecs_value"><div class="usvalue">2200 lb</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Delovi obloženi sa</td></tr> <tr> <td class="techspecs_desc">Materijali</td><td class="techspecs_value"><div class="usvalue">Aluminijum, nerđajući čelik, pocinkovani čelik, mesing, karbid, hrom,&nbsp;hemijski otporni na&nbsp;o-prstenove, PTFE, polietilen ultra velike molekulske težine</div></td> </tr> </tbody> </table>'
+    },
+    {
+    	id: 71,
+    	desc: '<div> <p><strong>Revolucionaran način vođenja posla</strong><br>Svaki deo&nbsp;Reactor 2 je strateški dizajniran kako bi pomoglo vašem biznisu, sa inovacijama koje pomažu da se vaš rad nesmetano odvija. Software i hardware su poboljšani radi boljeg raspršivanja.</p><p><b>Reactor 2 E-30 pruža vam:</b></p><ul> <li>Kompaktan otisak – više prostora u vašoj opremi za&nbsp;raspršivanje</li><li>Ergonomski dizajn – lakše održavanje i servisiranje</li><li>Napredni upravljački moduli</li> <li>Bolje performanse&nbsp;raspršivanja u odnosu na tradicionalne električne reaktore</li><li>Rešavanje&nbsp;problema je brzo i jednostavno uz pomoć QR&nbsp;koda</li></ul> <p><b>Graco InSite™ pruža vam:</b></p><ul> <li>Bolju kontrolu– možete da&nbsp;obavljate&nbsp;raspršivanje&nbsp;penom ili poliureom gde god da se nalazite</li><li>Bolje sakupljanje podataka&nbsp;– automatsko prikupljanje podataka iz evidencije poslova i&nbsp;potvrda raspršivanje urađeno prema specifikacijama</li><li>Bolje ograničenje i predviđanje troškova</li><li>Graco InSite dolazi standradno sa svim&nbsp;Elite modelima&nbsp;Reactor 2</li></ul> <ul> <li>Napredna tehnologija upravljanja <ul> <li>Praćenje, kontrola i čuvanje podataka projekata</li><li>Podaci mogu biti sačuvani preneti na USB&nbsp;uređaj</li><li>Čuva do&nbsp;24&nbsp;hemijska recepta</li><li>Indikatori nivoa bubnja</li> </ul> </li> <li>Graco InSite&nbsp;tehnologija daljinskog izveštavanja<ul> <li> <div class="tlid-source-target main-header"><div class="source-target-row"> <div class="tlid-results-container results-container"><div class="tlid-result result-dict-wrapper"><div class="result tlid-copy-target"> <div class="tlid-result-transliteration-container result-transliteration-container transliteration-container"><div class="tlid-transliteration-content transliteration-content full">Prenosi radne aktivnosti u stvarnom vremenu koje možete da vidite na svom pametnom telefonu, tabletu ili računaru</div></div> </div> </div> </div> </div> </div> </li> <li>Standardno na Elite&nbsp;modelima</li></ul> </li> <li>Brzo i lako rešavanje problema zahvaljujuću prečici QR&nbsp;koda<ul> <li>Rezultat je za kraće vreme zastoja</li></ul> </li> <li>Lako dostupna i lako postavljena elektronika</li><li>Napredni upravljački moduli</li> <li>Prenaponski zaštitnik <ul> <li>Štiti vašu elektroniku od prevelikih napajanja</li></ul> </li> <li>Glatke, konzistentne performanse raspršivanja- slično kao i kod hidrauličnih sistemima</li><li>Tri godine garancije <ul> <li>Pokriva displej modula, kontrolni modul i električni motor</li><li>Jedan od najboljih u industriji</li></ul> </li> </ul> <p>&nbsp;</p> </div>',
+    	images: [reaktor2E30, reaktor2E30_2, reaktor2E30_3, reaktor2E30_4],
+    	video: 'https://www.youtube.com/embed/KeykEQMPg70',
+    	spec: '<table class="techspecs_table"><tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor 2 E-30 and E-XP2 Proportioning System</strong></td></tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlani radni pritisak tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30</td><td class="techspecs_value"><div class="usvalue">2000 psi</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2</td><td class="techspecs_value"><div class="usvalue">3500 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlana temperatura tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30</td><td class="techspecs_value"><div class="usvalue">190°F</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2</td><td class="techspecs_value"><div class="usvalue">190°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalni protok</td></tr> <tr> <td class="techspecs_desc">E-30</td><td class="techspecs_value"><div class="usvalue">30 lb/min</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2</td><td class="techspecs_value"><div class="usvalue">2 gpm</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlana dužina grejnog creva</td></tr> <tr> <td class="techspecs_desc">Length</td><td class="techspecs_value"><div class="usvalue">310 ft</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz po ciklusu, ISO i RES</td></tr> <tr> <td class="techspecs_desc">E-30</td><td class="techspecs_value"><div class="usvalue">0.0272 gal.</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2</td><td class="techspecs_value"><div class="usvalue">0.0203 gal.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Opseg radne temperature okoline</td></tr> <tr> <td class="techspecs_desc">Temperatura</td><td class="techspecs_value"><div class="usvalue">20° to 120°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Linijski napon</td></tr> <tr> <td class="techspecs_desc">Nominal 200–240 VAC, 1 Phase, 50/60 Hz</td><td class="techspecs_value"><div class="usvalue">195–265 VAC</div></td> </tr> <tr> <td class="techspecs_desc">Nominal 200–240 VAC, 3 phase, DELTA, 50/60 Hz</td><td class="techspecs_value"><div class="usvalue">195–265 VAC</div></td> </tr> <tr> <td class="techspecs_desc">Nominal 350–415 VAC, 3 phase, WYE, 50/60 Hz</td><td class="techspecs_value"><div class="usvalue">340–455 VAC</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga grejača, (at 230 VAC rated voltage)</td></tr> <tr> <td class="techspecs_desc">E-30 10 kW</td><td class="techspecs_value"><div class="usvalue">10,200 Watts</div></td> </tr> <tr> <td class="techspecs_desc">E-30, 15 kW</td><td class="techspecs_value"><div class="usvalue">15,300 Watts</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2 15 kW</td><td class="techspecs_value"><div class="usvalue">15,300 Watts</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Pritisak zvuka meren prema ISO-9614–2.</td></tr> <tr> <td class="techspecs_desc">E-30, Measured from 3.1 ft (1 m), at 1000 psi (7 MPa, 70 bar), 3 gpm (11.4 lpm)</td><td class="techspecs_value"><div class="usvalue">87.3 dBA</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2, Measured from 3.1 ft (1 m), at 3000 psi (21 MPa, 207 bar), 1 gpm (3.8 lpm)</td><td class="techspecs_value"><div class="usvalue">79.6 dBA</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Sound Power</td></tr> <tr> <td class="techspecs_desc">E-30, Measured from 3.1 ft (1 m), at 1000 psi (7 MPa, 70 bar), 3 gpm (11.4 lpm)</td><td class="techspecs_value"><div class="usvalue">93.7 dBA</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2, Measured from 3.1 ft (1 m), at 3000 psi (21 MPa, 207 bar), 1 gpm (3.8 lpm)</td><td class="techspecs_value"><div class="usvalue">86.6 dBA</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Ulaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta A ISO) i Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">3/4 NPT(f) with 3/4 NPSM(f) union</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;A (ISO)</td><td class="techspecs_value"><div class="usvalue">#8 (1/2 in.) JIC, with #5 (5/16 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">#10 (5/8 in.) JIC, with #6 (3/8 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Portovi za cirkulaciju tečnosti</td></tr> <tr> <td class="techspecs_desc">Veličina</td><td class="techspecs_value"><div class="usvalue">1/4 NPSM(m)</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalni pritisak</td><td class="techspecs_value"><div class="usvalue">250 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Dimenzije</td></tr> <tr> <td class="techspecs_desc">Širina</td><td class="techspecs_value"><div class="usvalue">26.3 in.</div></td> </tr> <tr> <td class="techspecs_desc">Visina</td><td class="techspecs_value"><div class="usvalue">63 in.</div></td> </tr> <tr> <td class="techspecs_desc">Dubina</td><td class="techspecs_value"><div class="usvalue">15 in.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Težina</td></tr> <tr> <td class="techspecs_desc">E-30, 10 kW</td><td class="techspecs_value"><div class="usvalue">315 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-30, 15 kW</td><td class="techspecs_value"><div class="usvalue">350 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-30, 10 kW Elite</td><td class="techspecs_value"><div class="usvalue">320 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-30, 15 kW Elite</td><td class="techspecs_value"><div class="usvalue">355 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2</td><td class="techspecs_value"><div class="usvalue">345 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-XP Elite</td><td class="techspecs_value"><div class="usvalue">350 lb</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Delovi obloženi sa</td></tr> <tr> <td class="techspecs_desc">Materijali</td><td class="techspecs_value"><div class="usvalue">Aluminijum, nerđajući čelik, pocinkovani čelik, mesing, karbid, hrom,&nbsp;hemijski otporni o-prstenovi, PTFE, polietilen ultra visoke molekulske težine</div></td> </tr> </tbody> </table>'
+    },
+    {
+    	id: 72,
+    	desc: '<div class="intropar parsys"> <div class="parbase section text"> <p>Integrisana serija Reaktora 2 kombinuje električni uređaj sa doziranjem i dizel motorom u jedan paket – inovativni i štedljivi dizajn. U prilogu tome, revolucionarni dizajn Reactor 2 sistema nudi mnoge prednosti.</p></div> <div class="parbase section text"> <p><strong>Integrisani dizajn vraća izgubljenu toplotu i štedi energiju</strong></p><ul> <li>Sistem izvlači toplotu iz dizel motora kako bi zagrejao A i B materijale, smanjuje se potrošnja električne energije na generatoru</li><li>Manji sistem od 20 kv koristi manje goriva nego standardni generator od 30 ili 40 kv</li><li>Godišnja uštede na gorivu je u proseku 7000 USD (stvarne uštede mogu varirati)</li></ul> <p><b>Reactor 2 napredne funkcije mogu poboljšati način vašeg poslovanja</b></p><p>Svaki deo&nbsp;Reactor 2 je strateški dizajniran kako bi pomoglo vašem biznisu, sa inovacijama koje pomažu da se vaš rad nesmetano odvija. Software i hardware su poboljšani radi boljeg raspršivanja.</p><ul> <li>Bolja kontrola– sa&nbsp;Graco InSite možete da&nbsp;obavljate&nbsp;raspršivanje&nbsp;penom ili poliureom gde god da se nalazite</li><li>Bolje sakupljanje podataka&nbsp;– automatsko prikupljanje podataka iz evidencije poslova i&nbsp;potvrda raspršivanje urađeno prema specifikacijama</li><li>Kompaktan otisak – više prostora u vašoj opremi za&nbsp;raspršivanje</li><li>Napredna kontrola sa&nbsp;vidljivim informacija i mogućnošću praćenja</li><li>Ergonomski dizajn – lakše održavanje i servisiranje</li><li>Bolje performanse&nbsp;raspršivanja u odnosu na tradicionalne električne reaktore</li><li>Napredne pločice – smanjuju fluktuacije pritiska</li><li>Rešavanje&nbsp;problema je brzo i jednostavno uz pomoć QR&nbsp;koda</li><li>3 godine garancije na glavne elektronske komponente</li></ul> <p>Karakteristike</p> </div> <div id="tab1" class="tab"> <div class="parsys featurepar"> <div class="parbase section text"> <ul> <li>Integrisani dizajn koji štedi energiju</li><li>Graco InSite tehnologija daljinskog izveštavanja</li><li>Senzori za ulazni pritisak i tempereaturu</li><li>Napredni upravljački moduli</li> <li>Čuva do&nbsp;24&nbsp;hemijska recepta</li><li>Indikatori nivoa bubnja</li> <li>Kompaktniji dizajn</li> <li>Novi višezonski upravljački modul grejača</li><li>DC motor bez četkica</li> <li>Na ekranu vidljivi&nbsp;QR kodovi za brže rešavanje problema</li><li>Kompresor za vazduh bez rezervoara (opciono)</li><li>Rashladni vazdušni sušač (opciono)</li></ul> <p>&nbsp;</p> </div> </div> </div> </div>',
+    	images: [reaktor2EXP2i, reaktor2EXP2i_2, reaktor2EXP2i_3],
+    	video: '',
+    	spec: '<table class="techspecs_table"><tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor 2 Elite Integrated Proportioning Systems</strong></td></tr> <tr> <td class="techspecs_desc">U.S.</td><td class="techspecs_value"><div class="usvalue">Metric</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlani radni pritisak tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">2000 psi</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">3500 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlana temperatura tečnosti</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">150°F</div></td> </tr> <tr> <td class="techspecs_desc">E-30i with booster heater</td><td class="techspecs_value"><div class="usvalue">180°F</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">180°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimalan izlaz</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">30 lb/min</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">2 gpm</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Maksimlana dužina grejnog creva</td></tr> <tr> <td class="techspecs_desc">Dužina</td><td class="techspecs_value"><div class="usvalue">310 ft</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz po ciklusu, A i B</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">0.0272 gal.</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">0.0203 gal.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Opseg radne temperature okoline</td></tr> <tr> <td class="techspecs_desc">Temperatura</td><td class="techspecs_value"><div class="usvalue">20° to 120°F</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Dostupna pomoćna snaga</td></tr> <tr> <td class="techspecs_desc">Napon</td><td class="techspecs_value"><div class="usvalue">120 Vac or 240 Vac, 60 Hz</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Motor</td></tr> <tr> <td class="techspecs_desc">Model</td><td class="techspecs_value"><div class="usvalue">Perkins 404–22G, 2.2 L, 29 HP</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Alternator</td></tr> <tr> <td class="techspecs_desc">Model</td><td class="techspecs_value"><div class="usvalue">Mecc Alte 22 kW, 240 V, 1 PH, 60 Hz, pancake style</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Zahtevi za bateriju</td></tr> <tr> <td class="techspecs_desc">Napon</td><td class="techspecs_value"><div class="usvalue">12 Vdc</div></td> </tr> <tr> <td class="techspecs_desc">Minimum Cold Cranking Amps</td><td class="techspecs_value"><div class="usvalue">800 CCA</div></td> </tr> <tr> <td class="techspecs_desc">Tip povezivanja</td><td class="techspecs_value"><div class="usvalue">Post Style</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Preporučena veličina baterije</td></tr> <tr> <td class="techspecs_desc">Broj BC&nbsp;grupe</td><td class="techspecs_value"><div class="usvalue">34</div></td> </tr> <tr> <td class="techspecs_desc">Dužina</td><td class="techspecs_value"><div class="usvalue">10.25 in.</div></td> </tr> <tr> <td class="techspecs_desc">Širina</td><td class="techspecs_value"><div class="usvalue">6.81 in.</div></td> </tr> <tr> <td class="techspecs_desc">Visina</td><td class="techspecs_value"><div class="usvalue">7.88 in.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga pojačivača</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">None</div></td> </tr> <tr> <td class="techspecs_desc">E-30i with booster heat</td><td class="techspecs_value"><div class="usvalue">4000 Watts</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">4000 Watts</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Rotacioni kompresor za vazduh</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Hydrovane Model V04 (PURS type),&nbsp;neprekidan rad</td></tr> <tr> <td class="techspecs_desc">Part No.</td><td class="techspecs_value"><div class="usvalue">025CK10</div></td> </tr> <tr> <td class="techspecs_desc">Pritisak</td><td class="techspecs_value"><div class="usvalue">140 psi</div></td> </tr> <tr> <td class="techspecs_desc">Karakteristike</td><td class="techspecs_value"><div class="usvalue">16 cfm</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">Prekidač toplotnog preopterećenja, Sigurnosni ventil za ublažavanje</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Motor: Baldor</td></tr> <tr> <td class="techspecs_desc">Part No.</td><td class="techspecs_value"><div class="usvalue">EL1410–CUS</div></td> </tr> <tr> <td class="techspecs_desc">Karakteristike</td><td class="techspecs_value"><div class="usvalue">5 HP, 1735 RPM, 240 V, 1 Phase, OPSB</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">C face, lift rings</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Rashladni sušač za vazduh</td></tr> <tr> <td class="techspecs_subheader" colspan="2">Hankison Model H1T20</td></tr> <tr> <td class="techspecs_desc">Karakteristike</td><td class="techspecs_value"><div class="usvalue">115VAC, 1 Phase, 60 Hz, 22 scfm at 150 psi (1 MPa, 10.3 bar)</div></td> </tr> <tr> <td class="techspecs_desc">Potrebne funkcije</td><td class="techspecs_value"><div class="usvalue">Pilot valve unloader</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Buka,&nbsp;pritisak zvuka meren prema ISO-9614–2.</td></tr> <tr> <td class="techspecs_desc">Pritisak zvuka meren na&nbsp;3.1 ft (1 m), at 1500 psi (10 MPa, 103 bar), 2 gpm (7.6 lpm)</td><td class="techspecs_value"><div class="usvalue">91.0 dBA</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Ulaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta A (ISO) i Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">3/4 NPT(f) with 3/4 NPSM(f) union</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz tečnosti</td></tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;A (ISO)</td><td class="techspecs_value"><div class="usvalue">#8 (1/2 in.) JIC, with #5 (5/16 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_desc">Komponenta&nbsp;B (RES)</td><td class="techspecs_value"><div class="usvalue">#10 (5/8 in.) JIC, with #6 (3/8 in.) JIC adapter</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Portovi za cirkulaciju tečnosti</td></tr> <tr> <td class="techspecs_desc">Veličina</td><td class="techspecs_value"><div class="usvalue">1/4 NPSM(m), with sst braided tubing</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalni pritisak</td><td class="techspecs_value"><div class="usvalue">250 psi</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Težina</td></tr> <tr> <td class="techspecs_desc">E-30i</td><td class="techspecs_value"><div class="usvalue">1750 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–30i&nbsp;sa kompresorom i sušnicom</td><td class="techspecs_value"><div class="usvalue">2200 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-30i uz pojačanu toplotu</td><td class="techspecs_value"><div class="usvalue">1800 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–30i uz pojačanu toplotu, kompresorom i sušnicom</td><td class="techspecs_value"><div class="usvalue">2250 lb</div></td> </tr> <tr> <td class="techspecs_desc">E-XP2i</td><td class="techspecs_value"><div class="usvalue">1800 lb</div></td> </tr> <tr> <td class="techspecs_desc">E–XP2i&nbsp;sa kompresorom i sušnicom</td><td class="techspecs_value"><div class="usvalue">2200 lb</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Delovi obloženi sa</td></tr> <tr> <td class="techspecs_desc">Materijali</td><td class="techspecs_value"><div class="usvalue">Aluminijum, nerđajući čelik, pocinkovani čelik, mesing, karbid, hrom,&nbsp;hemijski otporni o-prstenovi, PTFE, polietilen ultra visoke molekulske težine</div></td> </tr> </tbody> </table>'
+    },
+    {
+    	id: 73,
+    	desc: '<div> <p>Vrhunske mašine dizajnirane za primenu poliuree, poliuretana, poliuretanske pene i svih materijala koji zahtevaju određenu temperaturu i pritisak neophodne za kvalitetno nanošenje.</p><p>Sa digitalnom kontrolom temperature i pritiska, dijagnostikom procesa i kvara, i sistemom za isključivanje ove mašine su veoma lake za korišćenje i održavanje.</p><p>Primena<strong>:</strong></p> <p><strong><em>Poliuretanska pena:</em></strong></p><ul> <li>izolacija zidova</li> <li>izolacija cevi i tankova</li> <li>krovna izolacija</li> <li>izolacija i popuna tavanskih greda</li></ul> <p><em><strong>Poliurea:</strong></em></p><ul> <li>hidroizolacija cevi, tankova, bazena</li><li>termoizolacija</li> <li>kompletna izolacija od svih agresivnih materijala</li><li>industrijski podovi</li> <li>popuna betonskih pukotina</li> <li>antikorozivna zaštita</li> <li>izolacija od otpadnih voda i hemikalija</li></ul> <p>Reaktor proporcioneri dostupni su u tri varijante:</p><p><strong><em>Sa Vazdušnom pumpom:</em></strong></p><ul> <li>za poslove male produktivnosti</li><li>lak za korišćenje</li> <li>minimalno podešavanje</li> </ul> <p><strong><em>Sa Električnom pumpom:</em></strong></p><ul> <li>najpopularniji sistemi</li> <li>za poslove srednje produktivnosti</li><li>odlične performanse</li> <li>sa kompletnom dijagnostikom materijala i procesa</li></ul> <p><strong><em>Sa Hidrauličnom pumpom:</em></strong></p><ul> <li>za poslove velike produktivnosti</li><li>sa kompletnom dijagnostikom materijala i procesa</li><li>velikih performansi, mogućnost korišćenja najrazličitijih materijala</li></ul> <p>&nbsp;</p> <p></p> <p><i>grafik prikazuje&nbsp;izlaz materijala na osnovu pritiska i odabrane komore za mešanje, npr.:</i></p><ul> <li><i>Na 2200 psi&nbsp;sa AW2222 komorom za mešanje, izlaz je skoro&nbsp;0.9 gpm</i></li><li><i>Na 1800 psi sa AR2929 komorom za mešanje,&nbsp;izlaz je&nbsp;skoro 1 gpm</i></li></ul> <p><i>Pomoću&nbsp;ovog grafikona odredite koji je model Reactor E-10 najprikladniji za vaše potrebe. Ovaj grafikon određuje vreme recirkulacije i temperature rezervoara koje su neophodne za postizanje konačne temperature raspršivanja.</i></p><ul> <li><em>Zakrivljeni deo linije predstavlja temperaturu rezervoara.</em></li><li><em>Ravni vertikalni deo linije predstavlja Delta T primarnih grejača.</em></li></ul> <div class="tlid-source-target main-header"><div class="source-target-row"> <div class="tlid-results-container results-container"><div class="tlid-result result-dict-wrapper"><div class="result tlid-copy-target"> <div class="tlid-result-transliteration-container result-transliteration-container transliteration-container"><div class="tlid-transliteration-content transliteration-content full">Da bi izračunali potrebne temp. rezervoara, oduzmite Delta T od željenih temperatura prskanja.</div></div> </div> </div> </div> </div> <div class="tlid-select-file-page-container"></div></div> <div class="tlid-result-view cllist"></div></div>',
+    	images: [reaktorE10HP, reaktorE10HP_2, reaktorE10HP_3],
+    	video: 'https://www.youtube.com/embed/OHaqyboTXtQ',
+    	spec: '<table class="techspecs_table"><tbody> <tr> <td class="techspecs_title" colspan="2"><strong>Reactor E-10hp</strong></td></tr> <tr> <td class="techspecs_desc">Maksimlani radni pritisak tečnosti</td><td class="techspecs_value"><div class="usvalue">3000 psi</div></td> </tr> <tr> <td class="techspecs_desc">Maksimlni pritisak raspršivanja: 120 V</td><td class="techspecs_value"><div class="usvalue">2200 psi</div></td> </tr> <tr> <td class="techspecs_desc">Maksimlni pritisak raspršivanja: 230 V</td><td class="techspecs_value"><div class="usvalue">2500 psi</div></td> </tr> <tr> <td class="techspecs_desc">Maksimlana temperatura tečnosti</td><td class="techspecs_value"><div class="usvalue">170°F</div></td> </tr> <tr> <td class="techspecs_desc">Maksimlana temperatura&nbsp;okoline</td><td class="techspecs_value"><div class="usvalue">120°F</div></td> </tr> <tr> <td class="techspecs_desc">Maksimlni izlaz</td><td class="techspecs_value"><div class="usvalue">1 gal/min</div></td> </tr> <tr> <td class="techspecs_desc">Izlaz po ciklusu (ISO and RES)</td><td class="techspecs_value"><div class="usvalue">0.0038 gallons/cycle</div></td> </tr> <tr> <td class="techspecs_desc">Ulaz vazduha</td><td class="techspecs_value"><div class="usvalue">1/4 in. quick-disconnect industrial type pin fitting</div></td> </tr> <tr> <td class="techspecs_desc">Izlaz vazduha</td><td class="techspecs_value"><div class="usvalue">1/4 npsm(m)</div></td> </tr> <tr> <td class="techspecs_desc">Overpressure relief</td><td class="techspecs_value"><div class="usvalue">Recirc/Spray valves automatically relieve excessive fluid pressure back to supply tanks</div></td> </tr> <tr> <td class="techspecs_desc">Potrebe pištolja za komprimovani vazduh</td><td class="techspecs_value"><div class="usvalue">Fusion Gun (purge air and operating air): 4 scfm (0.112 m³/min)</div></td> </tr> <tr> <td class="techspecs_desc">Maksimalna dužina creva</td><td class="techspecs_value"><div class="usvalue">105 ft</div></td> </tr> <tr> <td class="techspecs_desc">Kapacitet svakog rezervoara&nbsp;(nominalna)</td><td class="techspecs_value"><div class="usvalue">6 gal</div></td> </tr> <tr> <td class="techspecs_desc">Težina (prazna)</td><td class="techspecs_value"><div class="usvalue">239 lb</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2"><b>Recommended Mix Chamber Sizes</b></td></tr> <tr> <td class="techspecs_desc">Fusion® Air Purge</td><td class="techspecs_value"><div class="usvalue">000, AW2222 (00 and 01 at reduced spray pressure)</div></td> </tr> <tr> <td class="techspecs_desc">Probler® P2</td><td class="techspecs_value"><div class="usvalue">AA (00 and 01 at reduced spray pressure)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2"><b>Electrical Requirements</b></td></tr> <tr> <td class="techspecs_desc">120 V</td><td class="techspecs_value"><div class="usvalue">120 VAC, 1 phase, 50/60 Hz, 3840 W; requires two separate, dedicated 20 A circuits. Full load peak amperage 16 A per circuit</div></td> </tr> <tr> <td class="techspecs_desc">230 V</td><td class="techspecs_value"><div class="usvalue">230 VAC, 1 phase, 50/60 Hz, 5520 W; requires two separate, dedicated 15 A circuits. Full load peak amperage 12 A per circuit.</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Veličina generatora</td></tr> <tr> <td class="techspecs_desc">120 V</td><td class="techspecs_value"><div class="usvalue">5000 W minimum</div></td> </tr> <tr> <td class="techspecs_desc">230 V</td><td class="techspecs_value"><div class="usvalue">7500 W minimum</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga grejača</td></tr> <tr> <td class="techspecs_desc">120 V</td><td class="techspecs_value"><div class="usvalue">3000 W during recirculation, 2000 W during pressure spray mode</div></td> </tr> <tr> <td class="techspecs_desc">230 V</td><td class="techspecs_value"><div class="usvalue">4000 W during recirculation, 2760 W during pressure spray mode</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Pritisak zvuka</td></tr> <tr> <td class="techspecs_desc">U režimu brze recirkulacije</td><td class="techspecs_value"><div class="usvalue">71.3 dB(A)</div></td> </tr> <tr> <td class="techspecs_desc">Meren na&nbsp;2500 psi (17 MPa, 172 bar), 1 gpm (3.8 lpm)</td><td class="techspecs_value"><div class="usvalue">85.6 dB(A)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Snaga zvuka merena prema ISO-9614-2.</td></tr> <tr> <td class="techspecs_desc">U režimu brze recirkulacije</td><td class="techspecs_value"><div class="usvalue">79.9 dB(A)</div></td> </tr> <tr> <td class="techspecs_desc">Merena na&nbsp;2500 psi (17 MPa, 172 bar), 1 gpm (3.8 lpm)</td><td class="techspecs_value"><div class="usvalue">93.3 dB(A)</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Izlaz tečnosti</td></tr> <tr> <td class="techspecs_desc">ISO Side</td><td class="techspecs_value"><div class="usvalue">-5 JIC male</div></td> </tr> <tr> <td class="techspecs_desc">RES Side</td><td class="techspecs_value"><div class="usvalue">-6 JIC male</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Fluid Circulation Returns</td></tr> <tr> <td class="techspecs_desc">ISO side</td><td class="techspecs_value"><div class="usvalue">-5 JIC male</div></td> </tr> <tr> <td class="techspecs_desc">RES side</td><td class="techspecs_value"><div class="usvalue">-6 JIC male</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Oznake creva</td></tr> <tr> <td class="techspecs_desc">ISO side</td><td class="techspecs_value"><div class="usvalue">Red</div></td> </tr> <tr> <td class="techspecs_desc">RES side</td><td class="techspecs_value"><div class="usvalue">Blue</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2">Delovi obloženi sa</td></tr> <tr> <td class="techspecs_desc">na svim modelima</td><td class="techspecs_value"><div class="usvalue">Aluminijum, nerđajući čelik, ugljeni čelik, mesing, karbid, hrom, chemijski otporni o-prstenovi, PTFE, polietilen ultra visoke molekulske težine</div></td> </tr> <tr> <td class="techspecs_subheader" colspan="2"></td></tr> </tbody> </table>'
+    },
+
 
 
 
