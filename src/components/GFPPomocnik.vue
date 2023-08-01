@@ -60,7 +60,7 @@ export default{
                 <p>Dobrodošli na GFP stranicu!</p>
             </div>
             <div class="help">
-                <p>Kako vam možemo pomoći.</p>
+                <p>Kako vam možemo pomoći?</p>
             </div>
             <div @click="changeLook" id="asistent" class="pomocnik">
                 <div class="svg">
@@ -190,6 +190,9 @@ a{
     flex-direction: column;
     align-items: flex-end;
 }
+.svg img{
+    width: 4rem;
+}
 .msg{
     text-align: left;
     margin-left: .5rem;
@@ -318,8 +321,8 @@ a{
     display: flex;
     cursor: pointer;
     justify-content: right;
-    max-width: 12.5rem;
-    max-height: 12.5rem;
+    max-width: 8rem;
+    max-height: 8rem;
     border-radius: 50%;
     color: #fff;
     background-color: var(--orange);
@@ -355,7 +358,7 @@ a{
             width: 25rem;
        } 
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 700px){
     .overflow{
         max-height: 10rem;
     }

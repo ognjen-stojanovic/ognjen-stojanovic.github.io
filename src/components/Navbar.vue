@@ -153,34 +153,32 @@ export default{
                     <div class="show-more">
                         <router-link class="indent" v-bind:to="'/products/perdasenje'">Mašine za perdašenje</router-link>
                     </div>    
+                    <div class="show-more">
+                        <router-link class="indent" v-bind:to="'/products/smirglanje'">Mašine za šmirglanje</router-link>
+                    </div>    
+                    <div class="show-more">
+                        <router-link class="indent" v-bind:to="'/products/univerzalne-masine'">Univerzalne mašine</router-link>
+                    </div>    
 
                 </div>
                 <div class="phone-divider"></div>
                 <div class="phone-flex-link">
-                    <router-link class="show-more phone-link" v-bind:to="'/products/hidroizolacija'">HIDRO IZOLACIJA</router-link>
-                    <!-- <svg @click="showMore($event)" class="phone-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" fill="#000000"></path> </g></svg> -->
+                    <router-link class="phone-link" v-bind:to="'/products/hidroizolacija'">HIDROIZOLACIJA</router-link>
+                    <svg @click="showMore($event)" class="phone-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" fill="#000000"></path> </g></svg>
                 </div>
-                <!-- <div class="show-more" hidden> -->
-                <!--     <div class="show-more"> -->
-                <!--         <router-link class="indent" v-bind:to="'/products/graco'">Graco</router-link> -->
-                <!--     </div> -->
-                <!--     <div class="show-more"> -->
-                <!--         <router-link class="indent" v-bind:to="'/products/mixer'">Mixer</router-link> -->
-                <!--     </div> -->
-                <!--     <div class="show-more"> -->
-                <!--         <router-link class="indent" v-bind:to="'/products/pft'">PFT</router-link> -->
-                <!--     </div> -->
-                <!-- </div> -->
+                <div class="show-more" hidden>
+                    <div class="show-more">
+                        <router-link class="indent" v-bind:to="'/products/reaktori'">Reaktori</router-link>
+                    </div>    
+                </div>
                 <div class="phone-divider"></div>
                 <router-link class="phone-link" v-bind:to="'/products/metal'">ZAŠTITA METALA</router-link>
                 <div class="phone-divider"></div>
                 <router-link class="phone-link" v-bind:to="'/products/drvo'">ZAŠTITA I FARBANJE DRVETA</router-link>
                 <div class="phone-divider"></div>
                 <router-link class="phone-link" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA SIGNALIZACIJA</router-link>
-                <!-- <div class="phone-divider"></div> -->
-                <!-- <router-link class="phone-link" v-bind:to="'products/akcije'">Akcije</router-link> -->
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'products/promocije'">Promocije</router-link>
+                <router-link class="phone-link" v-bind:to="'/promocije'">Promocije</router-link>
                 <div class="phone-divider"></div>
                 <router-link class="phone-link" v-bind:to="'/servis'">Servis</router-link>
                 <div class="phone-divider"></div>
@@ -236,11 +234,16 @@ export default{
     }
     .indent{
         margin-left: 1rem;
+        font-size: 1rem;
     }
     .phone-flex-link{
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .show-more{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
     }
     .phone-icon{
         color: var(--text);
@@ -260,7 +263,7 @@ export default{
         padding: .5rem;
     }
     .phone-link{
-        font-size: 14px;
+        font-size: 1rem;
         font-weight: 500;
         color: var(--text);
     }

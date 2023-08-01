@@ -91,6 +91,9 @@ export default{
         flex-basis: 50%;
         min-width: 50%;
     }
+    table{
+        background: #fff;
+    }
     
     :root{
         /*font-family: Overpass,Helvetica,sans-serif;*/
@@ -185,8 +188,15 @@ export default{
     }
     */
     td{
-        padding: .2rem;
-        border-radius: 5px;
+        padding: .5rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .3);
+    }
+    .padding-row{
+        padding: 1rem;
+    }
+    th{
+        padding: .5rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .3);
     }
     .icon-light{
         fill: none;
@@ -241,6 +251,7 @@ export default{
         color: var(--btn-text);
         background-color: var(--btn-background);
         cursor: pointer;
+        margin: .2rem;
         transition: border-color 0.25s;
     }
     button:hover {

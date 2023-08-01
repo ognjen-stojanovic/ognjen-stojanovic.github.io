@@ -14,6 +14,9 @@
                 <b><h3>{{dodatnaOprema.name}}</h3></b>
             </div>
         </div>
+    <div v-if="dodatnaOprema.newItem" class="new-item2">
+        <img class="item" src="../assets/svgs/new-item.png" alt="">
+    </div>
     </div>
 </template>
 
@@ -32,7 +35,16 @@ export default {
     h4,h5,h3{
         margin: 0;
     }
+    .item{
+        width: 6rem;
+    }
+    .new-item2{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
     .dodatnaOprema-card{
+        position: relative;
         width: 22rem;
         height: 24.875rem;
         border-radius: 5px;
