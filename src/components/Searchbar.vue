@@ -32,8 +32,8 @@
     </div>
         <div v-if="isShown" class="showSearchMode">
             <div class="flex-class">
-                <input id="searchBaaaarMobile"  v-model="searchResult2" type="text">
-                <span @click="isShown = false" id="cancel">Cancel</span>
+                <input id="searchBaaaarMobile"  v-model="searchResult2" placeholder="Pretraga..." type="text">
+                <span @click="closeSearch" id="cancel">Cancel</span>
             </div>
             <div v-if="searchResult2 && filteredProducts.length > 0" class="results2">
                 <div class="producs" v-for="product in filteredProducts" :key="product.id">
@@ -108,6 +108,10 @@ export default {
             this.isShown = true
             document.body.style.overflowY = 'hidden'
         },
+        closeSearch(){
+            this.isShown = false
+            document.body.removeAttribute('style')
+        }
 
 
     },

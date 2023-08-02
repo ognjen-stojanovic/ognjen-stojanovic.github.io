@@ -74,6 +74,7 @@ export default{
                 </router-link>
             </div>
         </div>
+        <h2 v-if="filteredOprema.length > 0">Dodatna oprema</h2>
         <div class="content-wrapper">
             <div class="content" v-for="dodatnaOprema in filteredOprema" :key="dodatnaOprema.id">
                 <router-link v-bind:to="`/products/dodatna-oprema/${dodatnaOprema.name}`">

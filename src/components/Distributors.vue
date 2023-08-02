@@ -13,6 +13,7 @@
             <Distributer name="borum" image="../../distributors/borum.png" site="https://www.borum.as/"/>
             <Distributer name="stim" image="../../distributors/stim.png" site="https://www.stim.by/"/>
             <Distributer name="monti" image="../../distributors/monti.png" site="https://www.montipowerme.com/"/>
+            <Distributer name="bms" image="../../distributors/bms2.png" site="https://www.bmsbaumaschinen.de/en/"/>
         </div>
 
     </section>    
