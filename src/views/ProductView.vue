@@ -61,9 +61,7 @@
                </div>
            </div>
            <div class="main-product">
-               <Transition>
                     <img class="current-image-shown" v-show="changeImage" :src="currImage" alt="" :key="currImage"/>
-               </Transition>
            </div>
                <div class="title-text">
                    <h4>{{product.sub_category.toUpperCase()}}</h4>
@@ -101,7 +99,6 @@
 .v-leave-active {
   transition: all .3s ease-in-out;
 }
-
 .v-enter-from,
 .v-leave-to {
   opacity: 0;
@@ -111,7 +108,6 @@
     height: 320px;
     border-radius: 10px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, .2);
-    transition: all .5 ease-in-out;
 }
 .line{
     border-top: 3px solid var(--orange);
@@ -154,14 +150,10 @@ h5{
     margin: 0;
 }
 
-.current-image-shown{
-    transition: all .5 ease-in-out;
-}
 .current-image-shown img{ 
     object-fit: cover;
     width: 100%;
     height: 100%;
-    transition: all .5 ease-in-out;
 }
 h2{
     margin: 0;
@@ -183,6 +175,7 @@ h4{
 }
 .list-images-img{
     cursor: pointer;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, .2);
 }
 .list-images img{
     border-radius: 10px;

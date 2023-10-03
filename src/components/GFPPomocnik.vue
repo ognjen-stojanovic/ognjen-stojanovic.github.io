@@ -38,10 +38,10 @@ export default{
                     message: this.content,
                 }
                 // console.log(form.message);
-                // emailjs.send('service_4tjxmau', 'template_hhmiavv', form)
-                // .then(res => {
-                //         console.log(res);
-                // })
+                emailjs.send('service_4tjxmau', 'template_hhmiavv', form)
+                .then(res => {
+                        console.log(res);
+                })
                 document.getElementById('chat').innerHTML += `<div class='myMsg'><p>${this.content}</p></div>`
             }
             this.content = '';

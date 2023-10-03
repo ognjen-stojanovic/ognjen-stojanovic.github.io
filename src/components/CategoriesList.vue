@@ -46,7 +46,13 @@ export default {
                             <router-link v-bind:to="'/products/perdasenje'">Mašine za perdašenje</router-link>
                         </div>    
                         <div class="menu-link">
-                            <router-link v-bind:to="'/products/perdasenje'">Mašine termo izolaciju</router-link>
+                            <router-link v-bind:to="'/products/peskarenje'">Mašine za peskarenje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/smirglanje'">Mašine šmirglanje</router-link>
+                        </div>    
+                        <div class="menu-link">
+                            <router-link v-bind:to="'/products/univerzalne-masine'">Univerzalne mašine</router-link>
                         </div>    
                     </dialog>
                 <!-- </router-link> -->
@@ -76,7 +82,7 @@ export default {
                 </router-link>
                 <router-link class="h3" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA SIGNALIZACIJA</router-link>
                 <div class="dottedLine"></div>
-                <p>Horizontalna signalizacija predstavlja se odnosi na obeležavanje puteva, parkinga, traka i drugih površina saobraćajne infrastrukture.</p>
+                <p>Horizontalna signalizacija se odnosi na obeležavanje puteva, parkinga, traka i drugih površina saobraćajne infrastrukture.</p>
             </div>
             <div class="item">
                 <router-link v-bind:to="'/products/zastita-drveta'">
@@ -177,6 +183,7 @@ dialog{
     object-fit: cover;
     width: 100%;
     height: 14.5rem;
+    /*box-shadow: 0 3px 2px 0 rgba(0, 0, 0, .8);*/
     border-radius: 10px;
 }
 .item{

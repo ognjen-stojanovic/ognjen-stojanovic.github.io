@@ -36,12 +36,6 @@ export default{
                child.setAttribute('hidden', '');
            }
        },
-       onEnter(){
-            let str = this.input;
-            this.input = '';
-            this.$router.push({ name: 'CategoryView', query: { qr: str } });
-
-       }
     },
 }
 
@@ -56,8 +50,6 @@ export default{
                 <img class="logo" src="../assets/logo-GFP-verysmall.png" alt="GFP logo">
             </router-link>
             <SearchBar />
-            <!-- <input type="text" v-on:keyup.enter="onEnter" name="search" v-model="input" placeholder="Pretraga"> -->
-
         </span>
         <span id="menu-icon" @click="showNavigation">
             <svg fill="#000000" viewBox="-5.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>menu</title> <path d="M1.375 9.156h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 14.625h18.063c0.781 0 1.375-0.594 1.375-1.375 0-0.75-0.594-1.344-1.375-1.344h-18.063c-0.781 0-1.375 0.594-1.375 1.344 0 0.781 0.594 1.375 1.375 1.375zM1.375 20.094h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344zM1.375 25.563h18.063c0.781 0 1.375-0.594 1.375-1.344 0-0.781-0.594-1.375-1.375-1.375h-18.063c-0.781 0-1.375 0.594-1.375 1.375 0 0.75 0.594 1.344 1.375 1.344z"></path> </g></svg>
@@ -67,7 +59,7 @@ export default{
             <router-link class="link" v-bind:to="'/'">POČETNA</router-link>
             <div class="products">
               <span class="menidown">
-                  <router-link class="link" v-bind:to="'#'">MAŠINE I OPREMA</router-link>
+                  <div class="link">MAŠINE I OPREMA</div>
                   <i class="fa fa-angle-down"></i>
               </span>
               <div class="dropdown-menu">
@@ -129,62 +121,109 @@ export default{
         </header>
         <div v-if="isShown" id="navigation">
             <div class="phone-nav">
-                <router-link class="phone-link" v-bind:to="'/'">Početna</router-link>
-                <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'#'">Mašine i Oprema</router-link>
+                <router-link @click="showNavigation" class="phone-link" v-bind:to="'/'">                
+                <div>
+                    <div class="phone-link">Početna</div>
+                </div>
+                </router-link>
                 <div class="phone-divider"></div>
                 <div class="show-more phone-flex-link">
-                    <router-link class="phone-link" v-bind:to="'/products/zavrsni-radovi'">ZAVRŠNI RADOVI U GRADJEVINARSTVU</router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/zavrsni-radovi'" class="phone-link">ZAVRŠNI RADOVI U GRADJEVINARSTVU</router-link>
                     <svg @click="showMore($event)" class="phone-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" fill="#000000"></path> </g></svg>
                 </div>
                 <div class="show-more" hidden>
+                    <router-link @click="showNavigation" v-bind:to="'/products/farbanje-krecenje'">
                     <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/farbanje-krecenje'">Mašine za farbanje i krečenje</router-link>
+                        <div class="indent">Mašine za farbanje i krečenje</div>
                     </div>
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/gletovanje'">
+                        <div class="show-more">
+                            <div class="indent" >Mašine za gletovanje</div>
+                        </div>
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/malterisanje'">
                     <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/gletovanje'">Mašine za gletovanje</router-link>
+                        <div class="indent">Mašine za malterisanje</div>
                     </div>
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/malterisanje'">Mašine za malterisanje</router-link>
-                    </div>
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/izrada-betonskih-kosuljica'">Mašine za izradu betonske košuljice</router-link>
-                    </div>
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/perdasenje'">Mašine za perdašenje</router-link>
-                    </div>    
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/smirglanje'">Mašine za šmirglanje</router-link>
-                    </div>    
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/univerzalne-masine'">Univerzalne mašine</router-link>
-                    </div>    
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/izrada-kosuljica'">
+                        <div class="show-more">
+                            <div class="indent">Mašine za izradu betonske košuljice</div>
+                        </div>
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/perdasenje'">
+                        <div class="show-more">
+                            <div class="indent" v-bind:to="'/products/perdasenje'">Mašine za perdašenje</div>
+                        </div>
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/smirglanje'">
+                        <div class="show-more">
+                            <div class="indent">Mašine za šmirglanje</div>
+                        </div>    
+                    </router-link>
+                    <router-link @click="showNavigation" v-bind:to="'/products/smirglanje'">
+                        <div class="show-more">
+                            <div class="indent">Univerzalne mašine</div>
+                        </div>    
+                    </router-link>
 
                 </div>
                 <div class="phone-divider"></div>
                 <div class="phone-flex-link">
-                    <router-link class="phone-link" v-bind:to="'/products/hidroizolacija'">HIDROIZOLACIJA</router-link>
+                    <router-link @click="showNavigation" class="phone-link" v-bind:to="'/products/hidroizolacija'">HIDROIZOLACIJA</router-link>
                     <svg @click="showMore($event)" class="phone-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C12.5523 4 13 4.44772 13 5V11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H13V19C13 19.5523 12.5523 20 12 20C11.4477 20 11 19.5523 11 19V13H5C4.44772 13 4 12.5523 4 12C4 11.4477 4.44772 11 5 11H11V5C11 4.44772 11.4477 4 12 4Z" fill="#000000"></path> </g></svg>
                 </div>
                 <div class="show-more" hidden>
-                    <div class="show-more">
-                        <router-link class="indent" v-bind:to="'/products/reaktori'">Reaktori</router-link>
-                    </div>    
+                    <router-link @click="showNavigation" class="indent" v-bind:to="'/products/reaktori'">                    
+                        <div class="show-more">
+                            <div class="indent">Reaktori</div>
+                        </div>    
+                    </router-link>
                 </div>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/products/metal'">ZAŠTITA METALA</router-link>
+
+                <router-link @click="showNavigation" v-bind:to="'/products/zastita-metala'">                
+                    <div>
+                        <div class="phone-link">ZAŠTITA METALA</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/products/drvo'">ZAŠTITA I FARBANJE DRVETA</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/products/zastita-drveta'">                
+                    <div>
+                        <div class="phone-link">ZAŠTITA I FARBANJE DRVETA</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/products/horizontalna-signalizacija'">HORIZONTALNA SIGNALIZACIJA</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/products/horizontalna-signalizacija'">                
+                    <div>
+                        <div class="phone-link">HORIZONTALNA SIGNALIZACIJA</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/promocije'">Promocije</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/promocije'">                
+                    <div>
+                        <div class="phone-link">Promocije</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/servis'">Servis</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/products/servis'">                
+                    <div>
+                        <div class="phone-link">Servis</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/contact'">Kontakt</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/products/contact'">                
+                    <div>
+                        <div class="phone-link">Kontakt</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
-                <router-link class="phone-link" v-bind:to="'/about'">O nama</router-link>
+                <router-link @click="showNavigation" v-bind:to="'/products/contact'">                
+                    <div>
+                        <div class="phone-link">O nama</div>
+                    </div>
+                </router-link>
                 <div class="phone-divider"></div>
             <div class="navigations">
                 <span class="phone-icons">
@@ -265,6 +304,7 @@ export default{
     .phone-link{
         font-size: 1rem;
         font-weight: 500;
+        cursor: pointer;
         color: var(--text);
     }
     .body-hide{
@@ -366,6 +406,7 @@ export default{
     }
     .link{
         padding: 0.5rem  1rem 0.5rem 1rem;
+        cursor: pointer;
         font-size: 1rem;
         color: rgba(33,53,71, .7);
         font-weight: 500;

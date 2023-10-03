@@ -13,7 +13,7 @@ export default{
         <div class="cont">
             <div class="text-wrap">
                 <h1>Dobrodošli na GFP!</h1>
-                <!-- <h3>Svaki posao je težak, mi smo tu da vam olakšamo.</h3> -->
+                <h3>Mašine i oprema za završne radove u građevinarstvu i industriji</h3>
             </div>
             <router-link id="about-btn" v-bind:to="'/about'">
             Saznaj više
@@ -71,7 +71,7 @@ export default{
      }
      .text-wrap{
         padding: 0.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-top: 3rem;
         border-radius: 0.4rem;
      }
@@ -79,19 +79,19 @@ export default{
         border-radius: 0.4rem;
         padding: 0.3rem;
         color: #fff;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        text-shadow: 0 3px 2px rgba(0, 0, 0, 0.8);
         margin-block-start: 0;
         margin-block-end: 0;
     }
 
     h3{
-        font-weight: 500;
+        font-weight: 400;
         margin-block-start: 0;
         margin-block-end: 0;
-        font-size: var(--h3-size);
+        font-size: calc(var(--h3-size) - .1rem);
         margin: 0 auto;
-        max-width: 20rem;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        max-width: 30rem;
+        text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
         color: #eee; 
     }
     .icon-light{
@@ -101,7 +101,7 @@ export default{
         width: 1.5em;
     }
     #about-btn {
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: flex;
         width: fit-content;
         justify-items: center;
@@ -112,6 +112,12 @@ export default{
         font-weight: 600;
         margin: 0 auto;
         padding: 0.8rem 1.5em 0.8rem 1.5em;
+        box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.5);
+        border: 2px solid #fff;
+        transition: all 200ms ease-in-out;
+    }
+    #about-btn:hover{
+        transform: translateY(-.5rem);
     }
     .containter{
         background: var(--bg-lighter);
