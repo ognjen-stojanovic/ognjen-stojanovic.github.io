@@ -12,8 +12,8 @@ export default{
     <section class="hero">
         <div class="cont">
             <div class="text-wrap">
-                <h1>Dobrodošli na GFP!</h1>
-                <h3>Mašine i oprema za završne radove u građevinarstvu i industriji</h3>
+                <h1>DOBRODOŠLI NA GFP!</h1>
+                <h3>OPREMA, SERVIS I REZERVNI DELOVI!</h3>
             </div>
             <router-link id="about-btn" v-bind:to="'/about'">
             Saznaj više
@@ -85,7 +85,7 @@ export default{
     }
 
     h3{
-        font-weight: 400;
+        font-weight: 500;
         margin-block-start: 0;
         margin-block-end: 0;
         font-size: calc(var(--h3-size) - .1rem);

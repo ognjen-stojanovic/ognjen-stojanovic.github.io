@@ -1,2 +1,56 @@
-U SEARCH BARU promeniti overflow
-Za slanje mejla dodati u asistenta
+Priprema povrsine: monti sa mejla
+Susenje puteva: poljski sajt
+bm 2000 ca cold paint airless applicaton
+
+<table>
+<tbody>
+<tr>
+<th>Duzina</th>
+<td>350 mm</td>
+</tr>
+<tr>
+<th>Visina</th>
+<td>160 mm</td>
+</tr>
+<tr>
+<th>Sirina</th>
+<td>70 mm</td>
+</tr>
+<tr>
+<th>Tezina</th>
+<td>1.5 kg</td>
+</tr>
+<tr>
+<th>Obim pojasa</th>
+<td>110 mm</td>
+</tr>
+<tr>
+<th>Potreban pritisak za protok</th>
+<td>6.2 bar </td>
+</tr>
+<tr>
+<th>Prosecna potrosnja vazduha</th>
+<td>0.5 m&sup3;/min</td>
+</tr>
+<tr>
+<th>Brzina rada</th>
+<td>3500 rpm</td>
+</tr>
+<tr>
+<th>Spojka za vazduh</th>
+<td>Rp 1/4 inch</td>
+</tr>
+<tr>
+<th>Potreban dijametar za crevo (unutrasnje)</th>
+<td>9.5 mm</td>
+</tr>
+<tr>
+<th>Vibracija</th>
+<td>2 m/sec&sup2;</td>
+</tr>
+<tr>
+<th>Nivo buke</th>
+<td>83 db(A)</td>
+</tr>
+</tbody>
+</table>

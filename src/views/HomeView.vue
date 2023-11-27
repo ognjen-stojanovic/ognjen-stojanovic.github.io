@@ -5,8 +5,6 @@ import CardShowcase from '../components/CardShowcase.vue'
 import Distributors from '../components/Distributors.vue'
 import WhyUs from '../components//WhyUs.vue'
 import CategoriesList from '../components/CategoriesList.vue'
-import img from '../../public/img1.jpg'
-import img2 from '../../public/img2.jpg'
 
 export default {
     components: {
@@ -18,19 +16,9 @@ export default {
     },
   data() {
     return {
-        imageBg: img,
-        imageNis: img2
     }
   },  
-    mounted() {
-        let d = document.getElementById('dialog');
-        d.showModal();
-    },
   methods: {
-    closeDialog(){
-        let d = document.getElementById('dialog');
-        d.close();
-    }
   },
 }
 
@@ -39,15 +27,6 @@ export default {
 <template>
     <div class="containter">
         
-        <dialog id="dialog">
-            <div class="wrep">
-                <div @click="closeDialog" id="closeDialog" class="x">x</div>
-            </div>
-            <div class="sl">
-                <img class="pozivnica" :src="this.imageNis" alt="">
-                <img class="pozivnica" :src='this.imageBg' alt="">
-            </div>
-        </dialog>
         <div class="welcome">
             <Welcome />
         </div>
@@ -74,18 +53,6 @@ export default {
     .pozivnica{
         max-width: 100%;
     }
-    dialog{
-        border: none !important;
-        padding: 0 !important;
-        border-radius: 10px;
-        box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.1);
-    }
-
-dialog:-internal-dialog-in-top-layer::backdrop {
-    position: fixed;
-    inset: 0px;
-    background: rgba(0, 0, 0, 0.3);
-}
     .sl{
         display: flex;
     }

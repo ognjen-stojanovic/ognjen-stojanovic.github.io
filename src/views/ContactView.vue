@@ -16,9 +16,10 @@
             <p><strong>Beograd tel:</strong> +381 (0)60 63-43-002</p>
             <p><strong>Centralna i Južna Srbija tel:</strong> +381 (0)60 70-08-787</p>
             <p><strong>Vojvodina tel:</strong> +381 (0)64 84-92-615</p>
-            <p><strong>CG, HR i SLO tel:</strong> +381 (0)63 81-49-997</p>
-            <p><strong>Bosna i Hercegovina tel:</strong> +387 (0)62 67-49-45</p>
-            <p><strong>Makedonija tel:</strong> +389 (0) 72 85-98-59</p>
+            <p><strong>HR i SLO tel:</strong> +381 (0)63 81-49-997</p>
+            <p><strong>Crna Gora</strong> +381 (0)60 03-37-531</p>
+            <p><strong>Bosna i Hercegovina tel:</strong> +381 (0)63 81-49-997</p>
+            <p><strong>Severna Makedonija tel:</strong> +389 (0) 72 85-98-59</p>
         </div>
         <div class="kontakt">
             <h3>Nabavka</h3>
@@ -28,6 +29,7 @@
             <h3>Servis</h3>
             <p><strong>Telefon:</strong> +381 (0)64/849-26-12</p>
             <p><strong>Email:</strong> servis.gfp@gmail.com</p>
+            <p><strong>Email:</strong> servis@gfp.rs</p>
        </div>
     </div>
 </section>

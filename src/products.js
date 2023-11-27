@@ -144,7 +144,7 @@ import pftSwingL_2 from "./assets/products/Masine za zavrsne radove u gradjevina
 import pftSwingL_3 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za nanosenje glet mase/PFT SWING L 230V/pft-swing-fc230v-airless-3kw.jpg";
 import pftSwingL_4 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za nanosenje glet mase/PFT SWING L 230V/pft-swing-l-2.jpg";
 
-//farbanje-krecenje
+//bojenje-smirglanje
 
 import gx21 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/GX21.jpg";
 import gx21_2 from "./assets/products/Masine za zavrsne radove u gradjevinarstvu/Masine za farbanje-krecenje/GX21/23991.jpg";
@@ -409,6 +409,15 @@ import reaktor3EXP2_4 from "./assets/products/hidroizolacija/reaktori/Reaktor3EX
 import reaktor3EXP2_5 from "./assets/products/hidroizolacija/reaktori/Reaktor3EXP2/cq5dam.web.1280.1280 (4).jpeg"
 
 
+//Priprema povrsine: monti
+import bristleBlasterPneumatic from "./assets/products/zastita metala/Priprema povrsine/bristleBlasterPneumatic.webp"
+import bristleBlasterPneumatic_2 from "./assets/products/zastita metala/Priprema povrsine/bristleBlaster_2.jpg"
+import bristleBlasterPneumatic_3 from "./assets/products/zastita metala/Priprema povrsine/bristleBlaster_3.jpg"
+import bristleBlasterElectric from "./assets/products/zastita metala/Priprema povrsine/bristleBlasterElectric.webp"
+import bristleBlasterElectric_2 from "./assets/products/zastita metala/Priprema povrsine/bristleBlasterElectric_2.jpg"
+import bristleBlasterElectric_3 from "./assets/products/zastita metala/Priprema povrsine/bristleBlasterElectric_3.png"
+
+
 
 
 
@@ -416,7 +425,7 @@ export const dodatna_oprema = [
     {
         id: 1,
         name: "Abranet 150mm",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Abranet® Ø 150 mm Grip</h1><div class="m-b-6 m-b-7-lg"> Multifunkcionalni i klasični Abranet je posebno razvijen za brušenje kitova, prajmera, lakova, kompozitnih materijala i širokog spektra drugih materijala za industrijsku upotrebu. Abranet kombinuje visoke performanse i dug životni vek, što ga čini isplativim rešenjem. Dizajniran za suvo brušenje, ručno ili mašinski, istinske karakteristike brušenja bez prašine rezultiraju čistijim radnim okruženjem, kao i boljom završnom obradom površine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 u-print-label">Odgovarajući materijali</p><div class="m-b-6 m-b-7-lg">Čelik, meki čelik / ugljenični čelik, legure bakra / mesing / bronza, breza, obojeni metali, gips / kit, bukva, nerđajući čelik, melamin, furnir, bor, plastika, prajmer, brušenje boje, punilo za telo, lakovi, tikovina, mahagoni, L.G. Himacs, Samsung Staron, skidanje/uklanjanje boje, iverica, čvrsta površina, liveno gvožđe, hrast, jasen, tvrdo drvo, meko / smolasto drvo, Karonia Mistral, MDF / HDF, Dupont Corian</div><p class="f- bold m-b-3 m-t-6 u-print-label">Opcije granulacije</p><button type="button" aria-label="Opcije granulacije: P80" class="filter filter--big selected">P80</button><button tipe="button" aria-label="Opcije granulacije: P100" class="filter filter--big">P100</button><button tipe="button" aria-label="Opcije granulacije: P120" class="filter filter--big">P120</button><button tipe="button" aria-label="Opcije granulacije: P150" class="filter filter--big">P150</button><button tipe="button" aria-label="Opcije granulacije: P180" class="filter filter--big">P180</button><button tipe="button" aria-label="Opcije granulacije: P240" class= "filter filter--big">P240</button><button tipe="button" aria-label="Grit Options: P320" class="filter filter--big">P320</button><button tipe=" button" aria-label="Opcije granulacije: P360" class="filter filter--big">P360</button><button tipe="button" aria-label="Opcije granulacije: P400" class="filter filter- -big">P400</button><button tipe="button" aria-label="Opcije granulacije: P500" class="filter filter--big">P500</button><button tipe="button" aria- label="Grit Options: P600" class="filter filter--big">P600</button><button tipe="button" aria-label="Grit Options: P800" class="filter filter--big"> P800</button><button tipe="button" aria-label="Opcije granulacije: P1000" class="filter filter--big">P1000</button><p class="f-bold m-b-3 m-t- 6 u-print-label">Komada po pakovanju</p><button>10 komada</button><button tipe="button" aria-label="komada po pakovanju: 10 komada" class="filter filter--big selected">25 komada</button></div>',
@@ -427,7 +436,7 @@ export const dodatna_oprema = [
     {
         id: 2,
         name: "Abranet 225mm",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Abranet® Ø 225 mm Grip</h1><div class="m-b-6 m-b-7-lg"> Multifunkcionalni i klasični Abranet je posebno razvijen za brušenje kitova, prajmera, lakova, kompozitnih materijala i širokog spektra drugih materijala za industrijsku upotrebu. Abranet kombinuje visoke performanse i dug životni vek, što ga čini isplativim rešenjem. Dizajniran za suvo brušenje, ručno ili mašinski, istinske karakteristike brušenja bez prašine rezultiraju čistijim radnim okruženjem, kao i boljom završnom obradom površine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 u-print-label">Odgovarajući materijali</p><div class="m-b-6 m-b-7-lg">Čelik, meki čelik / ugljenični čelik, legure bakra / mesing / bronza, breza, obojeni metali, gips / kit, bukva, nerđajući čelik, melamin, furnir, bor, plastika, prajmer, brušenje boje, punilo za telo, lakovi, tikovina, mahagoni, L.G. Himacs, Samsung Staron, skidanje/uklanjanje boje, iverica, čvrsta površina, liveno gvožđe, hrast, jasen, tvrdo drvo, meko / smolasto drvo, Karonia Mistral, MDF / HDF, Dupont Corian</div><p class="f- bold m-b-3 m-t-6 u-print-label">Opcije granulacije</p><button tipe="button" aria-label="Opcije granulacije: P80" class="filter filter--big selected">P80</button><button tipe="button" aria-label="Opcije granulacije: P100" class="filter filter--big">P100</button><button tipe="button" aria-label="Opcije granulacije: P120" class="filter filter--big">P120</button><button tipe="button" aria-label="Opcije granulacije: P150" class="filter filter--big">P150</button><button tipe="button" aria-label="Opcije granulacije: P180" class="filter filter--big">P180</button><button tipe="button" aria-label="Opcije granulacije: P240" class= "filter filter--big">P240</button><button tipe="button" aria-label="Opcije granulacije: P320" class="filter filter--big">P320</button><p class=" f-bold m-b-3 m-t-6 u-print-label">Komada po pakovanju</p><button tipe="button" aria-label="Komčadi po pakovanju: 10 komada" class="filter filter--big odabrano">10 komada</button><button tipe="button" aria-label="Komada po pakovanju: 25 komada" class="filter filter--big">25 komada</button><!---- ><p class="f-bold m-b-3 m-t-6 u-print-label">Mirka kod</p><p class="f-normal m-b-0">AE223F1080</p></div>',
@@ -438,7 +447,7 @@ export const dodatna_oprema = [
     {
         id: 3,
         name: "BackingPad 225mm",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Podloga Ø 225 mm </h1><div class="m-b-6 m-b-7-lg"><p>Podloga Ø 225 mm za Mirka® LEROS i LEROS-S.</p></div><p class="f". -bold m-b-3 u-print-label">Koristi za</p><div class="m-b-6 m-b-7-lg">brušenje</div><p class="f-bold m-b-3 m-t -6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: x1 komad" class="filter filter--big selected">x1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Konfiguracija rupe</p><button tipe="button" aria-label="Konfiguracija rupe: 25 rupa" class=" filter filter--big selected">25 rupa</button><p class="f-bold m-b-3 m-t-6 u-print-label">Tip priloga</p><button tipe="button" aria- label="Tip pričvršćivanja: Grip + 8 zavrtnja" class="filter filter--big selected">Grip + 8 šrafova</button><p class="f-bold m-b-3 m-t-6 u-print-label" >Čvrstoća</p><button tipe="button" aria-label="Čvrstoća: Tvrda" class="filter filter--big selected">Tvrda</button></div>',
@@ -449,7 +458,7 @@ export const dodatna_oprema = [
     {
         id: 4,
         name: "Antistatičko crevo Ø 20-32mm za ručno brušenje",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Antistatičko crevo Ø 20- 32 mm x 4 m za blokove za ručno brušenje</h1><div class="m-b-6 m-b-7-lg"> Antistatičko crevo za usisavanje prašine za blokove za ručno brušenje. Konusni dizajn za poboljšani protok vazduha kada se koristi sa usisivačima prašine Mirka® M-klase (srednje), 1230 M i 1242 M. Kompatibilan sa antistatičkim sistemima za usisavanje prašine. </div><p class="f-bold m-b-3 u-print-label">Koristite za</p><div class="m-b-6 m-b-7-lg">Uklanjanje prašine</div><p class="f-bold m-b-3 m-t-6 u-print-label">Dužina</p><button tipe="button" aria-label="Dužina: 4 m" class="filter filter--big izabrano">4 m</button><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: k1 komad" class="filter filter--big selected">k1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Kabl</p><button tipe="button" aria-label="Kabl: Nema kabla" class="filter filter--big selected">Bez kabla</button></div>',
@@ -460,7 +469,7 @@ export const dodatna_oprema = [
     {
         id: 5,
         name: "Adapter za usisivač prašine 30-48mm",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Adapter za usisivač prašine 30-48mm</h1><div class="m-b-6 m-b-7-lg"> Adapter za povezivanje creva za usisavanje prašine na usisivač. Može se iseći tako da odgovara usisivačima prašine drugih brendova. Električna provodljivost (≤ 10⁶ Ō/kvadrat). </div><p class="f-bold m-b-3 m-t-6 u-print-label">Kvalitet</p><button tipe="button" aria-label="Kvalitet: Mirka" class="filter filter--big selected">Mirka</button><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label ="Količina po pakovanju: x1 komad" class="filter filter--big selected">x1 komad</button></div>',
@@ -471,7 +480,7 @@ export const dodatna_oprema = [
     {
         id: 6,
         name: "Podloga za usisnu haubu Ø 125mm M14",
-        category: 'smirglanje',
+        category: 'bojenje-smirglanje',
         partnerName: "mirka",
         partner: MIRKA,
         description: '<div class="product-detail-page-content col-ks-12 col-sm-12 col-lg-6"><h1 class="h2 m-b-6 m-b-7-lg">Podloga za usisnu haubu Ø 125 mm M14</h1><div class="m-b-6 m-b-7-lg"> Ova podloga od 125 mm (5”) opremljena je robusnim kukama i 17 rupa koje omogućavaju odlično usisavanje prašine. Ova podloga treba da se koristi samo zajedno sa poklopcem za usisavanje prašine (Mirka kod 9190152001). </div><p class="f-bold m-b-3 m-t-6 u-print-label">Količina po pakovanju</p><button tipe="button" aria-label="Količina po pakovanju: x1 komad " class="filter filter--big selected">x1 komad</button><p class="f-bold m-b-3 m-t-6 u-print-label">Konfiguracija rupe</p><button tipe=" button" aria-label="Konfiguracija rupe: 17 rupa" class="filter filter--big selected">17 rupa</button><p class="f-bold m-b-3 m-t-6 u-print-label" >Tip priloga</p><button tipe="button" aria-label="Tip priloga: Grip" class="filter filter--big selected">Uhvat</button><p class="f-bold m-b- 3 m-t-6 u-print-label">Čvrstoća</p><button tipe="button" aria-label="Čvrstoća: Tvrda" class="filter filter--big selected">Tvrda</button></div>',
@@ -1330,7 +1339,7 @@ export const dodatna_oprema = [
     {
         id: 85,
         name: "Graco 25 CM TIP EXTENSION WITH RAC X GUARD",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1340,7 +1349,7 @@ export const dodatna_oprema = [
     {
         id: 86,
         name: "Graco 50 CM TIP EXTENSION WITH RAC X GUARD",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1350,7 +1359,7 @@ export const dodatna_oprema = [
     {
         id: 87,
         name: "Graco 75 CM TIP EXTENSION WITH RAC X GUARD",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1360,7 +1369,7 @@ export const dodatna_oprema = [
     {
         id: 88,
         name: "Graco - CleanShot Shut-Off Valve - Swivel Joint",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1370,7 +1379,7 @@ export const dodatna_oprema = [
     {
         id: 89,
         name: "Graco Contractor Inline Spray Gun with Filter",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1380,7 +1389,7 @@ export const dodatna_oprema = [
     {
         id: 90,
         name: "Graco RAC X FF LP Spray Tip",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1390,7 +1399,7 @@ export const dodatna_oprema = [
     {
         id: 91,
         name: "Graco RAC X LP Spray Tip",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1400,7 +1409,7 @@ export const dodatna_oprema = [
     {
         id: 92,
         name: "Graco RAC X Airless Spray Tip for Paint Sprayers",
-        category: 'farbanje-krecenje',
+        category: 'bojenje-smirglanje',
         partnerName: "graco",
         partner: GRACO,
         description: '',
@@ -1425,7 +1434,7 @@ export const products = [
         id: 43,
         title: 'GX21',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: gx21,
         partner: GRACO,
         partnerName: "graco",
@@ -1435,7 +1444,7 @@ export const products = [
         id: 44,
         title: 'GXFF',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: gxff,
         partner: GRACO,
         partnerName: "graco",
@@ -1445,7 +1454,7 @@ export const products = [
         id: 1,
         title: 'GrindLazer',
         category: "horizontalna-signalizacija",
-        sub_category: "horizontalna-signalizacija",
+        sub_category: "skidanje-boje",
         img: grindLazer,
         partner: GRACO,
 		partnerName: "graco",
@@ -1535,7 +1544,7 @@ export const products = [
         id: 10,
         title: 'GrindLazer HP RC1640 H',
         category: "horizontalna-signalizacija",
-        sub_category: "horizontalna-signalizacija",
+        sub_category: "skidanje-boje",
         img: grindLazerRC1640H,
         partner: GRACO,
 		partnerName: "graco",
@@ -1545,7 +1554,7 @@ export const products = [
         id: 11,
         title: 'GrindLazer HP RC820 H',
         category: "horizontalna-signalizacija",
-        sub_category: "horizontalna-signalizacija",
+        sub_category: "skidanje-boje",
         img: grindLazerRC820,
         partner: GRACO,
 		partnerName: "graco",
@@ -1555,7 +1564,7 @@ export const products = [
         id: 12,
         title: 'GrindLazer HP RC1625 G',
         category: "horizontalna-signalizacija",
-        sub_category: "horizontalna-signalizacija",
+        sub_category: "skidanje-boje",
         img: grindLazerRC1625G,
         partner: GRACO,
 		partnerName: "graco",
@@ -1575,7 +1584,7 @@ export const products = [
         id: 14,
         title: '190 Classic PC Airless Stand',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: graco190,
         newItem: true,
         partner: GRACO,
@@ -1586,7 +1595,7 @@ export const products = [
         id: 15,
         title: '390 Classic PC Cordless Airless Sprayer Stand',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: graco390Sprayer,
         newItem: true,
         partner: GRACO,
@@ -1597,7 +1606,7 @@ export const products = [
         id: 16,
         title: '390 Classic PC Hi-Boy Airless Sprayer',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: graco390Hi,
         newItem: true,
         partner: GRACO,
@@ -1698,7 +1707,7 @@ export const products = [
         id: 26,
         title: 'Graco Ultra Max II 650 PC PRO',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: gracoUltraMax,
         partner: GRACO,
 		partnerName: "graco",
@@ -1872,7 +1881,7 @@ export const products = [
         id: 45,
         title: 'MARK X HD 3-IN-1',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: markXHD3In1,
         partner: GRACO,
         partnerName: "graco",
@@ -1882,7 +1891,7 @@ export const products = [
         id: 46,
         title: 'QuickShot Airless Sprayer',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: quickshot,
         newItem: true,
         partner: GRACO,
@@ -1893,7 +1902,7 @@ export const products = [
         id: 47,
         title: 'UltraMax395',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: ultraMax395,
         partner: GRACO,
         partnerName: "graco",
@@ -1903,7 +1912,7 @@ export const products = [
         id: 48,
         title: 'UltraMax Cordless',
         category: "zavrsni-radovi",
-        sub_category: "farbanje-krecenje",
+        sub_category: "bojenje-smirglanje",
         img: ultraMaxCordless,
         partner: GRACO,
         partnerName: "graco",
@@ -1993,7 +2002,7 @@ export const products = [
         id: 57,
         title: 'Mirka Leros',
         category: "zavrsni-radovi",
-        sub_category: "smirglanje",
+        sub_category: "bojenje-smirglanje",
         img: mirkaLeros,
         partner: MIRKA,
         partnerName: "mirka",
@@ -2002,8 +2011,8 @@ export const products = [
     {
         id: 58,
         title: 'Mirka Deos',
-        category: "zavrsni-radovi",
-        sub_category: "smirglanje",
+        category: "drvo",
+        sub_category: "smirglanje-drvo",
         img: mirkaDeos,
         partner: MIRKA,
         partnerName: "mirka",
@@ -2012,8 +2021,8 @@ export const products = [
     {
         id: 59,
         title: 'Mirka Deros',
-        category: "zavrsni-radovi",
-        sub_category: "smirglanje",
+        category: "metal",
+        sub_category: "priprema-povrsine",
         img: mirkaDeros,
         partner: MIRKA,
         partnerName: "mirka",
@@ -2042,8 +2051,8 @@ export const products = [
     {
         id: 62,
         title: 'Mirka usisivač za prašinu 1230 L',
-        category: "zavrsni-radovi",
-        sub_category: "smirglanje",
+        category: "drvo",
+        sub_category: "smirglanje-drvo",
         img: mirkaDustExtractor,
        	partner: MIRKA,
         partnerName: "mirka",
@@ -2052,8 +2061,8 @@ export const products = [
     {
         id: 63,
         title: 'Mirka DEOS Delta 663CV',
-        category: "zavrsni-radovi",
-        sub_category: "smirglanje",
+        category: "drvo",
+        sub_category: "smirglanje-drvo",
         img: mirkaDeosDelta,
        	partner: MIRKA,
         partnerName: "mirka",
@@ -2082,8 +2091,8 @@ export const products = [
     {
         id: 66,
         title: 'Reactor E-8P, Fusion AP Gun, 240 V',
-        category: "hidroizolacija",
-        sub_category: "reaktori",
+        category: "termoizolacija",
+        sub_category: "termoizolacija",
         img: reaktorE_8P,
         newItem: true,
        	partner: GRACO,
@@ -2106,16 +2115,6 @@ export const products = [
         category: "hidroizolacija",
         sub_category: "reaktori",
         img: reaktorE20,
-       	partner: GRACO,
-        partnerName: "graco",
-        desc: ""
-    },
-    {
-        id: 69,
-        title: 'Reactor E-8P za podove',
-        category: "hidroizolacija",
-        sub_category: "reaktori",
-        img: reaktorE8P_for_flooring,
        	partner: GRACO,
         partnerName: "graco",
         desc: ""
@@ -2174,8 +2173,8 @@ export const products = [
     {
         id: 75,
         title: 'Merkur 45:1',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: merkur45,
        	partner: GRACO,
         partnerName: "graco",
@@ -2184,8 +2183,8 @@ export const products = [
     {
         id: 76,
         title: 'G15 and G40 Air-Assisted Spray Guns',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: g15Andg40,
        	partner: GRACO,
         partnerName: "graco",
@@ -2194,8 +2193,8 @@ export const products = [
     {
         id: 77,
         title: 'Finex Air Spray Gun',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: finexAirSprayGun,
        	partner: GRACO,
         partnerName: "graco",
@@ -2204,8 +2203,8 @@ export const products = [
     {
         id: 78,
         title: 'Finex Air Spray Package',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: finexAirSprayPackage,
        	partner: GRACO,
         partnerName: "graco",
@@ -2214,8 +2213,8 @@ export const products = [
     {
         id: 79,
         title: 'Merkur ES Spray Packages',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: merkurEsSprayPackages,
        	partner: GRACO,
         partnerName: "graco",
@@ -2224,8 +2223,8 @@ export const products = [
     {
         id: 80,
         title: 'Eleketrostatički pištolji',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: elektrostatickiPistolj,
        	partner: GRACO,
         partnerName: "graco",
@@ -2234,8 +2233,8 @@ export const products = [
     {
         id: 81,
         title: 'Graco KING XL70-180',
-        category: "zastita-metala",
-        sub_category: "zastita-metala",
+        category: "metal",
+        sub_category: "bojenje-m",
         img: gracoKingXL170,
        	partner: GRACO,
         partnerName: "graco",
@@ -2244,8 +2243,8 @@ export const products = [
     {
         id: 82,
         title: 'GX FF Electric Airless Sprayer, 230V, Multi',
-        category: "zastita-drveta",
-        sub_category: "zastita-drveta",
+        category: "drvo",
+        sub_category: "bojenje-d",
         img: gxFFElectricAirlessSprayer,
        	partner: GRACO,
         partnerName: "graco",
@@ -2254,8 +2253,8 @@ export const products = [
     {
         id: 83,
         title: 'Triton Alum Spray Package, AirPro Conventional Gun',
-        category: "zastita-drveta",
-        sub_category: "zastita-drveta",
+        category: "drvo",
+        sub_category: "bojenje-d",
         img: tritonAlumConventional,
        	partner: GRACO,
         partnerName: "graco",
@@ -2264,8 +2263,8 @@ export const products = [
     {
         id: 84,
         title: 'Triton Alum Spray Package, AirPro HVLP Gun',
-        category: "zastita-drveta",
-        sub_category: "zastita-drveta",
+        category: "drvo",
+        sub_category: "bojenje-d",
         img: tritonAlumRegulator,
        	partner: GRACO,
         partnerName: "graco",
@@ -2301,6 +2300,27 @@ export const products = [
         partnerName: "bms",
         desc: ""
     },
+    {
+        id: 88,
+        title: 'Bristle Blaster Pneumatic',
+        category: "metal",
+        sub_category: "priprema-povrsine",
+        img: bristleBlasterPneumatic,
+       	partner: MONTI,
+        partnerName: "monti",
+        desc: ""
+    },
+    {
+        id: 89,
+        title: 'Bristle Blaster Electric',
+        category: "metal",
+        sub_category: "priprema-povrsine",
+        img: bristleBlasterElectric,
+       	partner: MONTI,
+        partnerName: "monti",
+        desc: ""
+    },
+
     
 ]
 
@@ -2915,6 +2935,20 @@ export const descriptions = [
     	video: '',
     	spec: '<div class="et_builder_inner_content et_pb_gutters3"><h2>Tehničke karakteristike:</h2><div><ul> <li>30 kV električni motor – podesiv između 50 – 63 Ampera.</li> <li>BMS vijčani kompresor hlađen uljem; snaga vazduha preko 4,5 m3/min.</li> <li>Nema emisije CO2, smanjen razvoj buke</li> <li>Dužina transporta*: 180 m</li></ul>* Svi podaci su zasnovano na iskustvu i zavisi od materijala koji se koristi.</div></div><div class="et_builder_inner_content et_pb_gutters3"><ul><li>Sigurnosno isključenje na situ kupole</li><li>Automatsko isključivanje sa 2 trake</li><li>Jednostavna zamena kaiša na mikseru</li><li>Posuda za mešanje iz sopstvene proizvodnje</li><li>Stabilna i dugotrajna hauba od nerđajućeg čelika</li><li>Okvir sa EPD premazom otporan na rđu</li><li>Stabilni branici pogodni za odlaganje</li><li>Kutija sa alatkama koja se može zaključati</li></ul></div><div class="et_builder_inner_content et_pb_gutters3"><ul><li>Integrisano radno svetlo</li><li>Uređaj spojnice za podešavanje visine</li><li>Čvrsta šasija sa mehaničkim kočnicama za prelet i centralnim podešavanjem visine</li><li>Osovina od 1,9 t ili 2,5 t kao standardna oprema</li><li>Potrošene ploče visoke čvrstoće</li></ul></div>'
     },
+    {
+        id: 88,
+        desc: '<div>Tehnologija Bristle Blasting istovremeno uklanja koroziju i generira sidreni profil.Vrhovi četkica su dizajnirani da udare o korodiranu površinu s kinetičkom energijom ekvivalentnom standardnim procesima koji koriste abrazivne medije za pijeskanje.Odmah nakon što vrhovi četkica udare u površinu, oni se povlače ("odbijaju") od površine, što rezultira uklanjanjem korozije i mikroindentacijom koja otkriva svježu površinu.Kao rezultat toga, površine koje su tretirane pomoću Bristle Blasting tehnologije imaju teksturu i vizualnu čistoću sličnu onima dobivenim tradicionalnim procesima pijeskanja granulama.</div>',
+        images: [bristleBlasterPneumatic, bristleBlasterPneumatic_2, bristleBlasterPneumatic_3],
+        video: '',
+        spec: '<h3>Specifikacije</h3><table><tbody><tr><th>Duzina</th> <td>350 mm</td> </tr><tr><th>Visina</th> <td>160 mm</td> </tr><tr><th>Sirina</th> <td>70 mm</td> </tr><tr><th>Tezina</th> <td>1.5 kg</td> </tr><tr><th>Obim pojasa</th> <td>110 mm</td> </tr><tr><th>Potreban pritisak za protok</th> <td>6.2 bar </td> </tr><tr><th>Prosecna potrosnja vazduha</th> <td>0.5 m&sup3;/min</td> </tr><tr><th>Brzina rada</th> <td>3500 rpm</td> </tr><tr><th>Spojka za vazduh</th> <td>Rp 1/4 inch</td> </tr><tr><th>Potreban dijametar za crevo (unutrasnje)</th> <td>9.5 mm</td> </tr><tr><th>Vibracija</th> <td>2 m/sec&sup2;</td> </tr><tr><th>Nivo buke</th> <td>83 db(A)</td> </tr></tbody></table>',    
+    },
+    {
+        id: 89,
+        desc: '',
+        images: [bristleBlasterElectric, bristleBlasterElectric_2, bristleBlasterElectric_3],
+        video: '',
+        spec: '',    
+    }
 
 
 

@@ -8,18 +8,21 @@
         </div>
         <div class="about">
             <h1>O nama</h1>
-            <p>Naša misija je da obezbedimo opremu, proizvode i servisne usluge vrhunskog kvaliteta,
-            u kombinaciji sa najboljim prodajnim konsultantskim iskustvom, pružajući našim klijentima najbolju korisničku i tehničku uslugu u garantnom i post garantnom periodu.</p>
-        </div>
-        <div class="about">
             <p>GFP je priznati lider u Srbiji i regionu od 2005 godine, isporučujući opremu, proizvode i usluge našim kupcima u oblastima završnih radova u građevinarstvu, hidroizolacije
             , zaštite metala i horizontalnog obeležavanja.            
             </p>
         </div>
-    </div>
-    <div class="struktura-wrap">
-        <div class="struktura">
-             
+        <div class="about">
+            <p>Mi Vam nudimo opremu, proizvode i servisne usluge vrhunskog kvaliteta, u kombinaciji sa izuzetnim konsultanskim iskustvom, pruzajuci nasim klijentima najbolju korisnicku i tehnicku uslugu u garantnom i post garantnom periodu.</p>
+        </div>
+        <div class="about">
+                <h3>Kupovinom opreme kod nas dobijate sledece usluge:</h3>
+            <ul>
+                <li>Besplatna isporuka bilo gde u Srbiji</li>
+                <li>Besplatno pustanje opreme u rad</li>
+                <li>Besplatna kratka obuka operatera za rad na opremi</li>
+                <li>Garantni rok 12 meseci</li>
+            </ul>
         </div>
     </div>
 </template>
@@ -35,7 +38,7 @@
     .about{
         width: 70%;
     }
-    .about p{
+    .about p, ul, h3{
         text-align: left;
     }
     img{

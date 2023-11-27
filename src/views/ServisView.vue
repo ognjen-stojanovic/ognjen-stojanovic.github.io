@@ -24,6 +24,8 @@ export default{
             <p>servce@gfp.rs</p>
         </div>
     </div>
+    <iframe src="../../public/Servisni izveštaj 2023.pdf" width="100%" height="500px"></iframe>
+
     <table class="tg">
         <thead>
           <tr>

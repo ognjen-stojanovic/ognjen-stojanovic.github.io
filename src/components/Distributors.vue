@@ -14,6 +14,7 @@
             <Distributer name="stim" image="../../distributors/stim.png" site="https://www.stim.by/"/>
             <Distributer name="monti" image="../../distributors/monti.png" site="https://www.montipowerme.com/"/>
             <Distributer name="bms" image="../../distributors/bms2.png" site="https://www.bmsbaumaschinen.de/en/"/>
+            <Distributer name="cemar" image="../../distributors/cemar.png" site="https://www.cemar.pro/en/"/>
         </div>
 
     </section>    
